@@ -1,0 +1,15 @@
+{
+  "ai_tech":        {"positions": [], "history": []},
+  "difesa":         {"positions": [], "history": []},
+  "energia":        {"positions": [], "history": []},
+  "salute":         {"positions": [], "history": []},
+  "crypto":         {"positions": [], "history": []},
+  "mobilita":       {"positions": [], "history": []},
+  "infrastrutture": {"positions": [], "history": []},
+  "risorse":        {"positions": [], "history": []},
+  "digitale":       {"positions": [], "history": []},
+  "media":          {"positions": [], "history": []},
+  "acqua":          {"positions": [], "history": []},
+  "semiconduttori": {"positions": [], "history": []},
+  "altro":          {"positions": [], "history": []}
+}
