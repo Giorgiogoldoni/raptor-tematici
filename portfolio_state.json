@@ -491,25 +491,25 @@
         "name": "VanEck Rare Earth ETF",
         "entry_date": "2026-04-14",
         "entry_price": 53.8,
-        "current_price": 53.8,
+        "current_price": 55.17,
         "target_price": 57.566,
         "stop_loss": 50.931,
-        "trailing_stop": 50.931,
-        "current_gain_pct": 0.0,
+        "trailing_stop": 52.319,
+        "current_gain_pct": 2.55,
         "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 45.5,
-        "er": 0.857,
+        "score": 45.9,
+        "er": 0.8669,
         "signal": "LONG_FORTE",
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 10.09,
-        "perf30": -5.0,
+        "perf7": 9.12,
+        "perf30": -4.99,
         "warning": null,
-        "weight_pct": 33.3
+        "weight_pct": 33.5
       },
       {
         "ticker": "METL.MI",
@@ -534,7 +534,7 @@
         "perf7": 7.23,
         "perf30": -6.35,
         "warning": null,
-        "weight_pct": 33.4
+        "weight_pct": 33.3
       },
       {
         "ticker": "COPM.MI",
@@ -559,7 +559,7 @@
         "perf7": 6.89,
         "perf30": -5.87,
         "warning": null,
-        "weight_pct": 33.3
+        "weight_pct": 33.2
       }
     ],
     "history": []
