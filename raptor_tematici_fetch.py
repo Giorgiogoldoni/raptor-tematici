@@ -296,7 +296,7 @@ def calc_signal(price, kama_v, er, baff, trend, ao, sar_bull, vortex_bull, rvi_b
 
 def qualifies(signal, score, price, kama_v):
     if price<=kama_v: return False
-    return score>={"LONG_FORTE":38,"LONG":32,"EARLY":26,"WATCH":50}.get(signal,999)
+    return score>={"LONG_FORTE":44,"LONG":38,"EARLY":30,"WATCH":52}.get(signal,999)
 
 def analyze(ticker, name):
     try:
