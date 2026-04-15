@@ -28,17 +28,14 @@ GROUPS = {
         "name":"🤖 AI & TECH","color":"#0969da",
         "tickers":{
             "AIAA.MI":"WisdomTree AI & Tech ETF","AIAI.MI":"L&G Artificial Intelligence ETF",
-            "AI4UJ.MI":"iShares Automation & Robotics","AINF.MI":"WisdomTree AI Infrastructure",
-            "AIQE.MI":"iShares AI Equity ETF","GOAI.MI":"Invesco AI ETF",
+            "AI4UJ.MI":"iShares Automation & Robotics","AINF.MI":"iShares AI Infrastructure UCITS ETF",
+            "AIQE.MI":"iShares AI Equity ETF","GOAI.MI":"Invesco MSCI World ESG UCITS ETF",
             "WTAI.MI":"WisdomTree AI ETF","JEDI.MI":"Amundi MSCI AI ETF",
             "XSGI.MI":"Xtrackers AI & Big Data ETF","GDIG.MI":"iShares Digital Security ETF",
             "DGTL.MI":"Rize Digital Economy ETF","CLOU.MI":"WisdomTree Cloud Computing ETF",
             "CTEK.MI":"Amundi PEA Digital Economy","XCTE.MI":"Xtrackers Cybersecurity ETF",
-            "XDER.MI":"Xtrackers Digital Enablers ETF","FAMMAI.MI":"First Asset MSCI AI ETF",
-            "FAMAMW.MI":"First Asset MSCI All World","FAMMWF.MI":"First Asset MSCI World Fin",
-            "FAMMWS.MI":"First Asset MSCI World Sust","FAMTEL.MI":"First Asset MSCI Telecom",
-            "FAMWCS.MI":"First Asset MSCI World CS",
-        }
+            "XDER.MI":"Xtrackers Digital Enablers ETF","FAMTEL.MI":"Fineco AM MSCI World IT Sustainable UCITS ETF",
+                    }
     },
     "difesa": {
         "name":"🛡️ DIFESA & SICUREZZA","color":"#cf222e",
@@ -48,7 +45,8 @@ GROUPS = {
             "WDEF.MI":"WisdomTree Defence ETF","LOCK.MI":"iShares Aerospace & Defence ETF",
             "BUG.MI":"Global X Cybersecurity ETF","CYBO.MI":"Ossiam Cyber Security ETF",
             "WCBR.MI":"WisdomTree Cybersecurity ETF","VPN.MI":"Global X Data Center ETF",
-            "ICBR.MI":"iShares Digital Security ETF","ISPY.MI":"iShares Core S&P 500 ETF",
+            "ICBR.MI":"iShares Cyber Security & Tech UCITS ETF",
+            "FAMMAI.MI":"Fineco AM MSCI ACWI Cyber Security UCITS ETF","ISPY.MI":"L&G Cyber Security UCITS ETF",
         }
     },
     "energia": {
@@ -118,27 +116,29 @@ GROUPS = {
             "SILV.MI":"iShares Silver ETF","WSLV.MI":"WisdomTree Physical Silver ETF",
             "VEGI.MI":"iShares Agribusiness ETF EUR","FOFD.MI":"Rize Food Revolution ETF",
             "GSM.MI":"Global X Silver Miners ETF",
+            "FAMAMW.MI":"Fineco AM MSCI World Metals & Mining UCITS ETF",
         }
     },
     "digitale": {
         "name":"📱 DIGITALE & ECOMMERCE","color":"#6e40c9",
         "tickers":{
             "EBIZ.MI":"Global X E-commerce ETF","EBUY.MI":"Amundi MSCI E-commerce ETF",
-            "ECOM.MI":"VanEck Retail ETF","DPAY.MI":"Amundi Digital Economy ETF",
+            "ECOM.MI":"L&G Ecommerce Logistics UCITS ETF","DPAY.MI":"Amundi Digital Economy ETF",
             "FINX.MI":"Global X FinTech ETF","INQQ.MI":"iShares EM Digital Economy ETF",
             "SNSR.MI":"Global X Internet of Things ETF","XFNT.MI":"Xtrackers FinTech Innovation",
             "XMOV.MI":"Xtrackers Future Mobility ETF","XDG3.MI":"Xtrackers Digital Disruption",
             "XDG6.MI":"Xtrackers Digital Infrastructure","XDG7.MI":"Xtrackers Digital Payments",
             "XDGI.MI":"Xtrackers Digital Globalisation",
+            "FAMMWF.MI":"Fineco AM MSCI World Financials UCITS ETF",
         }
     },
     "media": {
         "name":"🎮 MEDIA & ENTERTAINMENT","color":"#0550ae",
         "tickers":{
-            "ESPO.MI":"VanEck Video Gaming & Esports ETF","ESPY.MI":"iShares eSports ETF",
-            "ESGO.MI":"Global X Video Games & Esports ETF","MCHT.MI":"iShares Metaverse ETF",
-            "MTVS.MI":"WisdomTree Metaverse ETF","MTAV.MI":"Roundhill Ball Metaverse ETF",
-            "GLUX.MI":"Amundi S&P Global Luxury ETF","BRIJ.MI":"iShares MSCI India ETF",
+            "ESPO.MI":"VanEck Video Gaming & Esports ETF","ESPY.MI":"L&G Cyber Security Innovation UCITS ETF",
+            "ESGO.MI":"Global X Video Games & Esports ETF","MCHT.MI":"Invesco MSCI China Technology UCITS ETF",
+            "MTVS.MI":"WisdomTree Metaverse ETF","MTAV.MI":"iShares Metaverse UCITS ETF",
+            "GLUX.MI":"Amundi S&P Global Luxury ETF","BRIJ.MI":"Global X European Infrastructure Dev UCITS ETF",
             "HNSC.MI":"iShares Hang Seng Tech ETF","XS8R.MI":"Xtrackers S&P 500 Info Tech",
             "XG11.MI":"Xtrackers MSCI World Growth ETF","XG12.MI":"Xtrackers MSCI World Value ETF",
         }
@@ -146,7 +146,7 @@ GROUPS = {
     "acqua": {
         "name":"🌊 ACQUA & AMBIENTE","color":"#0969da",
         "tickers":{
-            "AQWA.MI":"iShares Global Water ETF","WATC.MI":"Lyxor World Water ETF",
+            "AQWA.MI":"iShares Global Water ETF","WATC.MI":"Amundi MSCI Water UCITS ETF",
             "WTRE.MI":"WisdomTree Water ETF","GLUG.MI":"iShares Global Water UCITS ETF",
             "HYDE.MI":"VanEck Circular Economy ETF","SDG9.MI":"iShares MSCI Global Sustainable",
             "WGRO.MI":"WisdomTree Global Growth ETF","ROBO.MI":"Robo Global Robotics ETF",
@@ -159,19 +159,21 @@ GROUPS = {
             "SMH.MI":"VanEck Semiconductor ETF","SEME.MI":"iShares MSCI Global Semiconductors",
             "CHIP.MI":"Amundi PHLX Semiconductor ETF","FCHP.DE":"Franklin FTSE Semiconductor ETF",
             "USTEC.MI":"iShares NASDAQ 100 UCITS ETF",
+            "FAMMWS.MI":"Fineco AM MSCI World Semiconductors UCITS ETF",
         }
     },
     "altro": {
         "name":"🏥 ALTRO TEMATICO","color":"#57606a",
         "tickers":{
             "HERU.MI":"HANetf European Equity ETF","DMAT.MI":"iShares Diversified Materials ETF",
-            "ROE.MI":"iShares Return on Equity ETF","UNIC.MI":"iShares Unicorns ETF",
-            "QNTM.MI":"Defiance Quantum ETF","QUAD.MI":"Invesco Quantitative ETF",
+            "ROE.MI":"iShares Return on Equity ETF",
+            "QNTM.MI":"VanEck Quantum Computing UCITS ETF","QUAD.MI":"Invesco Quantitative ETF",
             "RAYZ.MI":"Rize Sustainable Future Food ETF","MILL.MI":"Global X Millennials ETF",
             "MLPS.MI":"Global X MLP ETF","WMGT.MI":"WisdomTree Quality Dividend ETF",
-            "WBLK.MI":"WisdomTree Blockchain ETF","ISAG.MI":"iShares Ageing Population ETF",
-            "KWBE.MI":"L&G ROBO Global Robotics ETF","IVAI.MI":"Invesco AI ETF",
+            "WBLK.MI":"WisdomTree Blockchain ETF","ISAG.MI":"iShares Ageing Population UCITS ETF EUR",
+            "KWBE.MI":"L&G ROBO Global Robotics ETF","IVAI.MI":"Invesco Artificial Intelligence UCITS ETF",
             "IVDF.DE":"Invesco Defence Innovation ETF","CAUT.MI":"iShares Automation & Robotics ETF",
+            "FAMWCS.MI":"Fineco AM MSCI World Consumer Staples UCITS ETF",
         }
     },
 }
