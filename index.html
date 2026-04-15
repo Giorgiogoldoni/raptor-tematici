@@ -154,7 +154,10 @@ tr:hover td{background:#f8fafd}
 <!-- CHART MODE -->
 <div id="chartMode">
   <div id="chartHeader">
-    <div><div id="chartTitle">—</div><div id="chartSub"></div></div>
+    <div>
+      <div id="chartTitle" style="font-size:16px;font-weight:700">—</div>
+      <div id="chartSub" style="font-size:11px;color:var(--text2)"></div>
+    </div>
     <div style="flex:1"></div>
     <button class="tf-btn" data-tf="5h" onclick="setTF(this)">5h</button>
     <button class="tf-btn" data-tf="1d" onclick="setTF(this)">1g</button>
@@ -164,6 +167,48 @@ tr:hover td{background:#f8fafd}
     <button class="tf-btn" data-tf="6m" onclick="setTF(this)">6m</button>
     <button class="tf-btn" data-tf="1y" onclick="setTF(this)">1a</button>
   </div>
+
+  <!-- POSITION CARD — visible only if in portfolio -->
+  <div id="posCard" style="display:none;background:#f0fdf4;border-bottom:2px solid #2ea043;padding:10px 16px">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap">
+      <span style="font-size:11px;font-weight:700;background:#2ea043;color:#fff;padding:2px 10px;border-radius:10px">📂 POSIZIONE APERTA</span>
+      <span id="pc-sig" style="font-size:11px;font-weight:700"></span>
+      <span id="pc-date" style="font-size:10px;color:var(--text2)"></span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:8px">
+      <div style="background:#fff;border:1px solid #d1fae5;border-radius:6px;padding:6px 10px">
+        <div style="font-size:9px;color:var(--text2);margin-bottom:2px">INGRESSO</div>
+        <div style="font-size:14px;font-weight:700;color:var(--text)" id="pc-ep">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d1fae5;border-radius:6px;padding:6px 10px">
+        <div style="font-size:9px;color:var(--text2);margin-bottom:2px">TARGET +7%</div>
+        <div style="font-size:14px;font-weight:700;color:var(--green)" id="pc-tp">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d1fae5;border-radius:6px;padding:6px 10px">
+        <div style="font-size:9px;color:var(--text2);margin-bottom:2px">STOP LOSS</div>
+        <div style="font-size:14px;font-weight:700;color:var(--red)" id="pc-sl">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d1fae5;border-radius:6px;padding:6px 10px">
+        <div style="font-size:9px;color:var(--text2);margin-bottom:2px">GAIN %</div>
+        <div style="font-size:14px;font-weight:700" id="pc-gain">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d1fae5;border-radius:6px;padding:6px 10px">
+        <div style="font-size:9px;color:var(--text2);margin-bottom:2px">GIORNI</div>
+        <div style="font-size:14px;font-weight:700" id="pc-days">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d1fae5;border-radius:6px;padding:6px 10px">
+        <div style="font-size:9px;color:var(--text2);margin-bottom:2px">SCORE</div>
+        <div style="font-size:14px;font-weight:700;color:var(--blue)" id="pc-score">—</div>
+      </div>
+      <div style="background:#fff;border:1px solid #d1fae5;border-radius:6px;padding:6px 10px">
+        <div style="font-size:9px;color:var(--text2);margin-bottom:2px">ER</div>
+        <div style="font-size:14px;font-weight:700;color:var(--blue)" id="pc-er">—</div>
+      </div>
+    </div>
+    <!-- BUY SIGNAL BANNER -->
+    <div id="pc-buy-banner" style="display:none;margin-top:8px;padding:6px 12px;background:#dafbe1;border:1px solid #2ea043;border-radius:6px;font-size:11px;font-weight:600;color:#1a7f37"></div>
+  </div>
+
   <div id="infoBar">
     <div class="ic"><div class="lbl">Prezzo</div><div class="val" id="ic-price">—</div><div class="sub" id="ic-chg">—</div></div>
     <div class="ic"><div class="lbl">KAMA veloce</div><div class="val" id="ic-kama">—</div><div class="sub" id="ic-kgap">—</div></div>
@@ -234,7 +279,8 @@ function renderPos(pos,color){
   if(pos.target_hit) alertRow=`<div class="alert-row hit">🎯 TARGET +7% raggiunto</div>`;
   else if(pos.pre_alert) alertRow=`<div class="alert-row pre">⚠️ Giorno ${pos.days_held}/8 — lontano dal target</div>`;
   const t=(pos.ticker||'').replace(/\.\w+$/,'');
-  return `<div class="pos-card ${ac}" onclick="openChart('${pos.ticker}','${t}')">
+  const posJson=encodeURIComponent(JSON.stringify({entry_price:pos.entry_price,target_price:pos.target_price,stop_loss:pos.stop_loss,current_gain_pct:pos.current_gain_pct,days_held:pos.days_held,score:pos.score,er:pos.er,signal:pos.signal,entry_date:pos.entry_date}));
+  return `<div class="pos-card ${ac}" onclick='openChart("${pos.ticker}","${t}",${JSON.stringify({entry_price:pos.entry_price,target_price:pos.target_price,stop_loss:pos.stop_loss,current_gain_pct:pos.current_gain_pct,days_held:pos.days_held,score:pos.score,er:pos.er,signal:pos.signal,entry_date:pos.entry_date})})'>
     <div class="pos-top">
       <div><div class="pos-ticker">${t}</div><div class="pos-name">${pos.name||''}</div></div>
       <div style="text-align:right">${sigBadge(pos.signal)}<br>${trendBadge(pos.trend)}</div>
@@ -276,7 +322,7 @@ function renderWlInGroup(items){
   const rows=items.map(d=>{
     const t=(d.ticker||'').replace(/\.\w+$/,'');
     return `<div class="wl-row">
-      <span style="font-weight:700;color:var(--blue);cursor:pointer" onclick="openChart('${d.ticker}','${t}')">${t} 📈</span>
+      <span style="font-weight:700;color:var(--blue);cursor:pointer" onclick="openChart('${d.ticker}','${t}',null)">${t} 📈</span>
       <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--text2);font-size:9px">${d.name||'—'}</span>
       <span>${sigBadge(d.signal)}</span>
       <span style="font-weight:600;color:${d.score>=44?'var(--green)':d.score>=30?'var(--yellow)':'var(--red)'}">${d.score}</span>
@@ -326,7 +372,7 @@ function renderFullTable(gk,gdata){
     const entryDate=pos?pos.entry_date:'—';
     const crossDays=d.cross_days!=null?d.cross_days:'—';
     return `<tr>
-      <td style="font-weight:700;color:var(--blue);cursor:pointer" onclick="openChart('${d.ticker}','${t}')">${t} 📈</td>
+      <td style="font-weight:700;color:var(--blue);cursor:pointer" onclick="openChart('${d.ticker}','${t}',null)">${t} 📈</td>
       <td style="max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:10px;color:var(--text2)">${d.name||'—'}</td>
       <td>${sigBadge(d.signal)}</td>
       <td style="font-weight:600;color:${d.score>=44?'var(--green)':d.score>=30?'var(--yellow)':'var(--red)'}">${d.score}</td>
@@ -419,8 +465,20 @@ async function loadData(){
 }
 
 // ── CHART ──
-function openChart(ticker, label){
-  window.open('?chart='+encodeURIComponent(ticker)+'&label='+encodeURIComponent(label),'_blank');
+function openChart(ticker, label, pos){
+  let url='?chart='+encodeURIComponent(ticker)+'&label='+encodeURIComponent(label);
+  if(pos){
+    if(pos.entry_price)   url+='&ep='+pos.entry_price.toFixed(3);
+    if(pos.target_price)  url+='&tp='+pos.target_price.toFixed(3);
+    if(pos.stop_loss)     url+='&sl='+pos.stop_loss.toFixed(3);
+    if(pos.current_gain_pct!=null) url+='&gain='+pos.current_gain_pct.toFixed(2);
+    if(pos.days_held!=null) url+='&days='+pos.days_held;
+    if(pos.score!=null)   url+='&score='+pos.score;
+    if(pos.er!=null)      url+='&er='+(pos.er*100).toFixed(0);
+    if(pos.signal)        url+='&sig='+encodeURIComponent(pos.signal);
+    if(pos.entry_date)    url+='&edate='+encodeURIComponent(pos.entry_date);
+  }
+  window.open(url,'_blank');
 }
 
 // ── CHART MODE ──
@@ -504,18 +562,99 @@ function renderCharts(c,h,l,v,t,swrdC,tf){
   const ao=calcAOc(h.map((hv,i)=>(hv+l[i])/2));
   const rsiArr=c.map((_,i)=>calcRSIc(c.slice(0,i+1)));
   const sarR=calcSARc(h,l);
-  const sarBull=sarR.sar.map((s,i)=>sarR.bull[i]?s:null);
-  const sarBear=sarR.sar.map((s,i)=>!sarR.bull[i]?s:null);
+  const sarBullPts=sarR.sar.map((s,i)=>sarR.bull[i]?s:null);
+  const sarBearPts=sarR.sar.map((s,i)=>!sarR.bull[i]?s:null);
   const volC=c.map((x,i)=>i===0?'rgba(9,105,218,0.4)':c[i]>=c[i-1]?'rgba(26,127,55,0.5)':'rgba(207,34,46,0.5)');
 
-  // P1: Price + KAMA fast + KAMA + SAR
-  dc('p1');chartInstances.p1=new Chart(document.getElementById('p1').getContext('2d'),{type:'line',data:{labels,datasets:[
-    {label:'Prezzo',data:c,borderColor:'#1f2328',borderWidth:1.5,pointRadius:0,fill:false,tension:0},
-    {label:'KAMA5',data:kamaFast,borderColor:'#f0883e',borderWidth:2,pointRadius:0,fill:false,tension:0,spanGaps:true},
-    {label:'KAMA10',data:kama,borderColor:'#0969da',borderWidth:1,pointRadius:0,fill:false,tension:0,spanGaps:true,borderDash:[4,3]},
-    {label:'SAR▲',data:sarBull,borderColor:'transparent',backgroundColor:'#6e40c9',pointRadius:sarBull.map(v=>v!==null?3:0),showLine:false,fill:false},
-    {label:'SAR▼',data:sarBear,borderColor:'transparent',backgroundColor:'#f85149',pointRadius:sarBear.map(v=>v!==null?3:0),pointStyle:'triangle',showLine:false,fill:false},
-  ]},options:{...cOpts(labels.length),plugins:{legend:{display:true,labels:{font:{size:10},boxWidth:12}}}}});
+  // Vortex for background zones + buy signals
+  const vortexArr=[];
+  const vn=14;
+  for(let i=0;i<c.length;i++){
+    if(i<vn){vortexArr.push(null);continue;}
+    let svp=0,svm=0,str=0;
+    for(let j=i-vn+1;j<=i;j++){svp+=Math.abs(h[j]-l[j-1]);svm+=Math.abs(l[j]-h[j-1]);str+=Math.max(h[j]-l[j],Math.abs(h[j]-c[j-1]),Math.abs(l[j]-c[j-1]));}
+    vortexArr.push(str>0?{bull:svp/str>svm/str,vi_plus:svp/str,vi_minus:svm/str}:null);
+  }
+
+  // Detect buy signals: cross KAMA5 up + SAR inverts + Vortex bull
+  const buySigs=[];
+  for(let i=2;i<c.length;i++){
+    const crossUp=c[i]>kamaFast[i]&&c[i-1]<=kamaFast[i-1];
+    const sarOk=sarR.bull[i]&&(!sarR.bull[i-1]||!sarR.bull[i-2]);
+    const vBull=vortexArr[i]&&vortexArr[i].bull;
+    if(crossUp&&sarOk&&vBull) buySigs.push(i);
+  }
+
+  // Show buy signal banner if last signal is recent (within 5 bars)
+  const banner=document.getElementById('pc-buy-banner');
+  if(banner&&buySigs.length){
+    const lastSig=buySigs[buySigs.length-1];
+    const barsAgo=c.length-1-lastSig;
+    if(barsAgo<=5){
+      banner.style.display='block';
+      banner.textContent='🟢 SEGNALE BUY rilevato '+
+        (barsAgo===0?'OGGI':barsAgo===1?'ieri':barsAgo+' barre fa')+
+        ' — Cross KAMA5 ↑ + SAR inverte + Vortex bull @ '+c[lastSig].toFixed(3);
+    }
+  }
+
+  // Background: Vortex zones
+  const bgColors=c.map((_,i)=>{
+    const v=vortexArr[i];
+    if(!v) return 'rgba(150,150,150,0.04)';
+    return v.bull?'rgba(26,127,55,0.12)':'rgba(207,34,46,0.10)';
+  });
+
+  // Background plugin
+  const bgPlugin={id:'bg',beforeDatasetsDraw(chart){
+    const{ctx,chartArea,scales}=chart;if(!chartArea)return;
+    const xs=scales.x;ctx.save();
+    bgColors.forEach((col,i)=>{
+      const x0=xs.getPixelForValue(i)-xs.width/(c.length*2);
+      const x1=xs.getPixelForValue(i)+xs.width/(c.length*2);
+      ctx.fillStyle=col;ctx.fillRect(x0,chartArea.top,x1-x0,chartArea.height);
+    });
+    ctx.restore();
+  }};
+
+  // Buy signal plugin: arrow + price label + vertical line
+  const buyPlugin={id:'buys',afterDatasetsDraw(chart){
+    const{ctx,scales,chartArea}=chart;if(!chartArea)return;
+    const xs=scales.x,ys=scales.y;ctx.save();
+    buySigs.forEach(i=>{
+      const x=xs.getPixelForValue(i);
+      const y=ys.getPixelForValue(c[i]);
+      const price=c[i].toFixed(2);
+      // Vertical dashed line
+      ctx.strokeStyle='rgba(26,127,55,0.45)';ctx.lineWidth=1;ctx.setLineDash([3,3]);
+      ctx.beginPath();ctx.moveTo(x,chartArea.top+2);ctx.lineTo(x,y-22);ctx.stroke();
+      ctx.setLineDash([]);
+      // Arrow
+      ctx.fillStyle='#1a7f37';
+      ctx.beginPath();ctx.moveTo(x,y-6);ctx.lineTo(x-7,y-20);ctx.lineTo(x+7,y-20);ctx.closePath();ctx.fill();
+      // Price label
+      ctx.font='bold 10px system-ui';
+      const tw=ctx.measureText(price).width;
+      const bx=x-tw/2-5,by=y-38,bw=tw+10,bh=14;
+      ctx.fillStyle='#1a7f37';ctx.beginPath();ctx.roundRect?ctx.roundRect(bx,by,bw,bh,3):ctx.rect(bx,by,bw,bh);ctx.fill();
+      ctx.fillStyle='#fff';ctx.textAlign='center';ctx.fillText(price,x,by+10);
+      // BUY label at bottom
+      ctx.font='bold 8px system-ui';ctx.fillStyle='#1a7f37';ctx.fillText('BUY',x,chartArea.bottom-2);
+    });
+    ctx.restore();
+  }};
+
+  // P1: Price + KAMA fast + KAMA + SAR + buy signals + vortex background
+  dc('p1');chartInstances.p1=new Chart(document.getElementById('p1').getContext('2d'),{
+    type:'line',plugins:[bgPlugin,buyPlugin],
+    data:{labels,datasets:[
+      {label:'Prezzo',data:c,borderColor:'#1f2328',borderWidth:1.5,pointRadius:0,fill:false,tension:0},
+      {label:'KAMA5',data:kamaFast,borderColor:'#f0883e',borderWidth:2,pointRadius:0,fill:false,tension:0,spanGaps:true},
+      {label:'KAMA10',data:kama,borderColor:'#0969da',borderWidth:1,pointRadius:0,fill:false,tension:0,spanGaps:true,borderDash:[4,3]},
+      {label:'SAR▲',data:sarBullPts,borderColor:'transparent',backgroundColor:'#6e40c9',pointRadius:sarBullPts.map(v=>v!==null?3:0),showLine:false,fill:false},
+      {label:'SAR▼',data:sarBearPts,borderColor:'transparent',backgroundColor:'#f85149',pointRadius:sarBearPts.map(v=>v!==null?3:0),pointStyle:'triangle',showLine:false,fill:false},
+    ]},
+    options:{...cOpts(labels.length),plugins:{legend:{display:true,labels:{font:{size:10},boxWidth:12,filter:i=>!['SAR▲','SAR▼'].includes(i.text)}}}}});
 
   // P2: RS Line vs SWRD
   dc('p2');
@@ -579,6 +718,19 @@ function updateInfoBarChart(c,h,l){
   e('ic-vortex').textContent='—';e('ic-rvi').textContent='—';
 }
 
+// ── DETECT BUY SIGNALS: price cross KAMA5 + SAR inverts + Vortex bull ──
+function detectBuySignals(c, k5, sarBull, vortex){
+  const signals=[];
+  for(let i=2;i<c.length;i++){
+    const crossUp=c[i]>k5[i]&&c[i-1]<=k5[i-1];
+    const sarOk=sarBull[i]&&(!sarBull[i-1]||!sarBull[i-2]);
+    const vi=vortex[i];
+    const vBull=vi&&vi.bull;
+    if(crossUp&&sarOk&&vBull) signals.push(i);
+  }
+  return signals;
+}
+
 // ── BOOT ──
 document.addEventListener('DOMContentLoaded',()=>{
   const urlP=new URLSearchParams(window.location.search);
@@ -590,7 +742,37 @@ document.addEventListener('DOMContentLoaded',()=>{
     currentSym=chartSym;
     const label=decodeURIComponent(urlP.get('label')||chartSym);
     document.getElementById('chartTitle').textContent=label;
-    document.getElementById('chartSub').textContent='KAMA veloce(5) + RS vs MSCI World · tematici_chart.json';
+    document.getElementById('chartSub').textContent='KAMA(5) · SAR · Vortex · RVI · RS vs MSCI World';
+
+    // Populate position card if data passed via URL
+    const ep=urlP.get('ep'), tp=urlP.get('tp'), sl=urlP.get('sl');
+    const gain=urlP.get('gain'), days=urlP.get('days');
+    const score=urlP.get('score'), er=urlP.get('er');
+    const sig=urlP.get('sig'), edate=urlP.get('edate');
+    if(ep){
+      document.getElementById('posCard').style.display='block';
+      document.getElementById('pc-ep').textContent=ep;
+      document.getElementById('pc-tp').textContent=tp||'—';
+      document.getElementById('pc-sl').textContent=sl||'—';
+      const gainN=parseFloat(gain||0);
+      const gainEl=document.getElementById('pc-gain');
+      gainEl.textContent=(gainN>0?'+':'')+gainN.toFixed(2)+'%';
+      gainEl.style.color=gainN>=0?'var(--green)':'var(--red)';
+      const daysN=parseInt(days||0);
+      const daysEl=document.getElementById('pc-days');
+      daysEl.textContent=daysN+'/8';
+      daysEl.style.color=daysN>=5?'var(--yellow)':'var(--text)';
+      document.getElementById('pc-score').textContent=score||'—';
+      document.getElementById('pc-er').textContent=er?er+'%':'—';
+      if(sig){
+        const sigEl=document.getElementById('pc-sig');
+        const sigMap={LONG_FORTE:'🟢 LONG★',LONG:'🟢 LONG',EARLY:'🔵 EARLY',WATCH:'🟡 WATCH'};
+        sigEl.textContent=sigMap[sig]||sig;
+        sigEl.style.color=sig.includes('LONG')?'var(--green)':sig==='EARLY'?'var(--blue)':'var(--yellow)';
+      }
+      if(edate) document.getElementById('pc-date').textContent='📅 Ingresso: '+edate;
+    }
+
     document.querySelector('.tf-btn[data-tf="1m"]').classList.add('active');
     loadChartData(chartSym,'1m');
     return;
