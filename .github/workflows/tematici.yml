@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
-      - run: pip install yfinance pandas pytz --quiet
+      - run: pip install -r requirements.txt --quiet
       - run: python raptor_tematici_fetch.py
       - run: |
           git config user.name "RAPTOR Bot"
