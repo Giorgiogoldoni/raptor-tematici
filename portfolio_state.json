@@ -172,25 +172,25 @@
         "name": "Global X Data Center ETF",
         "entry_date": "2026-04-24",
         "entry_price": 22.265,
-        "current_price": 21.67,
+        "current_price": 21.625,
         "target_price": 23.824,
         "stop_loss": 21.688,
         "trailing_stop": 21.774,
-        "current_gain_pct": -2.67,
+        "current_gain_pct": -2.87,
         "days_held": 4,
         "pre_alert": false,
         "target_hit": false,
-        "score": 26.8,
-        "er": 0.3646,
+        "score": 26.1,
+        "er": 0.3428,
         "signal": "LONG_FORTE",
         "trend": "VERDE",
         "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 1.03,
-        "perf30": 9.48,
+        "perf7": 0.82,
+        "perf30": 9.25,
         "warning": null,
-        "weight_pct": 40.4,
+        "weight_pct": 100.0,
         "days_in_buy1": 2,
         "current_level": "EXIT1",
         "size_pct": 35,
@@ -229,8 +229,38 @@
         ],
         "stress_score": 3,
         "buy_level": "EXIT1",
-        "kama": 21.762,
-        "k_pct": -0.42
+        "kama": 21.761,
+        "k_pct": -0.63
+      }
+    ],
+    "history": [
+      {
+        "ticker": "VPN.MI",
+        "name": "Global X Data Center ETF",
+        "entry_date": "2026-04-14",
+        "entry_price": 20.685,
+        "current_price": 21.37,
+        "target_price": 22.133,
+        "stop_loss": 20.093,
+        "trailing_stop": 21.234,
+        "current_gain_pct": 3.31,
+        "days_held": 7,
+        "pre_alert": true,
+        "target_hit": false,
+        "score": 49.1,
+        "er": 0.8403,
+        "signal": "LONG_FORTE",
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 5.09,
+        "perf30": 9.48,
+        "warning": null,
+        "weight_pct": 100.0,
+        "exit_reason": "Time Stop 8gg",
+        "exit_price": 21.535,
+        "final_gain_pct": 4.11
       },
       {
         "ticker": "BUG.MI",
@@ -267,6 +297,14 @@
             "size_pct": 35,
             "score": 39.5,
             "er": 0.53
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 39.5,
+            "er": 0.53
           }
         ],
         "stress_flags": [],
@@ -275,40 +313,18 @@
         "warning": null,
         "buy_level": "BUY1",
         "kama": 10.126,
-        "k_pct": 0.47
+        "k_pct": 0.47,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 10.174,
+        "final_gain_pct": 0.02,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "history": [
-      {
-        "ticker": "VPN.MI",
-        "name": "Global X Data Center ETF",
-        "entry_date": "2026-04-14",
-        "entry_price": 20.685,
-        "current_price": 21.37,
-        "target_price": 22.133,
-        "stop_loss": 20.093,
-        "trailing_stop": 21.234,
-        "current_gain_pct": 3.31,
-        "days_held": 7,
-        "pre_alert": true,
-        "target_hit": false,
-        "score": 49.1,
-        "er": 0.8403,
-        "signal": "LONG_FORTE",
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 5.09,
-        "perf30": 9.48,
-        "warning": null,
-        "weight_pct": 100.0,
-        "exit_reason": "Time Stop 8gg",
-        "exit_price": 21.535,
-        "final_gain_pct": 4.11
-      }
-    ],
-    "cooldowns": {}
+    "cooldowns": {
+      "BUG.MI": "2026-04-30"
+    }
   },
   "energia": {
     "positions": [
@@ -335,8 +351,8 @@
         "perf7": 2.13,
         "perf30": 11.88,
         "warning": null,
-        "weight_pct": 25.5,
-        "days_in_buy1": 6,
+        "weight_pct": 24.2,
+        "days_in_buy1": 7,
         "current_level": "BUY1",
         "size_pct": 70,
         "peak_score": 48.6,
@@ -374,53 +390,6 @@
         "buy_level": "BUY1",
         "kama": 23.476,
         "k_pct": 0.1
-      },
-      {
-        "ticker": "VOLT.MI",
-        "name": "Amundi MSCI New Energy Transition",
-        "entry_date": "2026-04-22",
-        "entry_price": 48.1,
-        "current_price": 48.19,
-        "target_price": 51.467,
-        "stop_loss": 46.784,
-        "trailing_stop": 47.73,
-        "current_gain_pct": 0.19,
-        "days_held": 6,
-        "pre_alert": true,
-        "target_hit": false,
-        "score": 34.8,
-        "er": 0.6568,
-        "signal": "LONG_FORTE",
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 2.42,
-        "perf30": 11.28,
-        "warning": null,
-        "weight_pct": 30.9,
-        "days_in_buy1": 7,
-        "current_level": "BUY1",
-        "size_pct": 35,
-        "peak_score": 34.8,
-        "events": [
-          {
-            "ts": "2026-04-22 09:00 CET",
-            "level": "BUY1",
-            "reason": "Ingresso storico (migrazione v2) \u2014 score 33.4 \u00b7 ER 0.73",
-            "size_pct": 35,
-            "score": 33.4,
-            "er": 0.73
-          }
-        ],
-        "level_ts": "2026-04-22 09:00 CET",
-        "stress_flags": [
-          "KAMA rotta"
-        ],
-        "stress_score": 1,
-        "buy_level": "BUY1",
-        "kama": 48.232,
-        "k_pct": -0.09
       },
       {
         "ticker": "OIH.MI",
@@ -461,11 +430,55 @@
         ],
         "stress_flags": [],
         "stress_score": 0,
-        "weight_pct": 43.7,
+        "weight_pct": 41.5,
         "warning": null,
         "buy_level": "BUY2",
         "kama": 30.419,
         "k_pct": 2.35
+      },
+      {
+        "ticker": "SOLR.MI",
+        "name": "Global X Solar Energy ETF",
+        "entry_date": "2026-04-28",
+        "entry_ts": "2026-04-28 15:52 CET",
+        "entry_price": 25.985,
+        "current_price": 25.985,
+        "target_price": 27.804,
+        "stop_loss": 25.14,
+        "trailing_stop": 25.14,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 40.6,
+        "er": 0.4459,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-04-28 15:52 CET",
+        "peak_score": 40.6,
+        "days_in_buy1": 1,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 6.61,
+        "perf30": 2.81,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.45>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 40.6,
+            "er": 0.45
+          }
+        ],
+        "warning": null,
+        "kama": 25.692,
+        "k_pct": 1.14,
+        "weight_pct": 34.3
       }
     ],
     "history": [
@@ -580,9 +593,72 @@
         "exit_reason": "Time Stop 8gg",
         "exit_price": 11.02,
         "final_gain_pct": 10.18
+      },
+      {
+        "ticker": "VOLT.MI",
+        "name": "Amundi MSCI New Energy Transition",
+        "entry_date": "2026-04-22",
+        "entry_price": 48.1,
+        "current_price": 48.19,
+        "target_price": 51.467,
+        "stop_loss": 46.784,
+        "trailing_stop": 47.73,
+        "current_gain_pct": 0.19,
+        "days_held": 6,
+        "pre_alert": true,
+        "target_hit": false,
+        "score": 34.8,
+        "er": 0.6568,
+        "signal": "LONG_FORTE",
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 2.42,
+        "perf30": 11.28,
+        "warning": null,
+        "weight_pct": 30.9,
+        "days_in_buy1": 7,
+        "current_level": "BUY1",
+        "size_pct": 35,
+        "peak_score": 34.8,
+        "events": [
+          {
+            "ts": "2026-04-22 09:00 CET",
+            "level": "BUY1",
+            "reason": "Ingresso storico (migrazione v2) \u2014 score 33.4 \u00b7 ER 0.73",
+            "size_pct": 35,
+            "score": 33.4,
+            "er": 0.73
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 35.1,
+            "er": 0.67
+          }
+        ],
+        "level_ts": "2026-04-22 09:00 CET",
+        "stress_flags": [
+          "KAMA rotta"
+        ],
+        "stress_score": 1,
+        "buy_level": "BUY1",
+        "kama": 48.232,
+        "k_pct": -0.09,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 48.22,
+        "final_gain_pct": 0.25,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "VOLT.MI": "2026-04-30"
+    }
   },
   "salute": {
     "positions": [],
@@ -845,7 +921,7 @@
         "perf7": 8.43,
         "perf30": 15.38,
         "warning": null,
-        "weight_pct": 46.0,
+        "weight_pct": 61.9,
         "days_in_buy1": 0,
         "current_level": "BUY2",
         "size_pct": 70,
@@ -880,26 +956,26 @@
         "name": "iShares Electric Vehicles ETF",
         "entry_date": "2026-04-22",
         "entry_price": 9.81,
-        "current_price": 9.925,
+        "current_price": 9.909,
         "target_price": 10.497,
         "stop_loss": 9.514,
         "trailing_stop": 9.85,
-        "current_gain_pct": 1.17,
+        "current_gain_pct": 1.01,
         "days_held": 6,
         "pre_alert": true,
         "target_hit": false,
-        "score": 31.6,
-        "er": 0.6599,
+        "score": 30.8,
+        "er": 0.6403,
         "signal": "LONG_FORTE",
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 3.63,
-        "perf30": 20.65,
+        "perf7": 3.47,
+        "perf30": 20.46,
         "warning": null,
-        "weight_pct": 29.0,
-        "days_in_buy1": 6,
+        "weight_pct": 38.1,
+        "days_in_buy1": 7,
         "current_level": "BUY1",
         "size_pct": 70,
         "peak_score": 45.9,
@@ -931,57 +1007,12 @@
         ],
         "level_ts": "2026-04-28 13:49 CET",
         "stress_flags": [
-          "Score -14pt dal picco"
+          "Score -15pt dal picco"
         ],
         "stress_score": 1,
         "buy_level": "BUY1",
-        "kama": 9.875,
-        "k_pct": 0.5
-      },
-      {
-        "ticker": "BATT.MI",
-        "name": "Global X Lithium & Battery Tech",
-        "entry_date": "2026-04-22",
-        "entry_price": 32.6,
-        "current_price": 32.63,
-        "target_price": 34.882,
-        "stop_loss": 31.427,
-        "trailing_stop": 31.942,
-        "current_gain_pct": 0.09,
-        "days_held": 6,
-        "pre_alert": true,
-        "target_hit": false,
-        "score": 27.2,
-        "er": 0.6358,
-        "signal": "LONG_FORTE",
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 2.21,
-        "perf30": 19.68,
-        "warning": null,
-        "weight_pct": 25.0,
-        "days_in_buy1": 7,
-        "current_level": "BUY1",
-        "size_pct": 35,
-        "peak_score": 30.4,
-        "events": [
-          {
-            "ts": "2026-04-22 09:00 CET",
-            "level": "BUY1",
-            "reason": "Ingresso storico (migrazione v2) \u2014 score 30.4 \u00b7 ER 0.67",
-            "size_pct": 35,
-            "score": 30.4,
-            "er": 0.67
-          }
-        ],
-        "level_ts": "2026-04-22 09:00 CET",
-        "stress_flags": [],
-        "stress_score": 0,
-        "buy_level": "BUY1",
-        "kama": 32.211,
-        "k_pct": 1.3
+        "kama": 9.873,
+        "k_pct": 0.36
       }
     ],
     "history": [
@@ -1068,9 +1099,70 @@
         "exit_reason": "Time Stop 8gg",
         "exit_price": 32.275,
         "final_gain_pct": 5.82
+      },
+      {
+        "ticker": "BATT.MI",
+        "name": "Global X Lithium & Battery Tech",
+        "entry_date": "2026-04-22",
+        "entry_price": 32.6,
+        "current_price": 32.63,
+        "target_price": 34.882,
+        "stop_loss": 31.427,
+        "trailing_stop": 31.942,
+        "current_gain_pct": 0.09,
+        "days_held": 6,
+        "pre_alert": true,
+        "target_hit": false,
+        "score": 27.2,
+        "er": 0.6358,
+        "signal": "LONG_FORTE",
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 2.21,
+        "perf30": 19.68,
+        "warning": null,
+        "weight_pct": 25.0,
+        "days_in_buy1": 7,
+        "current_level": "BUY1",
+        "size_pct": 35,
+        "peak_score": 30.4,
+        "events": [
+          {
+            "ts": "2026-04-22 09:00 CET",
+            "level": "BUY1",
+            "reason": "Ingresso storico (migrazione v2) \u2014 score 30.4 \u00b7 ER 0.67",
+            "size_pct": 35,
+            "score": 30.4,
+            "er": 0.67
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 27.2,
+            "er": 0.64
+          }
+        ],
+        "level_ts": "2026-04-22 09:00 CET",
+        "stress_flags": [],
+        "stress_score": 0,
+        "buy_level": "BUY1",
+        "kama": 32.211,
+        "k_pct": 1.3,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 32.635,
+        "final_gain_pct": 0.11,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "BATT.MI": "2026-04-30"
+    }
   },
   "infrastrutture": {
     "positions": [
@@ -1245,53 +1337,7 @@
     "cooldowns": {}
   },
   "risorse": {
-    "positions": [
-      {
-        "ticker": "VEGI.MI",
-        "name": "iShares Agribusiness ETF EUR",
-        "entry_date": "2026-04-28",
-        "entry_ts": "2026-04-28 12:50 CET",
-        "entry_price": 19.134,
-        "current_price": 19.182,
-        "target_price": 20.473,
-        "stop_loss": 18.993,
-        "trailing_stop": 19.038,
-        "current_gain_pct": 0.25,
-        "days_held": 0,
-        "days_in_buy1": 7,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 40.4,
-        "peak_score": 40.4,
-        "er": 0.8169,
-        "current_level": "BUY1",
-        "size_pct": 35,
-        "level_ts": "2026-04-28 12:50 CET",
-        "trend": "GRIGIO",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 2.3,
-        "perf30": 0.7,
-        "events": [
-          {
-            "ts": "2026-04-28 12:50 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross(<=5 barre) \u00b7 ER 0.81>0.35 \u00b7 SAR bull \u00b7 AO crescente",
-            "size_pct": 35,
-            "score": 39.4,
-            "er": 0.81
-          }
-        ],
-        "stress_flags": [],
-        "stress_score": 0,
-        "weight_pct": 100.0,
-        "warning": null,
-        "buy_level": "BUY1",
-        "kama": 18.851,
-        "k_pct": 1.75
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "METL.MI",
@@ -1376,59 +1422,73 @@
         "exit_reason": "Time Stop 8gg",
         "exit_price": 55.9,
         "final_gain_pct": 3.9
+      },
+      {
+        "ticker": "VEGI.MI",
+        "name": "iShares Agribusiness ETF EUR",
+        "entry_date": "2026-04-28",
+        "entry_ts": "2026-04-28 12:50 CET",
+        "entry_price": 19.134,
+        "current_price": 19.182,
+        "target_price": 20.473,
+        "stop_loss": 18.993,
+        "trailing_stop": 19.038,
+        "current_gain_pct": 0.25,
+        "days_held": 0,
+        "days_in_buy1": 7,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 40.4,
+        "peak_score": 40.4,
+        "er": 0.8169,
+        "current_level": "BUY1",
+        "size_pct": 35,
+        "level_ts": "2026-04-28 12:50 CET",
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 2.3,
+        "perf30": 0.7,
+        "events": [
+          {
+            "ts": "2026-04-28 12:50 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross(<=5 barre) \u00b7 ER 0.81>0.35 \u00b7 SAR bull \u00b7 AO crescente",
+            "size_pct": 35,
+            "score": 39.4,
+            "er": 0.81
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 40.4,
+            "er": 0.82
+          }
+        ],
+        "stress_flags": [],
+        "stress_score": 0,
+        "weight_pct": 100.0,
+        "warning": null,
+        "buy_level": "BUY1",
+        "kama": 18.851,
+        "k_pct": 1.75,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 19.182,
+        "final_gain_pct": 0.25,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "VEGI.MI": "2026-04-30"
+    }
   },
   "digitale": {
     "positions": [
-      {
-        "ticker": "EBUY.MI",
-        "name": "Amundi MSCI E-commerce ETF",
-        "entry_date": "2026-04-23",
-        "entry_price": 17.52,
-        "current_price": 17.528,
-        "target_price": 18.746,
-        "stop_loss": 17.184,
-        "trailing_stop": 17.457,
-        "current_gain_pct": 0.05,
-        "days_held": 5,
-        "pre_alert": true,
-        "target_hit": false,
-        "score": 26.3,
-        "er": 0.6327,
-        "signal": "LONG_FORTE",
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 1.4,
-        "perf30": 9.98,
-        "warning": null,
-        "weight_pct": 25.0,
-        "days_in_buy1": 7,
-        "current_level": "BUY1",
-        "size_pct": 35,
-        "peak_score": 32.9,
-        "events": [
-          {
-            "ts": "2026-04-23 09:00 CET",
-            "level": "BUY1",
-            "reason": "Ingresso storico (migrazione v2) \u2014 score 32.9 \u00b7 ER 0.76",
-            "size_pct": 35,
-            "score": 32.9,
-            "er": 0.76
-          }
-        ],
-        "level_ts": "2026-04-23 09:00 CET",
-        "stress_flags": [
-          "Score -7pt dal picco"
-        ],
-        "stress_score": 1,
-        "buy_level": "BUY1",
-        "kama": 17.502,
-        "k_pct": 0.15
-      },
       {
         "ticker": "SNSR.MI",
         "name": "Global X Internet of Things ETF",
@@ -1452,8 +1512,8 @@
         "perf7": 8.45,
         "perf30": 11.89,
         "warning": null,
-        "weight_pct": 33.6,
-        "days_in_buy1": 6,
+        "weight_pct": 44.7,
+        "days_in_buy1": 7,
         "current_level": "BUY1",
         "size_pct": 70,
         "peak_score": 51.0,
@@ -1505,7 +1565,7 @@
         "trailing_stop": 27.505,
         "current_gain_pct": -0.93,
         "days_held": 0,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "pre_alert": false,
         "target_hit": false,
         "score": 43.6,
@@ -1540,7 +1600,7 @@
         ],
         "stress_flags": [],
         "stress_score": 0,
-        "weight_pct": 41.4,
+        "weight_pct": 55.3,
         "warning": null,
         "buy_level": "BUY1",
         "kama": 27.343,
@@ -1687,9 +1747,72 @@
         "exit_reason": "Trailing Stop",
         "exit_price": 14.556,
         "final_gain_pct": -1.78
+      },
+      {
+        "ticker": "EBUY.MI",
+        "name": "Amundi MSCI E-commerce ETF",
+        "entry_date": "2026-04-23",
+        "entry_price": 17.52,
+        "current_price": 17.528,
+        "target_price": 18.746,
+        "stop_loss": 17.184,
+        "trailing_stop": 17.457,
+        "current_gain_pct": 0.05,
+        "days_held": 5,
+        "pre_alert": true,
+        "target_hit": false,
+        "score": 26.3,
+        "er": 0.6327,
+        "signal": "LONG_FORTE",
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 1.4,
+        "perf30": 9.98,
+        "warning": null,
+        "weight_pct": 25.0,
+        "days_in_buy1": 7,
+        "current_level": "BUY1",
+        "size_pct": 35,
+        "peak_score": 32.9,
+        "events": [
+          {
+            "ts": "2026-04-23 09:00 CET",
+            "level": "BUY1",
+            "reason": "Ingresso storico (migrazione v2) \u2014 score 32.9 \u00b7 ER 0.76",
+            "size_pct": 35,
+            "score": 32.9,
+            "er": 0.76
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 28.9,
+            "er": 0.65
+          }
+        ],
+        "level_ts": "2026-04-23 09:00 CET",
+        "stress_flags": [
+          "Score -7pt dal picco"
+        ],
+        "stress_score": 1,
+        "buy_level": "BUY1",
+        "kama": 17.502,
+        "k_pct": 0.15,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 17.544,
+        "final_gain_pct": 0.14,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "EBUY.MI": "2026-04-30"
+    }
   },
   "media": {
     "positions": [
@@ -1716,7 +1839,7 @@
         "perf7": 6.15,
         "perf30": 20.29,
         "warning": null,
-        "weight_pct": 34.7,
+        "weight_pct": 35.0,
         "days_in_buy1": 0,
         "current_level": "BUY2",
         "size_pct": 70,
@@ -1751,27 +1874,27 @@
         "name": "iShares Hang Seng Tech ETF",
         "entry_date": "2026-04-27",
         "entry_price": 30.1,
-        "current_price": 28.79,
+        "current_price": 29.145,
         "target_price": 32.207,
         "stop_loss": 29.146,
         "trailing_stop": 29.357,
-        "current_gain_pct": -4.35,
+        "current_gain_pct": -3.17,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 48.5,
-        "er": 0.5275,
+        "score": 43.9,
+        "er": 0.6542,
         "signal": "LONG_FORTE",
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 5.17,
-        "perf30": 24.85,
+        "perf7": 6.47,
+        "perf30": 26.39,
         "warning": null,
-        "weight_pct": 34.9,
-        "days_in_buy1": 0,
-        "current_level": "BUY2",
+        "weight_pct": 31.9,
+        "days_in_buy1": 1,
+        "current_level": "BUY1",
         "size_pct": 70,
         "peak_score": 48.8,
         "events": [
@@ -1790,61 +1913,66 @@
             "size_pct": 70,
             "score": 45.6,
             "er": 0.72
-          }
-        ],
-        "level_ts": "2026-04-28 12:50 CET",
-        "stress_flags": [
-          "KAMA rotta"
-        ],
-        "stress_score": 1,
-        "buy_level": "BUY2",
-        "kama": 29.071,
-        "k_pct": -0.97
-      },
-      {
-        "ticker": "ESPY.MI",
-        "name": "L&G Cyber Security Innovation UCITS ETF",
-        "entry_date": "2026-04-27",
-        "entry_price": 17.042,
-        "current_price": 17.088,
-        "target_price": 18.235,
-        "stop_loss": 16.635,
-        "trailing_stop": 16.705,
-        "current_gain_pct": 0.27,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 42.3,
-        "er": 0.7368,
-        "signal": "LONG_FORTE",
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 4.23,
-        "perf30": 13.38,
-        "warning": null,
-        "weight_pct": 30.4,
-        "days_in_buy1": 7,
-        "current_level": "BUY1",
-        "size_pct": 35,
-        "peak_score": 42.3,
-        "events": [
+          },
           {
-            "ts": "2026-04-27 09:00 CET",
-            "level": "BUY1",
-            "reason": "Ingresso storico (migrazione v2) \u2014 score 42.3 \u00b7 ER 0.74",
-            "size_pct": 35,
-            "score": 42.3,
-            "er": 0.74
+            "ts": "2026-04-28 15:52 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 43.9<45",
+            "size_pct": 75,
+            "score": 43.9,
+            "er": 0.65
           }
         ],
-        "level_ts": "2026-04-27 09:00 CET",
+        "level_ts": "2026-04-28 15:52 CET",
         "stress_flags": [],
         "stress_score": 0,
         "buy_level": "BUY1",
-        "kama": 16.995,
-        "k_pct": 0.55
+        "kama": 29.106,
+        "k_pct": 0.13
+      },
+      {
+        "ticker": "XG12.MI",
+        "name": "Xtrackers MSCI World Value ETF",
+        "entry_date": "2026-04-28",
+        "entry_ts": "2026-04-28 15:52 CET",
+        "entry_price": 36.645,
+        "current_price": 36.645,
+        "target_price": 39.21,
+        "stop_loss": 36.255,
+        "trailing_stop": 36.255,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 45.5,
+        "er": 0.8217,
+        "current_level": "BUY2",
+        "buy_level": "BUY2",
+        "level_ts": "2026-04-28 15:52 CET",
+        "peak_score": 45.5,
+        "days_in_buy1": 0,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": true,
+        "perf7": 8.9,
+        "perf30": 15.56,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "BUY2",
+            "reason": "Score 45.5\u226545 \u00b7 AO>0 \u00b7 ER 0.82\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.5,
+            "er": 0.82
+          }
+        ],
+        "warning": null,
+        "kama": 36.374,
+        "k_pct": 0.74,
+        "weight_pct": 33.1
       }
     ],
     "history": [
@@ -1987,9 +2115,70 @@
         "exit_reason": "Trailing Stop",
         "exit_price": 36.645,
         "final_gain_pct": 0.18
+      },
+      {
+        "ticker": "ESPY.MI",
+        "name": "L&G Cyber Security Innovation UCITS ETF",
+        "entry_date": "2026-04-27",
+        "entry_price": 17.042,
+        "current_price": 17.088,
+        "target_price": 18.235,
+        "stop_loss": 16.635,
+        "trailing_stop": 16.705,
+        "current_gain_pct": 0.27,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 42.3,
+        "er": 0.7368,
+        "signal": "LONG_FORTE",
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 4.23,
+        "perf30": 13.38,
+        "warning": null,
+        "weight_pct": 30.4,
+        "days_in_buy1": 7,
+        "current_level": "BUY1",
+        "size_pct": 35,
+        "peak_score": 42.3,
+        "events": [
+          {
+            "ts": "2026-04-27 09:00 CET",
+            "level": "BUY1",
+            "reason": "Ingresso storico (migrazione v2) \u2014 score 42.3 \u00b7 ER 0.74",
+            "size_pct": 35,
+            "score": 42.3,
+            "er": 0.74
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 42.5,
+            "er": 0.74
+          }
+        ],
+        "level_ts": "2026-04-27 09:00 CET",
+        "stress_flags": [],
+        "stress_score": 0,
+        "buy_level": "BUY1",
+        "kama": 16.995,
+        "k_pct": 0.55,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 17.1,
+        "final_gain_pct": 0.34,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "ESPY.MI": "2026-04-30"
+    }
   },
   "acqua": {
     "positions": [
@@ -2016,7 +2205,7 @@
         "perf7": 4.7,
         "perf30": 19.68,
         "warning": null,
-        "weight_pct": 59.5,
+        "weight_pct": 100.0,
         "days_in_buy1": 0,
         "current_level": "BUY2",
         "size_pct": 70,
@@ -2045,53 +2234,6 @@
         "buy_level": "BUY2",
         "kama": 4.923,
         "k_pct": 2.27
-      },
-      {
-        "ticker": "ROBO.MI",
-        "name": "Robo Global Robotics ETF",
-        "entry_date": "2026-04-23",
-        "entry_price": 27.48,
-        "current_price": 27.46,
-        "target_price": 29.404,
-        "stop_loss": 26.698,
-        "trailing_stop": 27.282,
-        "current_gain_pct": -0.07,
-        "days_held": 5,
-        "pre_alert": true,
-        "target_hit": false,
-        "score": 31.4,
-        "er": 0.6685,
-        "signal": "LONG_FORTE",
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 0.66,
-        "perf30": 10.41,
-        "warning": null,
-        "weight_pct": 40.5,
-        "days_in_buy1": 7,
-        "current_level": "BUY1",
-        "size_pct": 35,
-        "peak_score": 32.5,
-        "events": [
-          {
-            "ts": "2026-04-23 09:00 CET",
-            "level": "BUY1",
-            "reason": "Ingresso storico (migrazione v2) \u2014 score 32.5 \u00b7 ER 0.93",
-            "size_pct": 35,
-            "score": 32.5,
-            "er": 0.93
-          }
-        ],
-        "level_ts": "2026-04-23 09:00 CET",
-        "stress_flags": [
-          "KAMA rotta"
-        ],
-        "stress_score": 1,
-        "buy_level": "BUY1",
-        "kama": 27.485,
-        "k_pct": -0.09
       }
     ],
     "history": [
@@ -2206,9 +2348,72 @@
         "exit_reason": "Time Stop 8gg",
         "exit_price": 25.4,
         "final_gain_pct": 0.12
+      },
+      {
+        "ticker": "ROBO.MI",
+        "name": "Robo Global Robotics ETF",
+        "entry_date": "2026-04-23",
+        "entry_price": 27.48,
+        "current_price": 27.46,
+        "target_price": 29.404,
+        "stop_loss": 26.698,
+        "trailing_stop": 27.282,
+        "current_gain_pct": -0.07,
+        "days_held": 5,
+        "pre_alert": true,
+        "target_hit": false,
+        "score": 31.4,
+        "er": 0.6685,
+        "signal": "LONG_FORTE",
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 0.66,
+        "perf30": 10.41,
+        "warning": null,
+        "weight_pct": 40.5,
+        "days_in_buy1": 7,
+        "current_level": "BUY1",
+        "size_pct": 35,
+        "peak_score": 32.5,
+        "events": [
+          {
+            "ts": "2026-04-23 09:00 CET",
+            "level": "BUY1",
+            "reason": "Ingresso storico (migrazione v2) \u2014 score 32.5 \u00b7 ER 0.93",
+            "size_pct": 35,
+            "score": 32.5,
+            "er": 0.93
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 30.7,
+            "er": 0.63
+          }
+        ],
+        "level_ts": "2026-04-23 09:00 CET",
+        "stress_flags": [
+          "KAMA rotta"
+        ],
+        "stress_score": 1,
+        "buy_level": "BUY1",
+        "kama": 27.485,
+        "k_pct": -0.09,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 27.42,
+        "final_gain_pct": -0.22,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "ROBO.MI": "2026-04-30"
+    }
   },
   "semiconduttori": {
     "positions": [
@@ -2217,27 +2422,27 @@
         "name": "iShares MSCI Global Semiconductors",
         "entry_date": "2026-04-22",
         "entry_price": 13.398,
-        "current_price": 13.85,
+        "current_price": 13.936,
         "target_price": 14.336,
         "stop_loss": 12.92,
         "trailing_stop": 14.036,
-        "current_gain_pct": 3.37,
+        "current_gain_pct": 4.02,
         "days_held": 6,
         "pre_alert": true,
         "target_hit": false,
-        "score": 48.4,
-        "er": 0.5484,
+        "score": 43.0,
+        "er": 0.61,
         "signal": "LONG_FORTE",
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 5.53,
-        "perf30": 24.77,
+        "perf7": 6.19,
+        "perf30": 25.55,
         "warning": null,
-        "weight_pct": 36.6,
-        "days_in_buy1": 0,
-        "current_level": "BUY2",
+        "weight_pct": 54.9,
+        "days_in_buy1": 1,
+        "current_level": "BUY1",
         "size_pct": 70,
         "peak_score": 48.6,
         "events": [
@@ -2256,41 +2461,47 @@
             "size_pct": 70,
             "score": 45.5,
             "er": 0.71
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 43.0<45",
+            "size_pct": 75,
+            "score": 43.0,
+            "er": 0.61
           }
         ],
-        "level_ts": "2026-04-28 12:50 CET",
-        "stress_flags": [
-          "KAMA rotta"
-        ],
-        "stress_score": 1,
-        "buy_level": "BUY2",
-        "kama": 13.917,
-        "k_pct": -0.48
+        "level_ts": "2026-04-28 15:52 CET",
+        "stress_flags": [],
+        "stress_score": 0,
+        "buy_level": "BUY1",
+        "kama": 13.927,
+        "k_pct": 0.06
       },
       {
         "ticker": "FCHP.DE",
         "name": "Franklin FTSE Semiconductor ETF",
         "entry_date": "2026-04-22",
         "entry_price": 35.745,
-        "current_price": 36.2,
+        "current_price": 36.05,
         "target_price": 38.247,
         "stop_loss": 34.556,
         "trailing_stop": 36.443,
-        "current_gain_pct": 1.27,
+        "current_gain_pct": 0.85,
         "days_held": 6,
         "pre_alert": true,
         "target_hit": false,
-        "score": 36.7,
-        "er": 0.5239,
+        "score": 35.3,
+        "er": 0.4736,
         "signal": "LONG_FORTE",
         "trend": "VERDE",
         "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 4.26,
-        "perf30": 19.97,
+        "perf7": 3.83,
+        "perf30": 19.47,
         "warning": null,
-        "weight_pct": 27.7,
+        "weight_pct": 45.1,
         "days_in_buy1": 2,
         "current_level": "EXIT1",
         "size_pct": 70,
@@ -2333,59 +2544,12 @@
         "stress_flags": [
           "KAMA rotta",
           "SAR bear",
-          "Score -9pt dal picco"
+          "Score -10pt dal picco"
         ],
         "stress_score": 3,
         "buy_level": "EXIT1",
-        "kama": 36.478,
-        "k_pct": -0.76
-      },
-      {
-        "ticker": "SMH.MI",
-        "name": "VanEck Semiconductor ETF",
-        "entry_date": "2026-04-22",
-        "entry_price": 71.38,
-        "current_price": 73.69,
-        "target_price": 76.377,
-        "stop_loss": 68.845,
-        "trailing_stop": 74.91,
-        "current_gain_pct": 3.24,
-        "days_held": 6,
-        "pre_alert": true,
-        "target_hit": false,
-        "score": 47.2,
-        "er": 0.5051,
-        "signal": "LONG_FORTE",
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 6.04,
-        "perf30": 23.58,
-        "warning": null,
-        "weight_pct": 35.7,
-        "days_in_buy1": 7,
-        "current_level": "BUY1",
-        "size_pct": 35,
-        "peak_score": 47.3,
-        "events": [
-          {
-            "ts": "2026-04-22 09:00 CET",
-            "level": "BUY1",
-            "reason": "Ingresso storico (migrazione v2) \u2014 score 44.4 \u00b7 ER 0.63",
-            "size_pct": 35,
-            "score": 44.4,
-            "er": 0.63
-          }
-        ],
-        "level_ts": "2026-04-22 09:00 CET",
-        "stress_flags": [
-          "KAMA rotta"
-        ],
-        "stress_score": 1,
-        "buy_level": "BUY1",
-        "kama": 73.804,
-        "k_pct": -0.15
+        "kama": 36.473,
+        "k_pct": -1.16
       }
     ],
     "history": [
@@ -2472,9 +2636,72 @@
         "exit_reason": "Time Stop 8gg",
         "exit_price": 35.58,
         "final_gain_pct": 4.96
+      },
+      {
+        "ticker": "SMH.MI",
+        "name": "VanEck Semiconductor ETF",
+        "entry_date": "2026-04-22",
+        "entry_price": 71.38,
+        "current_price": 73.69,
+        "target_price": 76.377,
+        "stop_loss": 68.845,
+        "trailing_stop": 74.91,
+        "current_gain_pct": 3.24,
+        "days_held": 6,
+        "pre_alert": true,
+        "target_hit": false,
+        "score": 47.2,
+        "er": 0.5051,
+        "signal": "LONG_FORTE",
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 6.04,
+        "perf30": 23.58,
+        "warning": null,
+        "weight_pct": 35.7,
+        "days_in_buy1": 7,
+        "current_level": "BUY1",
+        "size_pct": 35,
+        "peak_score": 47.3,
+        "events": [
+          {
+            "ts": "2026-04-22 09:00 CET",
+            "level": "BUY1",
+            "reason": "Ingresso storico (migrazione v2) \u2014 score 44.4 \u00b7 ER 0.63",
+            "size_pct": 35,
+            "score": 44.4,
+            "er": 0.63
+          },
+          {
+            "ts": "2026-04-28 15:52 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 43.0,
+            "er": 0.58
+          }
+        ],
+        "level_ts": "2026-04-22 09:00 CET",
+        "stress_flags": [
+          "KAMA rotta"
+        ],
+        "stress_score": 1,
+        "buy_level": "BUY1",
+        "kama": 73.804,
+        "k_pct": -0.15,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 74.3,
+        "final_gain_pct": 4.09,
+        "exit_date": "2026-04-28",
+        "exit_ts": "2026-04-28 15:52 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "SMH.MI": "2026-04-30"
+    }
   },
   "altro": {
     "positions": [
