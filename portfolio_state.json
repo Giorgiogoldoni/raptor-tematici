@@ -71,7 +71,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-04-30 18:23 CET",
         "peak_score": 46.1,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -515,7 +515,7 @@
         ],
         "stress_flags": [],
         "stress_score": 0,
-        "weight_pct": 40.0,
+        "weight_pct": 38.5,
         "warning": null,
         "buy_level": "BUY2",
         "kama": 30.914,
@@ -573,61 +573,51 @@
         "warning": null,
         "kama": 25.613,
         "k_pct": 0.59,
-        "weight_pct": 24.8
+        "weight_pct": 23.9
       },
       {
-        "ticker": "RENW.MI",
-        "name": "HANetf S&P Global Clean Energy",
-        "entry_date": "2026-04-29",
-        "entry_ts": "2026-04-29 11:12 CET",
-        "entry_price": 15.228,
-        "current_price": 15.478,
-        "target_price": 16.294,
-        "stop_loss": 14.837,
-        "trailing_stop": 15.067,
-        "current_gain_pct": 1.64,
-        "days_held": 2,
+        "ticker": "VOLT.MI",
+        "name": "Amundi MSCI New Energy Transition",
+        "entry_date": "2026-05-01",
+        "entry_ts": "2026-05-01 15:27 CET",
+        "entry_price": 50.28,
+        "current_price": 50.28,
+        "target_price": 53.8,
+        "stop_loss": 48.851,
+        "trailing_stop": 48.851,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 43.5,
-        "er": 0.7367,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-04-30 11:17 CET",
-        "peak_score": 50.6,
-        "days_in_buy1": 7,
+        "score": 48.2,
+        "er": 0.724,
+        "current_level": "BUY2",
+        "buy_level": "BUY2",
+        "level_ts": "2026-05-01 15:27 CET",
+        "peak_score": 48.2,
+        "days_in_buy1": 0,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 5.51,
-        "perf30": 12.63,
-        "stress_flags": [
-          "Score -7pt dal picco"
-        ],
-        "stress_score": 1,
+        "perf7": 5.63,
+        "perf30": 15.72,
+        "stress_flags": [],
+        "stress_score": 0,
         "events": [
           {
-            "ts": "2026-04-29 11:12 CET",
+            "ts": "2026-05-01 15:27 CET",
             "level": "BUY2",
-            "reason": "Score 48.6\u226545 \u00b7 AO>0 \u00b7 ER 0.63\u22650.5 \u00b7 SAR bull",
+            "reason": "Score 48.2\u226545 \u00b7 AO>0 \u00b7 ER 0.72\u22650.5 \u00b7 SAR bull",
             "size_pct": 70,
-            "score": 48.6,
-            "er": 0.63
-          },
-          {
-            "ts": "2026-04-30 11:17 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 37.8<45",
-            "size_pct": 75,
-            "score": 37.8,
-            "er": 0.66
+            "score": 48.2,
+            "er": 0.72
           }
         ],
         "warning": null,
-        "kama": 15.138,
-        "k_pct": 2.24,
-        "weight_pct": 35.2
+        "kama": 48.723,
+        "k_pct": 3.19,
+        "weight_pct": 37.6
       }
     ],
     "history": [
@@ -880,9 +870,79 @@
         "final_gain_pct": 1.8,
         "exit_date": "2026-04-28",
         "exit_ts": "2026-04-28 16:22 CET"
+      },
+      {
+        "ticker": "RENW.MI",
+        "name": "HANetf S&P Global Clean Energy",
+        "entry_date": "2026-04-29",
+        "entry_ts": "2026-04-29 11:12 CET",
+        "entry_price": 15.228,
+        "current_price": 15.478,
+        "target_price": 16.294,
+        "stop_loss": 14.837,
+        "trailing_stop": 15.067,
+        "current_gain_pct": 1.64,
+        "days_held": 2,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 43.5,
+        "er": 0.7367,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-04-30 11:17 CET",
+        "peak_score": 50.6,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 5.51,
+        "perf30": 12.63,
+        "stress_flags": [
+          "Score -7pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-04-29 11:12 CET",
+            "level": "BUY2",
+            "reason": "Score 48.6\u226545 \u00b7 AO>0 \u00b7 ER 0.63\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 48.6,
+            "er": 0.63
+          },
+          {
+            "ts": "2026-04-30 11:17 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 37.8<45",
+            "size_pct": 75,
+            "score": 37.8,
+            "er": 0.66
+          },
+          {
+            "ts": "2026-05-01 15:27 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 43.5,
+            "er": 0.74
+          }
+        ],
+        "warning": null,
+        "kama": 15.138,
+        "k_pct": 2.24,
+        "weight_pct": 35.2,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 15.478,
+        "final_gain_pct": 1.64,
+        "exit_date": "2026-05-01",
+        "exit_ts": "2026-05-01 15:27 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "RENW.MI": "2026-05-03"
+    }
   },
   "salute": {
     "positions": [],
@@ -1625,52 +1685,7 @@
     }
   },
   "risorse": {
-    "positions": [
-      {
-        "ticker": "VEGI.MI",
-        "name": "iShares Agribusiness ETF EUR",
-        "entry_date": "2026-04-30",
-        "entry_ts": "2026-04-30 11:17 CET",
-        "entry_price": 18.996,
-        "current_price": 19.33,
-        "target_price": 20.326,
-        "stop_loss": 18.854,
-        "trailing_stop": 19.167,
-        "current_gain_pct": 1.76,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 40.9,
-        "er": 0.6988,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-04-30 11:17 CET",
-        "peak_score": 40.9,
-        "days_in_buy1": 7,
-        "trend": "GRIGIO",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 3.07,
-        "perf30": 0.69,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-04-30 11:17 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.57>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 34.3,
-            "er": 0.57
-          }
-        ],
-        "warning": null,
-        "kama": 18.98,
-        "k_pct": 1.84,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "METL.MI",
@@ -1814,9 +1829,69 @@
         "final_gain_pct": 0.25,
         "exit_date": "2026-04-28",
         "exit_ts": "2026-04-28 15:52 CET"
+      },
+      {
+        "ticker": "VEGI.MI",
+        "name": "iShares Agribusiness ETF EUR",
+        "entry_date": "2026-04-30",
+        "entry_ts": "2026-04-30 11:17 CET",
+        "entry_price": 18.996,
+        "current_price": 19.33,
+        "target_price": 20.326,
+        "stop_loss": 18.854,
+        "trailing_stop": 19.167,
+        "current_gain_pct": 1.76,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 40.9,
+        "er": 0.6988,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-04-30 11:17 CET",
+        "peak_score": 40.9,
+        "days_in_buy1": 7,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 3.07,
+        "perf30": 0.69,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-04-30 11:17 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.57>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 34.3,
+            "er": 0.57
+          },
+          {
+            "ts": "2026-05-01 15:27 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 40.9,
+            "er": 0.7
+          }
+        ],
+        "warning": null,
+        "kama": 18.98,
+        "k_pct": 1.84,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 19.33,
+        "final_gain_pct": 1.76,
+        "exit_date": "2026-05-01",
+        "exit_ts": "2026-05-01 15:27 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "VEGI.MI": "2026-05-03"
+    }
   },
   "digitale": {
     "positions": [
@@ -1875,55 +1950,11 @@
         ],
         "stress_flags": [],
         "stress_score": 0,
-        "weight_pct": 52.6,
+        "weight_pct": 100.0,
         "warning": null,
         "buy_level": "EXIT1",
         "kama": 27.34,
         "k_pct": 2.41
-      },
-      {
-        "ticker": "EBUY.MI",
-        "name": "Amundi MSCI E-commerce ETF",
-        "entry_date": "2026-04-30",
-        "entry_ts": "2026-04-30 11:17 CET",
-        "entry_price": 17.998,
-        "current_price": 17.968,
-        "target_price": 19.258,
-        "stop_loss": 17.65,
-        "trailing_stop": 17.747,
-        "current_gain_pct": -0.17,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 40.2,
-        "er": 0.5566,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-04-30 11:17 CET",
-        "peak_score": 42.9,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 2.98,
-        "perf30": 12.24,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-04-30 11:17 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.56>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 40.8,
-            "er": 0.56
-          }
-        ],
-        "warning": null,
-        "kama": 17.585,
-        "k_pct": 2.18,
-        "weight_pct": 47.4
       }
     ],
     "history": [
@@ -2205,9 +2236,69 @@
         "final_gain_pct": -1.59,
         "exit_date": "2026-04-28",
         "exit_ts": "2026-04-28 16:22 CET"
+      },
+      {
+        "ticker": "EBUY.MI",
+        "name": "Amundi MSCI E-commerce ETF",
+        "entry_date": "2026-04-30",
+        "entry_ts": "2026-04-30 11:17 CET",
+        "entry_price": 17.998,
+        "current_price": 17.968,
+        "target_price": 19.258,
+        "stop_loss": 17.65,
+        "trailing_stop": 17.747,
+        "current_gain_pct": -0.17,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 40.2,
+        "er": 0.5566,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-04-30 11:17 CET",
+        "peak_score": 42.9,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 2.98,
+        "perf30": 12.24,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-04-30 11:17 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.56>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 40.8,
+            "er": 0.56
+          },
+          {
+            "ts": "2026-05-01 15:27 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 40.2,
+            "er": 0.56
+          }
+        ],
+        "warning": null,
+        "kama": 17.585,
+        "k_pct": 2.18,
+        "weight_pct": 47.4,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 17.968,
+        "final_gain_pct": -0.17,
+        "exit_date": "2026-05-01",
+        "exit_ts": "2026-05-01 15:27 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "EBUY.MI": "2026-05-03"
+    }
   },
   "media": {
     "positions": [
@@ -3059,7 +3150,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-04-30 16:06 CET",
         "peak_score": 50.1,
-        "days_in_buy1": 5,
+        "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -3394,7 +3485,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-04-30 16:06 CET",
         "peak_score": 32.5,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
