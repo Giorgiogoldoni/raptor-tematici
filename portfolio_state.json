@@ -71,7 +71,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-04-30 18:23 CET",
         "peak_score": 46.1,
-        "days_in_buy1": 5,
+        "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -3150,7 +3150,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-04-30 16:06 CET",
         "peak_score": 50.1,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -3409,7 +3409,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 40.9
+        "weight_pct": 55.5
       },
       {
         "ticker": "MLPS.MI",
@@ -3463,67 +3463,7 @@
         "warning": null,
         "kama": 134.947,
         "k_pct": 1.58,
-        "weight_pct": 32.8
-      },
-      {
-        "ticker": "IVAI.MI",
-        "name": "Invesco Artificial Intelligence UCITS ETF",
-        "entry_date": "2026-04-30",
-        "entry_ts": "2026-04-30 11:17 CET",
-        "entry_price": 7.422,
-        "current_price": 7.474,
-        "target_price": 7.942,
-        "stop_loss": 7.246,
-        "trailing_stop": 7.309,
-        "current_gain_pct": 0.7,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 31.4,
-        "er": 0.4289,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-04-30 16:06 CET",
-        "peak_score": 32.5,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 1.23,
-        "perf30": 8.76,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-04-30 11:17 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.38>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 28.1,
-            "er": 0.38
-          },
-          {
-            "ts": "2026-04-30 13:41 CET",
-            "level": "EXIT2",
-            "reason": "Score -8pt (36\u219228) \u00b7 ER 0.38<0.4",
-            "size_pct": 75,
-            "score": 28.1,
-            "er": 0.38
-          },
-          {
-            "ts": "2026-04-30 16:06 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.44>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 32.5,
-            "er": 0.44
-          }
-        ],
-        "warning": null,
-        "kama": 7.341,
-        "k_pct": 1.81,
-        "weight_pct": 26.2
+        "weight_pct": 44.5
       }
     ],
     "history": [
@@ -3666,8 +3606,84 @@
         "exit_reason": "K% negativo",
         "exit_price": 36.24,
         "final_gain_pct": -1.28
+      },
+      {
+        "ticker": "IVAI.MI",
+        "name": "Invesco Artificial Intelligence UCITS ETF",
+        "entry_date": "2026-04-30",
+        "entry_ts": "2026-04-30 11:17 CET",
+        "entry_price": 7.422,
+        "current_price": 7.474,
+        "target_price": 7.942,
+        "stop_loss": 7.246,
+        "trailing_stop": 7.309,
+        "current_gain_pct": 0.7,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 31.4,
+        "er": 0.4289,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-04-30 16:06 CET",
+        "peak_score": 32.5,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 1.23,
+        "perf30": 8.76,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-04-30 11:17 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.38>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 28.1,
+            "er": 0.38
+          },
+          {
+            "ts": "2026-04-30 13:41 CET",
+            "level": "EXIT2",
+            "reason": "Score -8pt (36\u219228) \u00b7 ER 0.38<0.4",
+            "size_pct": 75,
+            "score": 28.1,
+            "er": 0.38
+          },
+          {
+            "ts": "2026-04-30 16:06 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.44>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 32.5,
+            "er": 0.44
+          },
+          {
+            "ts": "2026-05-01 17:00 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 31.4,
+            "er": 0.43
+          }
+        ],
+        "warning": null,
+        "kama": 7.341,
+        "k_pct": 1.81,
+        "weight_pct": 26.2,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 7.474,
+        "final_gain_pct": 0.7,
+        "exit_date": "2026-05-01",
+        "exit_ts": "2026-05-01 17:00 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "IVAI.MI": "2026-05-03"
+    }
   }
 }
