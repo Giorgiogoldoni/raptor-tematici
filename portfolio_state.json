@@ -24,7 +24,7 @@
         "perf7": 4.33,
         "perf30": 1.22,
         "warning": "Dati non disponibili",
-        "weight_pct": 39.4
+        "weight_pct": 38.1
       },
       {
         "ticker": "FAMMWS.MI",
@@ -49,7 +49,7 @@
         "perf7": 15.29,
         "perf30": 13.08,
         "warning": "Dati non disponibili",
-        "weight_pct": 45.3
+        "weight_pct": 43.8
       },
       {
         "ticker": "AINF.MI",
@@ -57,16 +57,16 @@
         "entry_date": "2026-05-01",
         "entry_ts": "2026-05-01 20:01 CET",
         "entry_price": 7.66,
-        "current_price": 8.656,
+        "current_price": 8.757,
         "target_price": 8.196,
         "stop_loss": 7.448,
         "trailing_stop": 8.599,
-        "current_gain_pct": 13.0,
+        "current_gain_pct": 14.32,
         "days_held": 19,
         "pre_alert": false,
         "target_hit": true,
-        "score": 18.8,
-        "er": 0.1827,
+        "score": 23.0,
+        "er": 0.226,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-05-18 17:40 CET",
@@ -76,13 +76,13 @@
         "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": -1.58,
-        "perf30": 34.7,
+        "perf7": -0.43,
+        "perf30": 36.27,
         "stress_flags": [
           "SAR bear",
           "AO calante",
           "ER<0.4",
-          "Score -37pt dal picco"
+          "Score -33pt dal picco"
         ],
         "stress_score": 4,
         "events": [
@@ -128,9 +128,9 @@
           }
         ],
         "warning": null,
-        "kama": 8.596,
-        "k_pct": 0.7,
-        "weight_pct": 15.3
+        "kama": 8.599,
+        "k_pct": 1.84,
+        "weight_pct": 18.1
       }
     ],
     "history": [
@@ -348,16 +348,16 @@
         "entry_date": "2026-05-04",
         "entry_ts": "2026-05-04 11:23 CET",
         "entry_price": 28.005,
-        "current_price": 32.07,
+        "current_price": 32.55,
         "target_price": 29.965,
         "stop_loss": 26.914,
-        "trailing_stop": 31.204,
-        "current_gain_pct": 14.52,
+        "trailing_stop": 31.416,
+        "current_gain_pct": 16.23,
         "days_held": 16,
         "pre_alert": false,
         "target_hit": true,
-        "score": 50.3,
-        "er": 0.8403,
+        "score": 52.5,
+        "er": 0.9198,
         "current_level": "BUY2",
         "buy_level": "BUY2",
         "level_ts": "2026-05-08 10:22 CET",
@@ -367,8 +367,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 7.26,
-        "perf30": 20.34,
+        "perf7": 8.86,
+        "perf30": 22.14,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -430,9 +430,9 @@
           }
         ],
         "warning": null,
-        "kama": 31.697,
-        "k_pct": 1.18,
-        "weight_pct": 33.9
+        "kama": 31.939,
+        "k_pct": 1.91,
+        "weight_pct": 34.0
       },
       {
         "ticker": "BUG.MI",
@@ -440,16 +440,16 @@
         "entry_date": "2026-05-04",
         "entry_ts": "2026-05-04 18:50 CET",
         "entry_price": 10.528,
-        "current_price": 12.468,
+        "current_price": 12.676,
         "target_price": 11.265,
         "stop_loss": 10.165,
-        "trailing_stop": 12.213,
-        "current_gain_pct": 18.43,
+        "trailing_stop": 12.266,
+        "current_gain_pct": 20.4,
         "days_held": 16,
         "pre_alert": false,
         "target_hit": true,
-        "score": 50.6,
-        "er": 0.8272,
+        "score": 53.0,
+        "er": 0.9265,
         "current_level": "BUY2",
         "buy_level": "BUY2",
         "level_ts": "2026-05-08 10:22 CET",
@@ -459,8 +459,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 8.81,
-        "perf30": 26.85,
+        "perf7": 10.63,
+        "perf30": 28.97,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -490,9 +490,9 @@
           }
         ],
         "warning": null,
-        "kama": 12.255,
-        "k_pct": 1.74,
-        "weight_pct": 34.1
+        "kama": 12.388,
+        "k_pct": 2.32,
+        "weight_pct": 34.3
       },
       {
         "ticker": "FAMMAI.MI",
@@ -500,16 +500,16 @@
         "entry_date": "2026-05-07",
         "entry_ts": "2026-05-07 13:51 CET",
         "entry_price": 148.22,
-        "current_price": 162.55,
+        "current_price": 164.45,
         "target_price": 158.595,
         "stop_loss": 143.279,
-        "trailing_stop": 158.805,
-        "current_gain_pct": 9.67,
+        "trailing_stop": 158.901,
+        "current_gain_pct": 10.95,
         "days_held": 13,
         "pre_alert": false,
         "target_hit": true,
-        "score": 47.4,
-        "er": 0.7749,
+        "score": 49.0,
+        "er": 0.8299,
         "current_level": "BUY2",
         "buy_level": "BUY2",
         "level_ts": "2026-05-07 16:24 CET",
@@ -519,10 +519,10 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 5.85,
-        "perf30": 20.89,
+        "perf7": 7.08,
+        "perf30": 22.3,
         "stress_flags": [
-          "Score -10pt dal picco"
+          "Score -8pt dal picco"
         ],
         "stress_score": 1,
         "events": [
@@ -544,9 +544,9 @@
           }
         ],
         "warning": null,
-        "kama": 160.252,
-        "k_pct": 1.43,
-        "weight_pct": 32.0
+        "kama": 161.057,
+        "k_pct": 2.11,
+        "weight_pct": 31.7
       }
     ],
     "history": [
@@ -1788,16 +1788,16 @@
         "entry_date": "2026-05-11",
         "entry_ts": "2026-05-11 12:39 CET",
         "entry_price": 44.44,
-        "current_price": 44.595,
+        "current_price": 44.975,
         "target_price": 47.551,
         "stop_loss": 44.014,
-        "trailing_stop": 44.521,
-        "current_gain_pct": 0.35,
+        "trailing_stop": 44.614,
+        "current_gain_pct": 1.2,
         "days_held": 9,
         "pre_alert": false,
         "target_hit": false,
-        "score": 27.2,
-        "er": 0.4589,
+        "score": 28.1,
+        "er": 0.4516,
         "current_level": "EXIT1",
         "buy_level": "EXIT1",
         "level_ts": "2026-05-15 16:29 CET",
@@ -1807,11 +1807,11 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 0.35,
-        "perf30": 10.47,
+        "perf7": 0.48,
+        "perf30": 13.05,
         "stress_flags": [
           "AO calante",
-          "Score -27pt dal picco"
+          "Score -26pt dal picco"
         ],
         "stress_score": 2,
         "events": [
@@ -1841,8 +1841,8 @@
           }
         ],
         "warning": null,
-        "kama": 44.511,
-        "k_pct": 0.19,
+        "kama": 44.528,
+        "k_pct": 1.0,
         "weight_pct": 100.0
       }
     ],
@@ -4172,16 +4172,16 @@
         "entry_date": "2026-05-15",
         "entry_ts": "2026-05-15 11:50 CET",
         "entry_price": 155.84,
-        "current_price": 155.68,
+        "current_price": 158.53,
         "target_price": 166.749,
         "stop_loss": 152.796,
-        "trailing_stop": 152.913,
-        "current_gain_pct": -0.1,
+        "trailing_stop": 155.78,
+        "current_gain_pct": 1.73,
         "days_held": 5,
         "pre_alert": false,
         "target_hit": false,
-        "score": 24.4,
-        "er": 0.2572,
+        "score": 32.5,
+        "er": 0.3907,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-05-15 13:59 CET",
@@ -4191,13 +4191,12 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.37,
-        "perf30": 3.84,
+        "perf7": 2.36,
+        "perf30": 8.35,
         "stress_flags": [
-          "ER<0.4",
-          "Score -12pt dal picco"
+          "ER<0.4"
         ],
-        "stress_score": 2,
+        "stress_score": 1,
         "events": [
           {
             "ts": "2026-05-15 11:50 CET",
@@ -4217,8 +4216,8 @@
           }
         ],
         "warning": null,
-        "kama": 153.971,
-        "k_pct": 1.11,
+        "kama": 154.59,
+        "k_pct": 2.55,
         "weight_pct": 100.0
       }
     ],
@@ -4878,16 +4877,16 @@
         "entry_date": "2026-05-13",
         "entry_ts": "2026-05-13 11:47 CET",
         "entry_price": 15.728,
-        "current_price": 15.612,
+        "current_price": 15.834,
         "target_price": 16.829,
         "stop_loss": 15.479,
-        "trailing_stop": 15.513,
-        "current_gain_pct": -0.74,
+        "trailing_stop": 15.611,
+        "current_gain_pct": 0.67,
         "days_held": 7,
         "pre_alert": false,
         "target_hit": false,
-        "score": 26.2,
-        "er": 0.5094,
+        "score": 31.6,
+        "er": 0.5771,
         "current_level": "EXIT1",
         "buy_level": "EXIT1",
         "level_ts": "2026-05-19 12:39 CET",
@@ -4897,12 +4896,12 @@
         "sar_bullish": false,
         "vortex_bullish": false,
         "rvi_bullish": true,
-        "perf7": -0.74,
-        "perf30": 24.3,
+        "perf7": 0.67,
+        "perf30": 26.07,
         "stress_flags": [
           "SAR bear",
           "AO calante",
-          "Score -28pt dal picco"
+          "Score -22pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -4932,8 +4931,8 @@
           }
         ],
         "warning": null,
-        "kama": 15.531,
-        "k_pct": 0.52,
+        "kama": 15.536,
+        "k_pct": 1.92,
         "weight_pct": 100.0
       }
     ],
@@ -5678,16 +5677,16 @@
         "entry_date": "2026-05-07",
         "entry_ts": "2026-05-07 11:37 CET",
         "entry_price": 18.466,
-        "current_price": 18.97,
+        "current_price": 19.468,
         "target_price": 19.759,
         "stop_loss": 18.036,
-        "trailing_stop": 18.731,
-        "current_gain_pct": 2.73,
+        "trailing_stop": 18.953,
+        "current_gain_pct": 5.43,
         "days_held": 13,
         "pre_alert": false,
         "target_hit": false,
-        "score": 27.4,
-        "er": 0.2359,
+        "score": 37.1,
+        "er": 0.3733,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-05-18 17:41 CET",
@@ -5697,11 +5696,11 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 2.03,
-        "perf30": 24.25,
+        "perf7": 4.71,
+        "perf30": 27.51,
         "stress_flags": [
           "ER<0.4",
-          "Score -23pt dal picco"
+          "Score -14pt dal picco"
         ],
         "stress_score": 2,
         "events": [
@@ -5763,8 +5762,8 @@
           }
         ],
         "warning": null,
-        "kama": 18.577,
-        "k_pct": 2.12,
+        "kama": 18.721,
+        "k_pct": 3.99,
         "weight_pct": 100.0
       }
     ],
@@ -7954,7 +7953,51 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 100.0
+        "weight_pct": 51.7
+      },
+      {
+        "ticker": "MLPS.MI",
+        "name": "Global X MLP ETF",
+        "entry_date": "2026-05-20",
+        "entry_ts": "2026-05-20 18:57 CET",
+        "entry_price": 142.32,
+        "current_price": 142.32,
+        "target_price": 152.282,
+        "stop_loss": 139.711,
+        "trailing_stop": 139.711,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 45.8,
+        "er": 0.6244,
+        "current_level": "BUY2",
+        "buy_level": "BUY2",
+        "level_ts": "2026-05-20 18:57 CET",
+        "peak_score": 45.8,
+        "days_in_buy1": 0,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 6.39,
+        "perf30": 4.01,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-05-20 18:57 CET",
+            "level": "BUY2",
+            "reason": "Score 45.8\u226545 \u00b7 AO>0 \u00b7 ER 0.62\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.8,
+            "er": 0.62
+          }
+        ],
+        "warning": null,
+        "kama": 141.521,
+        "k_pct": 0.56,
+        "weight_pct": 48.3
       }
     ],
     "history": [
