@@ -458,7 +458,52 @@
     }
   },
   "difesa": {
-    "positions": [],
+    "positions": [
+      {
+        "ticker": "CYBO.MI",
+        "name": "Ossiam Cyber Security ETF",
+        "entry_date": "2026-06-10",
+        "entry_ts": "2026-06-10 16:27 CET",
+        "entry_price": 15.728,
+        "current_price": 15.728,
+        "target_price": 16.829,
+        "stop_loss": 15.436,
+        "trailing_stop": 15.436,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 37.3,
+        "er": 0.3739,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-06-10 16:27 CET",
+        "peak_score": 37.3,
+        "days_in_buy1": 1,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": true,
+        "perf7": 4.34,
+        "perf30": 1.29,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-06-10 16:27 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.37>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 37.3,
+            "er": 0.37
+          }
+        ],
+        "warning": null,
+        "kama": 15.53,
+        "k_pct": 1.27,
+        "weight_pct": 100.0
+      }
+    ],
     "history": [
       {
         "ticker": "VPN.MI",
@@ -3464,16 +3509,16 @@
         "entry_date": "2026-05-28",
         "entry_ts": "2026-05-28 16:43 CET",
         "entry_price": 104.58,
-        "current_price": 107.46,
+        "current_price": 108.02,
         "target_price": 111.901,
         "stop_loss": 101.204,
         "trailing_stop": 107.171,
-        "current_gain_pct": 2.75,
+        "current_gain_pct": 3.29,
         "days_held": 13,
         "pre_alert": false,
         "target_hit": false,
-        "score": 27.4,
-        "er": 0.3806,
+        "score": 29.3,
+        "er": 0.3996,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-06-08 14:01 CET",
@@ -3483,11 +3528,11 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 0.46,
-        "perf30": 13.13,
+        "perf7": 0.98,
+        "perf30": 13.72,
         "stress_flags": [
           "ER<0.4",
-          "Score -26pt dal picco"
+          "Score -24pt dal picco"
         ],
         "stress_score": 2,
         "events": [
@@ -3533,8 +3578,8 @@
           }
         ],
         "warning": null,
-        "kama": 105.699,
-        "k_pct": 1.67,
+        "kama": 105.755,
+        "k_pct": 2.14,
         "weight_pct": 100.0
       }
     ],
@@ -5153,16 +5198,16 @@
         "entry_date": "2026-06-08",
         "entry_ts": "2026-06-08 14:01 CET",
         "entry_price": 46.26,
-        "current_price": 45.98,
+        "current_price": 46.125,
         "target_price": 49.498,
         "stop_loss": 45.323,
         "trailing_stop": 45.323,
-        "current_gain_pct": -0.61,
+        "current_gain_pct": -0.29,
         "days_held": 2,
         "pre_alert": false,
         "target_hit": false,
-        "score": 23.9,
-        "er": 0.0923,
+        "score": 25.5,
+        "er": 0.1193,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-06-10 12:58 CET",
@@ -5172,11 +5217,11 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 3.15,
-        "perf30": 3.62,
+        "perf7": 3.48,
+        "perf30": 3.94,
         "stress_flags": [
           "ER<0.4",
-          "Score -12pt dal picco"
+          "Score -11pt dal picco"
         ],
         "stress_score": 2,
         "events": [
@@ -5198,8 +5243,8 @@
           }
         ],
         "warning": null,
-        "kama": 45.489,
-        "k_pct": 1.08,
+        "kama": 45.484,
+        "k_pct": 1.41,
         "weight_pct": 100.0
       }
     ],
@@ -7493,138 +7538,7 @@
     "cooldowns": {}
   },
   "digitale": {
-    "positions": [
-      {
-        "ticker": "SNSR.MI",
-        "name": "Global X Internet of Things ETF",
-        "entry_date": "2026-05-13",
-        "entry_ts": "2026-05-13 11:47 CET",
-        "entry_price": 15.728,
-        "current_price": 16.62,
-        "target_price": 16.829,
-        "stop_loss": 15.479,
-        "trailing_stop": 17.692,
-        "current_gain_pct": 5.67,
-        "days_held": 28,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 20.6,
-        "er": 0.2452,
-        "current_level": "EXIT2",
-        "buy_level": "EXIT2",
-        "level_ts": "2026-06-05 18:31 CET",
-        "peak_score": 53.7,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": false,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": -2.24,
-        "perf30": 14.18,
-        "stress_flags": [
-          "KAMA rotta",
-          "SAR bear",
-          "AO calante",
-          "ER<0.4",
-          "Score -33pt dal picco"
-        ],
-        "stress_score": 5,
-        "events": [
-          {
-            "ts": "2026-05-13 11:47 CET",
-            "level": "BUY2",
-            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.56\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.4,
-            "er": 0.56
-          },
-          {
-            "ts": "2026-05-15 16:29 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 39.5<45",
-            "size_pct": 75,
-            "score": 39.5,
-            "er": 0.69
-          },
-          {
-            "ts": "2026-05-19 12:39 CET",
-            "level": "EXIT1",
-            "reason": "SAR girato sopra prezzo",
-            "size_pct": 40,
-            "score": 24.6,
-            "er": 0.41
-          },
-          {
-            "ts": "2026-05-25 13:13 CET",
-            "level": "BUY2",
-            "reason": "Score 46.2\u226545 \u00b7 AO>0 \u00b7 ER 0.68\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.2,
-            "er": 0.68
-          },
-          {
-            "ts": "2026-05-26 15:55 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 38.6<45",
-            "size_pct": 75,
-            "score": 38.6,
-            "er": 0.65
-          },
-          {
-            "ts": "2026-05-26 19:28 CET",
-            "level": "BUY2",
-            "reason": "Score 45.8\u226545 \u00b7 AO>0 \u00b7 ER 0.70\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 45.8,
-            "er": 0.7
-          },
-          {
-            "ts": "2026-05-27 19:57 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 42.7<45",
-            "size_pct": 75,
-            "score": 42.7,
-            "er": 0.53
-          },
-          {
-            "ts": "2026-05-28 20:17 CET",
-            "level": "BUY2",
-            "reason": "Score 45.2\u226545 \u00b7 AO>0 \u00b7 ER 0.56\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 45.2,
-            "er": 0.56
-          },
-          {
-            "ts": "2026-05-29 20:13 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 44.9<45",
-            "size_pct": 75,
-            "score": 44.9,
-            "er": 0.51
-          },
-          {
-            "ts": "2026-06-03 13:58 CET",
-            "level": "EXIT1",
-            "reason": "AO in calo 3+ sessioni",
-            "size_pct": 40,
-            "score": 38.3,
-            "er": 0.7
-          },
-          {
-            "ts": "2026-06-05 18:31 CET",
-            "level": "EXIT2",
-            "reason": "Score -27pt (54\u219227) \u00b7 ER 0.32<0.4",
-            "size_pct": 75,
-            "score": 27.0,
-            "er": 0.32
-          }
-        ],
-        "warning": null,
-        "kama": 17.071,
-        "k_pct": -2.64,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "INQQ.MI",
@@ -8675,9 +8589,155 @@
         "final_gain_pct": -1.63,
         "exit_date": "2026-06-05",
         "exit_ts": "2026-06-05 18:31 CET"
+      },
+      {
+        "ticker": "SNSR.MI",
+        "name": "Global X Internet of Things ETF",
+        "entry_date": "2026-05-13",
+        "entry_ts": "2026-05-13 11:47 CET",
+        "entry_price": 15.728,
+        "current_price": 16.62,
+        "target_price": 16.829,
+        "stop_loss": 15.479,
+        "trailing_stop": 17.692,
+        "current_gain_pct": 5.67,
+        "days_held": 28,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 20.6,
+        "er": 0.2452,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-06-05 18:31 CET",
+        "peak_score": 53.7,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": false,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": -2.24,
+        "perf30": 14.18,
+        "stress_flags": [
+          "KAMA rotta",
+          "SAR bear",
+          "AO calante",
+          "ER<0.4",
+          "Score -33pt dal picco"
+        ],
+        "stress_score": 5,
+        "events": [
+          {
+            "ts": "2026-05-13 11:47 CET",
+            "level": "BUY2",
+            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.56\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.4,
+            "er": 0.56
+          },
+          {
+            "ts": "2026-05-15 16:29 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 39.5<45",
+            "size_pct": 75,
+            "score": 39.5,
+            "er": 0.69
+          },
+          {
+            "ts": "2026-05-19 12:39 CET",
+            "level": "EXIT1",
+            "reason": "SAR girato sopra prezzo",
+            "size_pct": 40,
+            "score": 24.6,
+            "er": 0.41
+          },
+          {
+            "ts": "2026-05-25 13:13 CET",
+            "level": "BUY2",
+            "reason": "Score 46.2\u226545 \u00b7 AO>0 \u00b7 ER 0.68\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.2,
+            "er": 0.68
+          },
+          {
+            "ts": "2026-05-26 15:55 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 38.6<45",
+            "size_pct": 75,
+            "score": 38.6,
+            "er": 0.65
+          },
+          {
+            "ts": "2026-05-26 19:28 CET",
+            "level": "BUY2",
+            "reason": "Score 45.8\u226545 \u00b7 AO>0 \u00b7 ER 0.70\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.8,
+            "er": 0.7
+          },
+          {
+            "ts": "2026-05-27 19:57 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 42.7<45",
+            "size_pct": 75,
+            "score": 42.7,
+            "er": 0.53
+          },
+          {
+            "ts": "2026-05-28 20:17 CET",
+            "level": "BUY2",
+            "reason": "Score 45.2\u226545 \u00b7 AO>0 \u00b7 ER 0.56\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.2,
+            "er": 0.56
+          },
+          {
+            "ts": "2026-05-29 20:13 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.9<45",
+            "size_pct": 75,
+            "score": 44.9,
+            "er": 0.51
+          },
+          {
+            "ts": "2026-06-03 13:58 CET",
+            "level": "EXIT1",
+            "reason": "AO in calo 3+ sessioni",
+            "size_pct": 40,
+            "score": 38.3,
+            "er": 0.7
+          },
+          {
+            "ts": "2026-06-05 18:31 CET",
+            "level": "EXIT2",
+            "reason": "Score -27pt (54\u219227) \u00b7 ER 0.32<0.4",
+            "size_pct": 75,
+            "score": 27.0,
+            "er": 0.32
+          },
+          {
+            "ts": "2026-06-10 16:27 CET",
+            "level": "EXIT3",
+            "reason": "Score 6.7<18 soglia EXIT2",
+            "size_pct": 100,
+            "score": 6.7,
+            "er": 0.25
+          }
+        ],
+        "warning": null,
+        "kama": 17.071,
+        "k_pct": -2.64,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 6.7<18 soglia EXIT2",
+        "exit_price": 16.374,
+        "final_gain_pct": 4.11,
+        "exit_date": "2026-06-10",
+        "exit_ts": "2026-06-10 16:27 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "SNSR.MI": "2026-06-12"
+    }
   },
   "media": {
     "positions": [
@@ -8687,27 +8747,27 @@
         "entry_date": "2026-06-09",
         "entry_ts": "2026-06-09 12:36 CET",
         "entry_price": 204.82,
-        "current_price": 204.6,
+        "current_price": 204.94,
         "target_price": 219.157,
         "stop_loss": 200.156,
         "trailing_stop": 200.803,
-        "current_gain_pct": -0.11,
+        "current_gain_pct": 0.06,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 21.7,
-        "er": 0.0361,
+        "score": 22.8,
+        "er": 0.0688,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-06-09 12:36 CET",
         "peak_score": 26.2,
-        "days_in_buy1": 5,
+        "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 0.96,
-        "perf30": 5.03,
+        "perf7": 1.13,
+        "perf30": 5.21,
         "stress_flags": [
           "ER<0.4"
         ],
@@ -8723,8 +8783,8 @@
           }
         ],
         "warning": null,
-        "kama": 203.33,
-        "k_pct": 0.62,
+        "kama": 203.481,
+        "k_pct": 0.72,
         "weight_pct": 100.0
       }
     ],
