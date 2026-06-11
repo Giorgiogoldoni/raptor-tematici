@@ -456,52 +456,7 @@
     "cooldowns": {}
   },
   "difesa": {
-    "positions": [
-      {
-        "ticker": "CYBO.MI",
-        "name": "Ossiam Cyber Security ETF",
-        "entry_date": "2026-06-10",
-        "entry_ts": "2026-06-10 16:27 CET",
-        "entry_price": 15.728,
-        "current_price": 15.528,
-        "target_price": 16.829,
-        "stop_loss": 15.436,
-        "trailing_stop": 15.436,
-        "current_gain_pct": -1.27,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 37.6,
-        "er": 0.416,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-06-10 16:27 CET",
-        "peak_score": 37.6,
-        "days_in_buy1": 3,
-        "trend": "GRIGIO",
-        "sar_bullish": true,
-        "vortex_bullish": false,
-        "rvi_bullish": true,
-        "perf7": 4.23,
-        "perf30": 2.44,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-06-10 16:27 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.37>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 37.3,
-            "er": 0.37
-          }
-        ],
-        "warning": null,
-        "kama": 15.468,
-        "k_pct": 0.39,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "VPN.MI",
@@ -1170,9 +1125,69 @@
         "final_gain_pct": 12.02,
         "exit_date": "2026-06-09",
         "exit_ts": "2026-06-09 18:32 CET"
+      },
+      {
+        "ticker": "CYBO.MI",
+        "name": "Ossiam Cyber Security ETF",
+        "entry_date": "2026-06-10",
+        "entry_ts": "2026-06-10 16:27 CET",
+        "entry_price": 15.728,
+        "current_price": 15.528,
+        "target_price": 16.829,
+        "stop_loss": 15.436,
+        "trailing_stop": 15.436,
+        "current_gain_pct": -1.27,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 37.6,
+        "er": 0.416,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-06-10 16:27 CET",
+        "peak_score": 37.6,
+        "days_in_buy1": 3,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": true,
+        "perf7": 4.23,
+        "perf30": 2.44,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-06-10 16:27 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.37>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 37.3,
+            "er": 0.37
+          },
+          {
+            "ts": "2026-06-11 18:09 CET",
+            "level": "EXIT3",
+            "reason": "KAMA rotta (K%=-0.56) \u00b7 Trend GRIGIO",
+            "size_pct": 100,
+            "score": 35.1,
+            "er": 0.25
+          }
+        ],
+        "warning": null,
+        "kama": 15.468,
+        "k_pct": 0.39,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT3",
+        "exit_reason": "KAMA rotta (K%=-0.56) \u00b7 Trend GRIGIO",
+        "exit_price": 15.37,
+        "final_gain_pct": -2.28,
+        "exit_date": "2026-06-11",
+        "exit_ts": "2026-06-11 18:09 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "CYBO.MI": "2026-06-13"
+    }
   },
   "energia": {
     "positions": [],
@@ -3495,84 +3510,6 @@
   "crypto": {
     "positions": [
       {
-        "ticker": "BTECH.MI",
-        "name": "iShares Blockchain Technology ETF",
-        "entry_date": "2026-05-28",
-        "entry_ts": "2026-05-28 16:43 CET",
-        "entry_price": 104.58,
-        "current_price": 108.23,
-        "target_price": 111.901,
-        "stop_loss": 101.204,
-        "trailing_stop": 107.171,
-        "current_gain_pct": 3.49,
-        "days_held": 14,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 30.0,
-        "er": 0.4064,
-        "current_level": "EXIT2",
-        "buy_level": "EXIT2",
-        "level_ts": "2026-06-08 14:01 CET",
-        "peak_score": 53.4,
-        "days_in_buy1": 3,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 1.18,
-        "perf30": 13.94,
-        "stress_flags": [
-          "Score -23pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-05-28 16:43 CET",
-            "level": "BUY2",
-            "reason": "Score 47.6\u226545 \u00b7 AO>0 \u00b7 ER 0.57\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 47.6,
-            "er": 0.57
-          },
-          {
-            "ts": "2026-06-02 18:40 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 38.6<45 \u00b7 ER 0.49<0.5",
-            "size_pct": 75,
-            "score": 38.6,
-            "er": 0.49
-          },
-          {
-            "ts": "2026-06-04 16:06 CET",
-            "level": "BUY2",
-            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.60\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.4,
-            "er": 0.6
-          },
-          {
-            "ts": "2026-06-05 18:31 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 41.4<45 \u00b7 ER 0.42<0.5",
-            "size_pct": 75,
-            "score": 41.4,
-            "er": 0.42
-          },
-          {
-            "ts": "2026-06-08 14:01 CET",
-            "level": "EXIT2",
-            "reason": "Score -28pt (53\u219225) \u00b7 ER 0.37<0.4",
-            "size_pct": 75,
-            "score": 25.0,
-            "er": 0.37
-          }
-        ],
-        "warning": null,
-        "kama": 105.779,
-        "k_pct": 2.32,
-        "weight_pct": 39.3
-      },
-      {
         "ticker": "BTECJ.MI",
         "name": "iShares Blockchain JPY Hedged",
         "entry_date": "2026-06-11",
@@ -3614,7 +3551,7 @@
         "warning": null,
         "kama": 11020.168,
         "k_pct": 0.24,
-        "weight_pct": 60.7
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -4345,9 +4282,103 @@
         "final_gain_pct": -2.05,
         "exit_date": "2026-06-04",
         "exit_ts": "2026-06-04 16:06 CET"
+      },
+      {
+        "ticker": "BTECH.MI",
+        "name": "iShares Blockchain Technology ETF",
+        "entry_date": "2026-05-28",
+        "entry_ts": "2026-05-28 16:43 CET",
+        "entry_price": 104.58,
+        "current_price": 108.23,
+        "target_price": 111.901,
+        "stop_loss": 101.204,
+        "trailing_stop": 107.171,
+        "current_gain_pct": 3.49,
+        "days_held": 14,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 30.0,
+        "er": 0.4064,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-06-08 14:01 CET",
+        "peak_score": 53.4,
+        "days_in_buy1": 3,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 1.18,
+        "perf30": 13.94,
+        "stress_flags": [
+          "Score -23pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-05-28 16:43 CET",
+            "level": "BUY2",
+            "reason": "Score 47.6\u226545 \u00b7 AO>0 \u00b7 ER 0.57\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 47.6,
+            "er": 0.57
+          },
+          {
+            "ts": "2026-06-02 18:40 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 38.6<45 \u00b7 ER 0.49<0.5",
+            "size_pct": 75,
+            "score": 38.6,
+            "er": 0.49
+          },
+          {
+            "ts": "2026-06-04 16:06 CET",
+            "level": "BUY2",
+            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.60\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.4,
+            "er": 0.6
+          },
+          {
+            "ts": "2026-06-05 18:31 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 41.4<45 \u00b7 ER 0.42<0.5",
+            "size_pct": 75,
+            "score": 41.4,
+            "er": 0.42
+          },
+          {
+            "ts": "2026-06-08 14:01 CET",
+            "level": "EXIT2",
+            "reason": "Score -28pt (53\u219225) \u00b7 ER 0.37<0.4",
+            "size_pct": 75,
+            "score": 25.0,
+            "er": 0.37
+          },
+          {
+            "ts": "2026-06-11 18:09 CET",
+            "level": "EXIT3",
+            "reason": "Score 16.6<18 soglia EXIT2",
+            "size_pct": 100,
+            "score": 16.6,
+            "er": 0.06
+          }
+        ],
+        "warning": null,
+        "kama": 105.779,
+        "k_pct": 2.32,
+        "weight_pct": 39.3,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 16.6<18 soglia EXIT2",
+        "exit_price": 106.9,
+        "final_gain_pct": 2.22,
+        "exit_date": "2026-06-11",
+        "exit_ts": "2026-06-11 18:09 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "BTECH.MI": "2026-06-13"
+    }
   },
   "mobilita": {
     "positions": [],
