@@ -453,9 +453,7 @@
         "exit_ts": "2026-06-09 12:36 CET"
       }
     ],
-    "cooldowns": {
-      "DGTL.MI": "2026-06-11"
-    }
+    "cooldowns": {}
   },
   "difesa": {
     "positions": [
@@ -465,31 +463,29 @@
         "entry_date": "2026-06-10",
         "entry_ts": "2026-06-10 16:27 CET",
         "entry_price": 15.728,
-        "current_price": 15.6,
+        "current_price": 15.528,
         "target_price": 16.829,
         "stop_loss": 15.436,
         "trailing_stop": 15.436,
-        "current_gain_pct": -0.81,
-        "days_held": 0,
+        "current_gain_pct": -1.27,
+        "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 33.4,
-        "er": 0.291,
+        "score": 37.6,
+        "er": 0.416,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-06-10 16:27 CET",
-        "peak_score": 37.3,
-        "days_in_buy1": 2,
+        "peak_score": 37.6,
+        "days_in_buy1": 3,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": false,
         "rvi_bullish": true,
-        "perf7": 3.49,
-        "perf30": 0.46,
-        "stress_flags": [
-          "ER<0.4"
-        ],
-        "stress_score": 1,
+        "perf7": 4.23,
+        "perf30": 2.44,
+        "stress_flags": [],
+        "stress_score": 0,
         "events": [
           {
             "ts": "2026-06-10 16:27 CET",
@@ -501,8 +497,8 @@
           }
         ],
         "warning": null,
-        "kama": 15.459,
-        "k_pct": 0.91,
+        "kama": 15.468,
+        "k_pct": 0.39,
         "weight_pct": 100.0
       }
     ],
@@ -1176,11 +1172,7 @@
         "exit_ts": "2026-06-09 18:32 CET"
       }
     ],
-    "cooldowns": {
-      "BUG.MI": "2026-06-11",
-      "ISPY.MI": "2026-06-11",
-      "FAMMAI.MI": "2026-06-11"
-    }
+    "cooldowns": {}
   },
   "energia": {
     "positions": [],
@@ -2552,16 +2544,16 @@
         "entry_date": "2026-06-08",
         "entry_ts": "2026-06-08 18:50 CET",
         "entry_price": 7.274,
-        "current_price": 7.342,
+        "current_price": 7.326,
         "target_price": 7.783,
         "stop_loss": 7.172,
         "trailing_stop": 7.282,
-        "current_gain_pct": 0.93,
-        "days_held": 2,
+        "current_gain_pct": 0.71,
+        "days_held": 3,
         "pre_alert": false,
         "target_hit": false,
-        "score": 49.4,
-        "er": 0.8537,
+        "score": 47.9,
+        "er": 0.8067,
         "current_level": "BUY2",
         "buy_level": "BUY2",
         "level_ts": "2026-06-08 18:50 CET",
@@ -2571,8 +2563,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.99,
-        "perf30": 9.29,
+        "perf7": 3.01,
+        "perf30": 9.05,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -2586,8 +2578,8 @@
           }
         ],
         "warning": null,
-        "kama": 7.241,
-        "k_pct": 1.4,
+        "kama": 7.262,
+        "k_pct": 0.88,
         "weight_pct": 100.0
       }
     ],
@@ -3498,10 +3490,7 @@
         "exit_ts": "2026-06-09 18:33 CET"
       }
     ],
-    "cooldowns": {
-      "CURE.MI": "2026-06-11",
-      "GNOM.MI": "2026-06-11"
-    }
+    "cooldowns": {}
   },
   "crypto": {
     "positions": [
@@ -3516,7 +3505,7 @@
         "stop_loss": 101.204,
         "trailing_stop": 107.171,
         "current_gain_pct": 3.49,
-        "days_held": 13,
+        "days_held": 14,
         "pre_alert": false,
         "target_hit": false,
         "score": 30.0,
@@ -3581,7 +3570,51 @@
         "warning": null,
         "kama": 105.779,
         "k_pct": 2.32,
-        "weight_pct": 100.0
+        "weight_pct": 39.3
+      },
+      {
+        "ticker": "BTECJ.MI",
+        "name": "iShares Blockchain JPY Hedged",
+        "entry_date": "2026-06-11",
+        "entry_ts": "2026-06-11 13:24 CET",
+        "entry_price": 11047.06,
+        "current_price": 11047.06,
+        "target_price": 11820.354,
+        "stop_loss": 10965.251,
+        "trailing_stop": 10965.251,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 46.3,
+        "er": 1.0,
+        "current_level": "BUY2",
+        "buy_level": "BUY2",
+        "level_ts": "2026-06-11 13:24 CET",
+        "peak_score": 46.3,
+        "days_in_buy1": 0,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 4.3,
+        "perf30": -1.11,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-06-11 13:24 CET",
+            "level": "BUY2",
+            "reason": "Score 46.3\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.3,
+            "er": 1.0
+          }
+        ],
+        "warning": null,
+        "kama": 11020.168,
+        "k_pct": 0.24,
+        "weight_pct": 60.7
       }
     ],
     "history": [
@@ -5192,64 +5225,7 @@
     "cooldowns": {}
   },
   "infrastrutture": {
-    "positions": [
-      {
-        "ticker": "PAVE.MI",
-        "name": "Global X US Infrastructure ETF",
-        "entry_date": "2026-06-08",
-        "entry_ts": "2026-06-08 14:01 CET",
-        "entry_price": 46.26,
-        "current_price": 45.265,
-        "target_price": 49.498,
-        "stop_loss": 45.323,
-        "trailing_stop": 45.323,
-        "current_gain_pct": -2.15,
-        "days_held": 2,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 18.6,
-        "er": 0.0648,
-        "current_level": "EXIT2",
-        "buy_level": "EXIT2",
-        "level_ts": "2026-06-10 12:58 CET",
-        "peak_score": 36.3,
-        "days_in_buy1": 8,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 1.55,
-        "perf30": 2.01,
-        "stress_flags": [
-          "KAMA rotta",
-          "ER<0.4",
-          "Score -18pt dal picco"
-        ],
-        "stress_score": 3,
-        "events": [
-          {
-            "ts": "2026-06-08 14:01 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.38>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 36.3,
-            "er": 0.38
-          },
-          {
-            "ts": "2026-06-10 12:58 CET",
-            "level": "EXIT2",
-            "reason": "Score -12pt (36\u219224) \u00b7 ER 0.09<0.4",
-            "size_pct": 75,
-            "score": 23.9,
-            "er": 0.09
-          }
-        ],
-        "warning": null,
-        "kama": 45.419,
-        "k_pct": -0.34,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "PAVE.MI",
@@ -6483,9 +6459,81 @@
         "final_gain_pct": 1.33,
         "exit_date": "2026-06-05",
         "exit_ts": "2026-06-05 12:50 CET"
+      },
+      {
+        "ticker": "PAVE.MI",
+        "name": "Global X US Infrastructure ETF",
+        "entry_date": "2026-06-08",
+        "entry_ts": "2026-06-08 14:01 CET",
+        "entry_price": 46.26,
+        "current_price": 45.265,
+        "target_price": 49.498,
+        "stop_loss": 45.323,
+        "trailing_stop": 45.323,
+        "current_gain_pct": -2.15,
+        "days_held": 2,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 18.6,
+        "er": 0.0648,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-06-10 12:58 CET",
+        "peak_score": 36.3,
+        "days_in_buy1": 8,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 1.55,
+        "perf30": 2.01,
+        "stress_flags": [
+          "KAMA rotta",
+          "ER<0.4",
+          "Score -18pt dal picco"
+        ],
+        "stress_score": 3,
+        "events": [
+          {
+            "ts": "2026-06-08 14:01 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.38>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 36.3,
+            "er": 0.38
+          },
+          {
+            "ts": "2026-06-10 12:58 CET",
+            "level": "EXIT2",
+            "reason": "Score -12pt (36\u219224) \u00b7 ER 0.09<0.4",
+            "size_pct": 75,
+            "score": 23.9,
+            "er": 0.09
+          },
+          {
+            "ts": "2026-06-11 13:24 CET",
+            "level": "EXIT3",
+            "reason": "Score 14.6<18 soglia EXIT2",
+            "size_pct": 100,
+            "score": 14.6,
+            "er": 0.04
+          }
+        ],
+        "warning": null,
+        "kama": 45.419,
+        "k_pct": -0.34,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 14.6<18 soglia EXIT2",
+        "exit_price": 45.43,
+        "final_gain_pct": -1.79,
+        "exit_date": "2026-06-11",
+        "exit_ts": "2026-06-11 13:24 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "PAVE.MI": "2026-06-13"
+    }
   },
   "risorse": {
     "positions": [],
@@ -8742,54 +8790,7 @@
     }
   },
   "media": {
-    "positions": [
-      {
-        "ticker": "GLUX.MI",
-        "name": "Amundi S&P Global Luxury ETF",
-        "entry_date": "2026-06-09",
-        "entry_ts": "2026-06-09 12:36 CET",
-        "entry_price": 204.82,
-        "current_price": 203.6,
-        "target_price": 219.157,
-        "stop_loss": 200.156,
-        "trailing_stop": 200.803,
-        "current_gain_pct": -0.6,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 20.9,
-        "er": 0.0608,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-06-09 12:36 CET",
-        "peak_score": 26.2,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 0.47,
-        "perf30": 4.52,
-        "stress_flags": [
-          "ER<0.4"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-06-09 12:36 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 24.6,
-            "er": 0.39
-          }
-        ],
-        "warning": null,
-        "kama": 202.469,
-        "k_pct": 0.56,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "BRIJ.MI",
@@ -9853,10 +9854,70 @@
         "final_gain_pct": 12.37,
         "exit_date": "2026-06-09",
         "exit_ts": "2026-06-09 18:33 CET"
+      },
+      {
+        "ticker": "GLUX.MI",
+        "name": "Amundi S&P Global Luxury ETF",
+        "entry_date": "2026-06-09",
+        "entry_ts": "2026-06-09 12:36 CET",
+        "entry_price": 204.82,
+        "current_price": 203.6,
+        "target_price": 219.157,
+        "stop_loss": 200.156,
+        "trailing_stop": 200.803,
+        "current_gain_pct": -0.6,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 20.9,
+        "er": 0.0608,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-06-09 12:36 CET",
+        "peak_score": 26.2,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 0.47,
+        "perf30": 4.52,
+        "stress_flags": [
+          "ER<0.4"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-06-09 12:36 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 24.6,
+            "er": 0.39
+          },
+          {
+            "ts": "2026-06-11 13:24 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 22.8,
+            "er": 0.04
+          }
+        ],
+        "warning": null,
+        "kama": 202.469,
+        "k_pct": 0.56,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 205.54,
+        "final_gain_pct": 0.35,
+        "exit_date": "2026-06-11",
+        "exit_ts": "2026-06-11 13:24 CET"
       }
     ],
     "cooldowns": {
-      "ESPY.MI": "2026-06-11"
+      "GLUX.MI": "2026-06-13"
     }
   },
   "acqua": {
@@ -11908,7 +11969,6 @@
       }
     ],
     "cooldowns": {
-      "FAMMWS.MI": "2026-06-11",
       "SMH.MI": "2026-06-12"
     }
   },
