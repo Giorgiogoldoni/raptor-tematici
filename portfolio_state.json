@@ -2564,7 +2564,7 @@
         "stop_loss": 7.172,
         "trailing_stop": 7.282,
         "current_gain_pct": -0.15,
-        "days_held": 3,
+        "days_held": 4,
         "pre_alert": false,
         "target_hit": false,
         "score": 42.1,
@@ -2573,7 +2573,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-06-11 21:37 CET",
         "peak_score": 51.8,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -3518,52 +3518,7 @@
     "cooldowns": {}
   },
   "crypto": {
-    "positions": [
-      {
-        "ticker": "BTECJ.MI",
-        "name": "iShares Blockchain JPY Hedged",
-        "entry_date": "2026-06-11",
-        "entry_ts": "2026-06-11 13:24 CET",
-        "entry_price": 11047.06,
-        "current_price": 11047.06,
-        "target_price": 11820.354,
-        "stop_loss": 10965.251,
-        "trailing_stop": 10965.251,
-        "current_gain_pct": 0.0,
-        "days_held": 0,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 46.3,
-        "er": 1.0,
-        "current_level": "BUY2",
-        "buy_level": "BUY2",
-        "level_ts": "2026-06-11 13:24 CET",
-        "peak_score": 46.3,
-        "days_in_buy1": 0,
-        "trend": "GRIGIO",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 4.3,
-        "perf30": -1.11,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-06-11 13:24 CET",
-            "level": "BUY2",
-            "reason": "Score 46.3\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.3,
-            "er": 1.0
-          }
-        ],
-        "warning": null,
-        "kama": 11020.168,
-        "k_pct": 0.24,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "BTC.MI",
@@ -4384,10 +4339,69 @@
         "final_gain_pct": 2.22,
         "exit_date": "2026-06-11",
         "exit_ts": "2026-06-11 18:09 CET"
+      },
+      {
+        "ticker": "BTECJ.MI",
+        "name": "iShares Blockchain JPY Hedged",
+        "entry_date": "2026-06-11",
+        "entry_ts": "2026-06-11 13:24 CET",
+        "entry_price": 11047.06,
+        "current_price": 11047.06,
+        "target_price": 11820.354,
+        "stop_loss": 10965.251,
+        "trailing_stop": 10965.251,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 46.3,
+        "er": 1.0,
+        "current_level": "BUY2",
+        "buy_level": "BUY2",
+        "level_ts": "2026-06-11 13:24 CET",
+        "peak_score": 46.3,
+        "days_in_buy1": 0,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 4.3,
+        "perf30": -1.11,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-06-11 13:24 CET",
+            "level": "BUY2",
+            "reason": "Score 46.3\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.3,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-06-12 13:03 CET",
+            "level": "EXIT3",
+            "reason": "Score 12.0<22 soglia BUY2",
+            "size_pct": 100,
+            "score": 12.0,
+            "er": 0.24
+          }
+        ],
+        "warning": null,
+        "kama": 11020.168,
+        "k_pct": 0.24,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 12.0<22 soglia BUY2",
+        "exit_price": 10765.63,
+        "final_gain_pct": -2.55,
+        "exit_date": "2026-06-12",
+        "exit_ts": "2026-06-12 13:03 CET"
       }
     ],
     "cooldowns": {
-      "BTECH.MI": "2026-06-13"
+      "BTECH.MI": "2026-06-13",
+      "BTECJ.MI": "2026-06-14"
     }
   },
   "mobilita": {
@@ -6577,7 +6591,52 @@
     }
   },
   "risorse": {
-    "positions": [],
+    "positions": [
+      {
+        "ticker": "VEGI.MI",
+        "name": "iShares Agribusiness ETF EUR",
+        "entry_date": "2026-06-12",
+        "entry_ts": "2026-06-12 13:03 CET",
+        "entry_price": 19.612,
+        "current_price": 19.612,
+        "target_price": 20.985,
+        "stop_loss": 19.45,
+        "trailing_stop": 19.45,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 36.0,
+        "er": 0.4442,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-06-12 13:03 CET",
+        "peak_score": 36.0,
+        "days_in_buy1": 1,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 2.5,
+        "perf30": 1.46,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-06-12 13:03 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.44>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 36.0,
+            "er": 0.44
+          }
+        ],
+        "warning": null,
+        "kama": 19.549,
+        "k_pct": 0.32,
+        "weight_pct": 100.0
+      }
+    ],
     "history": [
       {
         "ticker": "METL.MI",
@@ -8826,9 +8885,7 @@
         "exit_ts": "2026-06-10 16:27 CET"
       }
     ],
-    "cooldowns": {
-      "SNSR.MI": "2026-06-12"
-    }
+    "cooldowns": {}
   },
   "media": {
     "positions": [],
@@ -12009,9 +12066,7 @@
         "exit_ts": "2026-06-10 12:58 CET"
       }
     ],
-    "cooldowns": {
-      "SMH.MI": "2026-06-12"
-    }
+    "cooldowns": {}
   },
   "altro": {
     "positions": [
