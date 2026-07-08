@@ -821,7 +821,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-08 18:42 CET",
         "peak_score": 57.6,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -3918,7 +3918,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-07 18:33 CET",
         "peak_score": 52.3,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -4012,7 +4012,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-08 11:27 CET",
         "peak_score": 56.8,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -10590,7 +10590,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-08 18:42 CET",
         "peak_score": 53.5,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -12584,7 +12584,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-07 18:34 CET",
         "peak_score": 45.6,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -16895,7 +16895,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 48.1
+        "weight_pct": 68.2
       },
       {
         "ticker": "FAMWCS.MI",
@@ -16982,51 +16982,7 @@
         "warning": null,
         "kama": 101.889,
         "k_pct": 0.9,
-        "weight_pct": 22.5
-      },
-      {
-        "ticker": "ROE.MI",
-        "name": "iShares Return on Equity ETF",
-        "entry_date": "2026-07-07",
-        "entry_ts": "2026-07-07 15:22 CET",
-        "entry_price": 10.27,
-        "current_price": 10.302,
-        "target_price": 10.989,
-        "stop_loss": 10.195,
-        "trailing_stop": 10.227,
-        "current_gain_pct": 0.31,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 29.9,
-        "er": 0.5355,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-07 15:22 CET",
-        "peak_score": 29.9,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 1.74,
-        "perf30": 0.9,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-07-07 15:22 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 26.3,
-            "er": 0.39
-          }
-        ],
-        "warning": null,
-        "kama": 10.27,
-        "k_pct": 0.31,
-        "weight_pct": 29.4
+        "weight_pct": 31.8
       }
     ],
     "history": [
@@ -18130,10 +18086,69 @@
         "final_gain_pct": 0.36,
         "exit_date": "2026-07-07",
         "exit_ts": "2026-07-07 15:22 CET"
+      },
+      {
+        "ticker": "ROE.MI",
+        "name": "iShares Return on Equity ETF",
+        "entry_date": "2026-07-07",
+        "entry_ts": "2026-07-07 15:22 CET",
+        "entry_price": 10.27,
+        "current_price": 10.302,
+        "target_price": 10.989,
+        "stop_loss": 10.195,
+        "trailing_stop": 10.227,
+        "current_gain_pct": 0.31,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 29.9,
+        "er": 0.5355,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-07 15:22 CET",
+        "peak_score": 29.9,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 1.74,
+        "perf30": 0.9,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-07 15:22 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 26.3,
+            "er": 0.39
+          },
+          {
+            "ts": "2026-07-08 20:21 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 29.9,
+            "er": 0.54
+          }
+        ],
+        "warning": null,
+        "kama": 10.27,
+        "k_pct": 0.31,
+        "weight_pct": 29.4,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 10.302,
+        "final_gain_pct": 0.31,
+        "exit_date": "2026-07-08",
+        "exit_ts": "2026-07-08 20:21 CET"
       }
     ],
     "cooldowns": {
-      "MILL.MI": "2026-07-09"
+      "MILL.MI": "2026-07-09",
+      "ROE.MI": "2026-07-10"
     }
   }
 }
