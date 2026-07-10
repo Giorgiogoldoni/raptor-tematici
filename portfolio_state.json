@@ -71,7 +71,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-10 18:26 CET",
         "peak_score": 49.6,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -797,70 +797,7 @@
         "warning": null,
         "kama": 38.975,
         "k_pct": 1.35,
-        "weight_pct": 47.2
-      },
-      {
-        "ticker": "BUG.MI",
-        "name": "Global X Cybersecurity ETF",
-        "entry_date": "2026-06-29",
-        "entry_ts": "2026-06-29 14:01 CET",
-        "entry_price": 13.994,
-        "current_price": 15.368,
-        "target_price": 14.974,
-        "stop_loss": 13.525,
-        "trailing_stop": 15.498,
-        "current_gain_pct": 9.82,
-        "days_held": 11,
-        "pre_alert": false,
-        "target_hit": true,
-        "score": 27.8,
-        "er": 0.4435,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-09 12:26 CET",
-        "peak_score": 56.4,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": -0.13,
-        "perf30": 14.74,
-        "stress_flags": [
-          "KAMA rotta",
-          "Score -29pt dal picco"
-        ],
-        "stress_score": 2,
-        "events": [
-          {
-            "ts": "2026-06-29 14:01 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.41>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 46.0,
-            "er": 0.41
-          },
-          {
-            "ts": "2026-06-29 18:39 CET",
-            "level": "BUY2",
-            "reason": "Score 49.3\u226545 \u00b7 AO>0 \u00b7 ER 0.52\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 49.3,
-            "er": 0.52
-          },
-          {
-            "ts": "2026-07-09 12:26 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 36.5<45",
-            "size_pct": 75,
-            "score": 36.5,
-            "er": 0.56
-          }
-        ],
-        "warning": null,
-        "kama": 15.373,
-        "k_pct": -0.03,
-        "weight_pct": 52.8
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -1874,11 +1811,89 @@
         "final_gain_pct": -2.3,
         "exit_date": "2026-07-10",
         "exit_ts": "2026-07-10 18:26 CET"
+      },
+      {
+        "ticker": "BUG.MI",
+        "name": "Global X Cybersecurity ETF",
+        "entry_date": "2026-06-29",
+        "entry_ts": "2026-06-29 14:01 CET",
+        "entry_price": 13.994,
+        "current_price": 15.368,
+        "target_price": 14.974,
+        "stop_loss": 13.525,
+        "trailing_stop": 15.498,
+        "current_gain_pct": 9.82,
+        "days_held": 11,
+        "pre_alert": false,
+        "target_hit": true,
+        "score": 27.8,
+        "er": 0.4435,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-09 12:26 CET",
+        "peak_score": 56.4,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": -0.13,
+        "perf30": 14.74,
+        "stress_flags": [
+          "KAMA rotta",
+          "Score -29pt dal picco"
+        ],
+        "stress_score": 2,
+        "events": [
+          {
+            "ts": "2026-06-29 14:01 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.41>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 46.0,
+            "er": 0.41
+          },
+          {
+            "ts": "2026-06-29 18:39 CET",
+            "level": "BUY2",
+            "reason": "Score 49.3\u226545 \u00b7 AO>0 \u00b7 ER 0.52\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 49.3,
+            "er": 0.52
+          },
+          {
+            "ts": "2026-07-09 12:26 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 36.5<45",
+            "size_pct": 75,
+            "score": 36.5,
+            "er": 0.56
+          },
+          {
+            "ts": "2026-07-10 20:24 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 27.8,
+            "er": 0.44
+          }
+        ],
+        "warning": null,
+        "kama": 15.373,
+        "k_pct": -0.03,
+        "weight_pct": 52.8,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 15.368,
+        "final_gain_pct": 9.82,
+        "exit_date": "2026-07-10",
+        "exit_ts": "2026-07-10 20:24 CET"
       }
     ],
     "cooldowns": {
       "WCBR.MI": "2026-07-12",
-      "FAMMAI.MI": "2026-07-12"
+      "FAMMAI.MI": "2026-07-12",
+      "BUG.MI": "2026-07-12"
     }
   },
   "energia": {
@@ -5560,7 +5575,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-10 15:14 CET",
         "peak_score": 26.9,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11008,7 +11023,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-10 15:14 CET",
         "peak_score": 49.2,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11062,7 +11077,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-10 12:25 CET",
         "peak_score": 35.1,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -17460,7 +17475,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-10 18:26 CET",
         "peak_score": 46.4,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": true,
