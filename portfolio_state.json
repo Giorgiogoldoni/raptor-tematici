@@ -4079,33 +4079,35 @@
         "entry_date": "2026-06-08",
         "entry_ts": "2026-06-08 18:50 CET",
         "entry_price": 7.274,
-        "current_price": 8.263,
+        "current_price": 8.194,
         "target_price": 7.783,
         "stop_loss": 7.172,
         "trailing_stop": 8.351,
-        "current_gain_pct": 13.6,
+        "current_gain_pct": 12.65,
         "days_held": 36,
         "pre_alert": false,
         "target_hit": true,
-        "score": 23.7,
-        "er": 0.4141,
-        "current_level": "EXIT1",
-        "buy_level": "EXIT1",
-        "level_ts": "2026-07-14 11:06 CET",
+        "score": 20.9,
+        "er": 0.3253,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-07-14 19:17 CET",
         "peak_score": 52.3,
         "days_in_buy1": 8,
         "trend": "VERDE",
         "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": -0.88,
-        "perf30": 16.18,
+        "perf7": -1.7,
+        "perf30": 15.21,
         "stress_flags": [
+          "KAMA rotta",
           "SAR bear",
           "AO calante",
-          "Score -29pt dal picco"
+          "ER<0.4",
+          "Score -31pt dal picco"
         ],
-        "stress_score": 3,
+        "stress_score": 5,
         "events": [
           {
             "ts": "2026-06-08 18:50 CET",
@@ -4194,11 +4196,19 @@
             "size_pct": 40,
             "score": 23.7,
             "er": 0.41
+          },
+          {
+            "ts": "2026-07-14 19:17 CET",
+            "level": "EXIT2",
+            "reason": "Score -31pt (52\u219221) \u00b7 ER 0.33<0.4",
+            "size_pct": 75,
+            "score": 20.9,
+            "er": 0.33
           }
         ],
         "warning": null,
-        "kama": 8.26,
-        "k_pct": 0.04,
+        "kama": 8.23,
+        "k_pct": -0.44,
         "weight_pct": 100.0
       }
     ],
@@ -5480,7 +5490,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 11:06 CET",
         "peak_score": 59.3,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11137,7 +11147,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-13 18:37 CET",
         "peak_score": 48.9,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -17661,7 +17671,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 54.4
+        "weight_pct": 54.3
       },
       {
         "ticker": "MLPS.MI",
@@ -17669,31 +17679,29 @@
         "entry_date": "2026-07-13",
         "entry_ts": "2026-07-13 12:30 CET",
         "entry_price": 139.99,
-        "current_price": 141.68,
+        "current_price": 141.72,
         "target_price": 149.789,
         "stop_loss": 138.376,
         "trailing_stop": 141.63,
-        "current_gain_pct": 1.21,
+        "current_gain_pct": 1.24,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 41.0,
-        "er": 0.4703,
+        "score": 41.2,
+        "er": 0.476,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 15:52 CET",
         "peak_score": 47.1,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 3.36,
-        "perf30": 3.47,
-        "stress_flags": [
-          "Score -6pt dal picco"
-        ],
-        "stress_score": 1,
+        "perf7": 3.39,
+        "perf30": 3.5,
+        "stress_flags": [],
+        "stress_score": 0,
         "events": [
           {
             "ts": "2026-07-13 12:30 CET",
@@ -17721,9 +17729,9 @@
           }
         ],
         "warning": null,
-        "kama": 140.124,
-        "k_pct": 1.11,
-        "weight_pct": 45.6
+        "kama": 140.134,
+        "k_pct": 1.13,
+        "weight_pct": 45.7
       }
     ],
     "history": [
