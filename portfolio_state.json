@@ -5480,7 +5480,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 11:06 CET",
         "peak_score": 59.3,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11137,7 +11137,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-13 18:37 CET",
         "peak_score": 48.9,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -17661,7 +17661,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 51.0
+        "weight_pct": 52.5
       },
       {
         "ticker": "MLPS.MI",
@@ -17669,27 +17669,27 @@
         "entry_date": "2026-07-13",
         "entry_ts": "2026-07-13 12:30 CET",
         "entry_price": 139.99,
-        "current_price": 143.39,
+        "current_price": 142.52,
         "target_price": 149.789,
         "stop_loss": 138.376,
         "trailing_stop": 141.63,
-        "current_gain_pct": 2.43,
+        "current_gain_pct": 1.81,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 47.1,
-        "er": 0.5839,
-        "current_level": "BUY2",
-        "buy_level": "BUY2",
-        "level_ts": "2026-07-14 11:06 CET",
+        "score": 44.4,
+        "er": 0.5489,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-14 15:52 CET",
         "peak_score": 47.1,
-        "days_in_buy1": 0,
+        "days_in_buy1": 1,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 4.61,
-        "perf30": 4.72,
+        "perf7": 3.98,
+        "perf30": 4.08,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -17708,12 +17708,20 @@
             "size_pct": 70,
             "score": 45.4,
             "er": 0.56
+          },
+          {
+            "ts": "2026-07-14 15:52 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.4<45",
+            "size_pct": 75,
+            "score": 44.4,
+            "er": 0.55
           }
         ],
         "warning": null,
-        "kama": 140.549,
-        "k_pct": 2.02,
-        "weight_pct": 49.0
+        "kama": 140.333,
+        "k_pct": 1.56,
+        "weight_pct": 47.5
       }
     ],
     "history": [
