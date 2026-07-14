@@ -5480,7 +5480,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 11:06 CET",
         "peak_score": 59.3,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11137,7 +11137,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-13 18:37 CET",
         "peak_score": 48.9,
-        "days_in_buy1": 5,
+        "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -17661,7 +17661,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 52.5
+        "weight_pct": 54.4
       },
       {
         "ticker": "MLPS.MI",
@@ -17669,29 +17669,31 @@
         "entry_date": "2026-07-13",
         "entry_ts": "2026-07-13 12:30 CET",
         "entry_price": 139.99,
-        "current_price": 142.52,
+        "current_price": 141.68,
         "target_price": 149.789,
         "stop_loss": 138.376,
         "trailing_stop": 141.63,
-        "current_gain_pct": 1.81,
+        "current_gain_pct": 1.21,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 44.4,
-        "er": 0.5489,
+        "score": 41.0,
+        "er": 0.4703,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 15:52 CET",
         "peak_score": 47.1,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 3.98,
-        "perf30": 4.08,
-        "stress_flags": [],
-        "stress_score": 0,
+        "perf7": 3.36,
+        "perf30": 3.47,
+        "stress_flags": [
+          "Score -6pt dal picco"
+        ],
+        "stress_score": 1,
         "events": [
           {
             "ts": "2026-07-13 12:30 CET",
@@ -17719,9 +17721,9 @@
           }
         ],
         "warning": null,
-        "kama": 140.333,
-        "k_pct": 1.56,
-        "weight_pct": 47.5
+        "kama": 140.124,
+        "k_pct": 1.11,
+        "weight_pct": 45.6
       }
     ],
     "history": [
