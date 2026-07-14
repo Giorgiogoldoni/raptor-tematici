@@ -24,7 +24,7 @@
         "perf7": 4.33,
         "perf30": 1.22,
         "warning": "Dati non disponibili",
-        "weight_pct": 34.1
+        "weight_pct": 46.5
       },
       {
         "ticker": "FAMMWS.MI",
@@ -49,125 +49,7 @@
         "perf7": 15.29,
         "perf30": 13.08,
         "warning": "Dati non disponibili",
-        "weight_pct": 39.2
-      },
-      {
-        "ticker": "CLOU.MI",
-        "name": "WisdomTree Cloud Computing ETF",
-        "entry_date": "2026-07-03",
-        "entry_ts": "2026-07-03 14:57 CET",
-        "entry_price": 9.969,
-        "current_price": 10.498,
-        "target_price": 10.667,
-        "stop_loss": 9.686,
-        "trailing_stop": 10.23,
-        "current_gain_pct": 5.31,
-        "days_held": 11,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 38.0,
-        "er": 0.4461,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-10 18:26 CET",
-        "peak_score": 49.6,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 4.96,
-        "perf30": -2.6,
-        "stress_flags": [
-          "Score -12pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-07-03 14:57 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 40.3,
-            "er": 0.39
-          },
-          {
-            "ts": "2026-07-03 17:17 CET",
-            "level": "EXIT2",
-            "reason": "Score -8pt (48\u219240) \u00b7 ER 0.39<0.4",
-            "size_pct": 75,
-            "score": 40.3,
-            "er": 0.39
-          },
-          {
-            "ts": "2026-07-03 19:36 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.42>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 41.2,
-            "er": 0.42
-          },
-          {
-            "ts": "2026-07-06 20:12 CET",
-            "level": "BUY2",
-            "reason": "Score 46.6\u226545 \u00b7 AO>0 \u00b7 ER 0.53\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.6,
-            "er": 0.53
-          },
-          {
-            "ts": "2026-07-08 11:27 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 44.0<45 \u00b7 ER 0.38<0.5",
-            "size_pct": 75,
-            "score": 44.0,
-            "er": 0.38
-          },
-          {
-            "ts": "2026-07-08 18:42 CET",
-            "level": "EXIT2",
-            "reason": "Score -8pt (50\u219242) \u00b7 ER 0.34<0.4",
-            "size_pct": 75,
-            "score": 41.6,
-            "er": 0.34
-          },
-          {
-            "ts": "2026-07-09 12:26 CET",
-            "level": "BUY2",
-            "reason": "Score 47.2\u226545 \u00b7 AO>0 \u00b7 ER 0.57\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 47.2,
-            "er": 0.57
-          },
-          {
-            "ts": "2026-07-10 12:25 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 42.6<45",
-            "size_pct": 75,
-            "score": 42.6,
-            "er": 0.61
-          },
-          {
-            "ts": "2026-07-10 15:13 CET",
-            "level": "BUY2",
-            "reason": "Score 45.5\u226545 \u00b7 AO>0 \u00b7 ER 0.62\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 45.5,
-            "er": 0.62
-          },
-          {
-            "ts": "2026-07-10 18:26 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 37.3<45",
-            "size_pct": 75,
-            "score": 37.3,
-            "er": 0.54
-          }
-        ],
-        "warning": null,
-        "kama": 10.062,
-        "k_pct": 4.33,
-        "weight_pct": 26.8
+        "weight_pct": 53.5
       }
     ],
     "history": [
@@ -698,9 +580,143 @@
         "final_gain_pct": -0.47,
         "exit_date": "2026-07-03",
         "exit_ts": "2026-07-03 14:57 CET"
+      },
+      {
+        "ticker": "CLOU.MI",
+        "name": "WisdomTree Cloud Computing ETF",
+        "entry_date": "2026-07-03",
+        "entry_ts": "2026-07-03 14:57 CET",
+        "entry_price": 9.969,
+        "current_price": 10.498,
+        "target_price": 10.667,
+        "stop_loss": 9.686,
+        "trailing_stop": 10.23,
+        "current_gain_pct": 5.31,
+        "days_held": 11,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 38.0,
+        "er": 0.4461,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-10 18:26 CET",
+        "peak_score": 49.6,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 4.96,
+        "perf30": -2.6,
+        "stress_flags": [
+          "Score -12pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-07-03 14:57 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 40.3,
+            "er": 0.39
+          },
+          {
+            "ts": "2026-07-03 17:17 CET",
+            "level": "EXIT2",
+            "reason": "Score -8pt (48\u219240) \u00b7 ER 0.39<0.4",
+            "size_pct": 75,
+            "score": 40.3,
+            "er": 0.39
+          },
+          {
+            "ts": "2026-07-03 19:36 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.42>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 41.2,
+            "er": 0.42
+          },
+          {
+            "ts": "2026-07-06 20:12 CET",
+            "level": "BUY2",
+            "reason": "Score 46.6\u226545 \u00b7 AO>0 \u00b7 ER 0.53\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.6,
+            "er": 0.53
+          },
+          {
+            "ts": "2026-07-08 11:27 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.0<45 \u00b7 ER 0.38<0.5",
+            "size_pct": 75,
+            "score": 44.0,
+            "er": 0.38
+          },
+          {
+            "ts": "2026-07-08 18:42 CET",
+            "level": "EXIT2",
+            "reason": "Score -8pt (50\u219242) \u00b7 ER 0.34<0.4",
+            "size_pct": 75,
+            "score": 41.6,
+            "er": 0.34
+          },
+          {
+            "ts": "2026-07-09 12:26 CET",
+            "level": "BUY2",
+            "reason": "Score 47.2\u226545 \u00b7 AO>0 \u00b7 ER 0.57\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 47.2,
+            "er": 0.57
+          },
+          {
+            "ts": "2026-07-10 12:25 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 42.6<45",
+            "size_pct": 75,
+            "score": 42.6,
+            "er": 0.61
+          },
+          {
+            "ts": "2026-07-10 15:13 CET",
+            "level": "BUY2",
+            "reason": "Score 45.5\u226545 \u00b7 AO>0 \u00b7 ER 0.62\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.5,
+            "er": 0.62
+          },
+          {
+            "ts": "2026-07-10 18:26 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 37.3<45",
+            "size_pct": 75,
+            "score": 37.3,
+            "er": 0.54
+          },
+          {
+            "ts": "2026-07-14 13:26 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 38.0,
+            "er": 0.45
+          }
+        ],
+        "warning": null,
+        "kama": 10.062,
+        "k_pct": 4.33,
+        "weight_pct": 26.8,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 10.498,
+        "final_gain_pct": 5.31,
+        "exit_date": "2026-07-14",
+        "exit_ts": "2026-07-14 13:26 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "CLOU.MI": "2026-07-16"
+    }
   },
   "difesa": {
     "positions": [],
@@ -5445,102 +5461,6 @@
   "crypto": {
     "positions": [
       {
-        "ticker": "BTECH.MI",
-        "name": "iShares Blockchain Technology ETF",
-        "entry_date": "2026-06-25",
-        "entry_ts": "2026-06-25 18:28 CET",
-        "entry_price": 117.01,
-        "current_price": 120.24,
-        "target_price": 125.201,
-        "stop_loss": 113.789,
-        "trailing_stop": 118.806,
-        "current_gain_pct": 2.76,
-        "days_held": 19,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 18.4,
-        "er": 0.2184,
-        "current_level": "EXIT2",
-        "buy_level": "EXIT2",
-        "level_ts": "2026-07-08 18:42 CET",
-        "peak_score": 50.9,
-        "days_in_buy1": 8,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": -0.73,
-        "perf30": 13.95,
-        "stress_flags": [
-          "AO calante",
-          "ER<0.4",
-          "Score -32pt dal picco"
-        ],
-        "stress_score": 3,
-        "events": [
-          {
-            "ts": "2026-06-25 18:28 CET",
-            "level": "BUY2",
-            "reason": "Score 45.3\u226545 \u00b7 AO>0 \u00b7 ER 0.85\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 45.3,
-            "er": 0.85
-          },
-          {
-            "ts": "2026-06-26 12:24 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 42.1<45",
-            "size_pct": 75,
-            "score": 42.1,
-            "er": 0.67
-          },
-          {
-            "ts": "2026-06-26 18:20 CET",
-            "level": "BUY2",
-            "reason": "Score 46.2\u226545 \u00b7 AO>0 \u00b7 ER 0.88\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.2,
-            "er": 0.88
-          },
-          {
-            "ts": "2026-07-06 17:40 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 43.9<45",
-            "size_pct": 75,
-            "score": 43.9,
-            "er": 0.85
-          },
-          {
-            "ts": "2026-07-06 20:12 CET",
-            "level": "BUY2",
-            "reason": "Score 46.5\u226545 \u00b7 AO>0 \u00b7 ER 0.92\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.5,
-            "er": 0.92
-          },
-          {
-            "ts": "2026-07-07 12:27 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 37.2<45",
-            "size_pct": 75,
-            "score": 37.2,
-            "er": 0.92
-          },
-          {
-            "ts": "2026-07-08 18:42 CET",
-            "level": "EXIT2",
-            "reason": "Score -26pt (51\u219225) \u00b7 ER 0.28<0.4",
-            "size_pct": 75,
-            "score": 24.7,
-            "er": 0.28
-          }
-        ],
-        "warning": null,
-        "kama": 119.095,
-        "k_pct": 0.96,
-        "weight_pct": 31.2
-      },
-      {
         "ticker": "BTECJ.MI",
         "name": "iShares Blockchain JPY Hedged",
         "entry_date": "2026-07-06",
@@ -5560,7 +5480,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 11:06 CET",
         "peak_score": 59.3,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -5592,7 +5512,7 @@
         "warning": null,
         "kama": 12044.474,
         "k_pct": 0.62,
-        "weight_pct": 68.8
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -6708,10 +6628,121 @@
         "final_gain_pct": -0.26,
         "exit_date": "2026-07-14",
         "exit_ts": "2026-07-14 11:06 CET"
+      },
+      {
+        "ticker": "BTECH.MI",
+        "name": "iShares Blockchain Technology ETF",
+        "entry_date": "2026-06-25",
+        "entry_ts": "2026-06-25 18:28 CET",
+        "entry_price": 117.01,
+        "current_price": 120.24,
+        "target_price": 125.201,
+        "stop_loss": 113.789,
+        "trailing_stop": 118.806,
+        "current_gain_pct": 2.76,
+        "days_held": 19,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 18.4,
+        "er": 0.2184,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-07-08 18:42 CET",
+        "peak_score": 50.9,
+        "days_in_buy1": 8,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": -0.73,
+        "perf30": 13.95,
+        "stress_flags": [
+          "AO calante",
+          "ER<0.4",
+          "Score -32pt dal picco"
+        ],
+        "stress_score": 3,
+        "events": [
+          {
+            "ts": "2026-06-25 18:28 CET",
+            "level": "BUY2",
+            "reason": "Score 45.3\u226545 \u00b7 AO>0 \u00b7 ER 0.85\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.3,
+            "er": 0.85
+          },
+          {
+            "ts": "2026-06-26 12:24 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 42.1<45",
+            "size_pct": 75,
+            "score": 42.1,
+            "er": 0.67
+          },
+          {
+            "ts": "2026-06-26 18:20 CET",
+            "level": "BUY2",
+            "reason": "Score 46.2\u226545 \u00b7 AO>0 \u00b7 ER 0.88\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.2,
+            "er": 0.88
+          },
+          {
+            "ts": "2026-07-06 17:40 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 43.9<45",
+            "size_pct": 75,
+            "score": 43.9,
+            "er": 0.85
+          },
+          {
+            "ts": "2026-07-06 20:12 CET",
+            "level": "BUY2",
+            "reason": "Score 46.5\u226545 \u00b7 AO>0 \u00b7 ER 0.92\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.5,
+            "er": 0.92
+          },
+          {
+            "ts": "2026-07-07 12:27 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 37.2<45",
+            "size_pct": 75,
+            "score": 37.2,
+            "er": 0.92
+          },
+          {
+            "ts": "2026-07-08 18:42 CET",
+            "level": "EXIT2",
+            "reason": "Score -26pt (51\u219225) \u00b7 ER 0.28<0.4",
+            "size_pct": 75,
+            "score": 24.7,
+            "er": 0.28
+          },
+          {
+            "ts": "2026-07-14 13:26 CET",
+            "level": "EXIT3",
+            "reason": "Score 15.6<18 soglia EXIT2",
+            "size_pct": 100,
+            "score": 15.6,
+            "er": 0.16
+          }
+        ],
+        "warning": null,
+        "kama": 119.095,
+        "k_pct": 0.96,
+        "weight_pct": 31.2,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 15.6<18 soglia EXIT2",
+        "exit_price": 119.52,
+        "final_gain_pct": 2.15,
+        "exit_date": "2026-07-14",
+        "exit_ts": "2026-07-14 13:26 CET"
       }
     ],
     "cooldowns": {
-      "WEB3.MI": "2026-07-16"
+      "WEB3.MI": "2026-07-16",
+      "BTECH.MI": "2026-07-16"
     }
   },
   "mobilita": {
@@ -11106,7 +11137,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-13 18:37 CET",
         "peak_score": 48.9,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -17630,61 +17661,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 37.1
-      },
-      {
-        "ticker": "KWBE.MI",
-        "name": "L&G ROBO Global Robotics ETF",
-        "entry_date": "2026-07-09",
-        "entry_ts": "2026-07-09 18:29 CET",
-        "entry_price": 12.268,
-        "current_price": 12.22,
-        "target_price": 13.127,
-        "stop_loss": 11.837,
-        "trailing_stop": 11.919,
-        "current_gain_pct": -0.39,
-        "days_held": 5,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 37.6,
-        "er": 0.5444,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-10 18:26 CET",
-        "peak_score": 46.4,
-        "days_in_buy1": 7,
-        "trend": "GRIGIO",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 4.86,
-        "perf30": -6.22,
-        "stress_flags": [
-          "Score -9pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-07-09 18:29 CET",
-            "level": "BUY2",
-            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.69\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.4,
-            "er": 0.69
-          },
-          {
-            "ts": "2026-07-10 18:26 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 44.5<45",
-            "size_pct": 75,
-            "score": 44.5,
-            "er": 0.68
-          }
-        ],
-        "warning": null,
-        "kama": 12.071,
-        "k_pct": 1.24,
-        "weight_pct": 28.5
+        "weight_pct": 51.0
       },
       {
         "ticker": "MLPS.MI",
@@ -17692,27 +17669,27 @@
         "entry_date": "2026-07-13",
         "entry_ts": "2026-07-13 12:30 CET",
         "entry_price": 139.99,
-        "current_price": 142.82,
+        "current_price": 143.39,
         "target_price": 149.789,
         "stop_loss": 138.376,
-        "trailing_stop": 141.121,
-        "current_gain_pct": 2.02,
+        "trailing_stop": 141.63,
+        "current_gain_pct": 2.43,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 45.4,
-        "er": 0.5616,
+        "score": 47.1,
+        "er": 0.5839,
         "current_level": "BUY2",
         "buy_level": "BUY2",
         "level_ts": "2026-07-14 11:06 CET",
-        "peak_score": 45.4,
+        "peak_score": 47.1,
         "days_in_buy1": 0,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 4.19,
-        "perf30": 4.3,
+        "perf7": 4.61,
+        "perf30": 4.72,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -17734,9 +17711,9 @@
           }
         ],
         "warning": null,
-        "kama": 140.404,
-        "k_pct": 1.72,
-        "weight_pct": 34.4
+        "kama": 140.549,
+        "k_pct": 2.02,
+        "weight_pct": 49.0
       }
     ],
     "history": [
@@ -19057,8 +19034,78 @@
         "final_gain_pct": -0.47,
         "exit_date": "2026-07-10",
         "exit_ts": "2026-07-10 12:26 CET"
+      },
+      {
+        "ticker": "KWBE.MI",
+        "name": "L&G ROBO Global Robotics ETF",
+        "entry_date": "2026-07-09",
+        "entry_ts": "2026-07-09 18:29 CET",
+        "entry_price": 12.268,
+        "current_price": 12.22,
+        "target_price": 13.127,
+        "stop_loss": 11.837,
+        "trailing_stop": 11.919,
+        "current_gain_pct": -0.39,
+        "days_held": 5,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 37.6,
+        "er": 0.5444,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-10 18:26 CET",
+        "peak_score": 46.4,
+        "days_in_buy1": 7,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 4.86,
+        "perf30": -6.22,
+        "stress_flags": [
+          "Score -9pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-07-09 18:29 CET",
+            "level": "BUY2",
+            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.69\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.4,
+            "er": 0.69
+          },
+          {
+            "ts": "2026-07-10 18:26 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.5<45",
+            "size_pct": 75,
+            "score": 44.5,
+            "er": 0.68
+          },
+          {
+            "ts": "2026-07-14 13:27 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 38.1,
+            "er": 0.55
+          }
+        ],
+        "warning": null,
+        "kama": 12.071,
+        "k_pct": 1.24,
+        "weight_pct": 28.5,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 12.236,
+        "final_gain_pct": -0.26,
+        "exit_date": "2026-07-14",
+        "exit_ts": "2026-07-14 13:27 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "KWBE.MI": "2026-07-16"
+    }
   }
 }
