@@ -4079,16 +4079,16 @@
         "entry_date": "2026-06-08",
         "entry_ts": "2026-06-08 18:50 CET",
         "entry_price": 7.274,
-        "current_price": 8.194,
+        "current_price": 8.248,
         "target_price": 7.783,
         "stop_loss": 7.172,
         "trailing_stop": 8.351,
-        "current_gain_pct": 12.65,
-        "days_held": 36,
+        "current_gain_pct": 13.39,
+        "days_held": 37,
         "pre_alert": false,
         "target_hit": true,
-        "score": 20.9,
-        "er": 0.3253,
+        "score": 20.2,
+        "er": 0.3709,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-07-14 19:17 CET",
@@ -4098,16 +4098,15 @@
         "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": -1.7,
-        "perf30": 15.21,
+        "perf7": -2.33,
+        "perf30": 15.97,
         "stress_flags": [
-          "KAMA rotta",
           "SAR bear",
           "AO calante",
           "ER<0.4",
-          "Score -31pt dal picco"
+          "Score -32pt dal picco"
         ],
-        "stress_score": 5,
+        "stress_score": 4,
         "events": [
           {
             "ts": "2026-06-08 18:50 CET",
@@ -4207,8 +4206,8 @@
           }
         ],
         "warning": null,
-        "kama": 8.23,
-        "k_pct": -0.44,
+        "kama": 8.233,
+        "k_pct": 0.19,
         "weight_pct": 100.0
       }
     ],
@@ -5479,9 +5478,9 @@
         "current_price": 12118.84,
         "target_price": 12980.78,
         "stop_loss": 11942.785,
-        "trailing_stop": 11988.51,
+        "trailing_stop": 11997.819,
         "current_gain_pct": -0.1,
-        "days_held": 8,
+        "days_held": 9,
         "pre_alert": false,
         "target_hit": false,
         "score": 40.6,
@@ -5490,17 +5489,18 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 11:06 CET",
         "peak_score": 59.3,
-        "days_in_buy1": 5,
+        "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
+        "vortex_bullish": false,
+        "rvi_bullish": true,
         "perf7": 13.16,
         "perf30": 14.42,
         "stress_flags": [
+          "AO calante",
           "Score -19pt dal picco"
         ],
-        "stress_score": 1,
+        "stress_score": 2,
         "events": [
           {
             "ts": "2026-07-06 13:39 CET",
@@ -5520,8 +5520,8 @@
           }
         ],
         "warning": null,
-        "kama": 12044.474,
-        "k_pct": 0.62,
+        "kama": 12045.149,
+        "k_pct": 0.61,
         "weight_pct": 100.0
       }
     ],
@@ -9552,7 +9552,6 @@
       }
     ],
     "cooldowns": {
-      "CITE.MI": "2026-07-15",
       "XLPE.MI": "2026-07-16"
     }
   },
@@ -11128,55 +11127,47 @@
   "digitale": {
     "positions": [
       {
-        "ticker": "INQQ.MI",
-        "name": "iShares EM Digital Economy ETF",
-        "entry_date": "2026-07-09",
-        "entry_ts": "2026-07-09 12:27 CET",
-        "entry_price": 7.332,
-        "current_price": 7.37,
-        "target_price": 7.845,
-        "stop_loss": 7.283,
-        "trailing_stop": 7.403,
-        "current_gain_pct": 0.52,
-        "days_held": 5,
+        "ticker": "FAMMWF.MI",
+        "name": "Fineco AM MSCI World Financials UCITS ETF",
+        "entry_date": "2026-07-15",
+        "entry_ts": "2026-07-15 11:11 CET",
+        "entry_price": 194.85,
+        "current_price": 194.85,
+        "target_price": 208.489,
+        "stop_loss": 192.073,
+        "trailing_stop": 192.073,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 43.2,
-        "er": 0.7234,
+        "score": 33.7,
+        "er": 0.5514,
         "current_level": "BUY1",
         "buy_level": "BUY1",
-        "level_ts": "2026-07-13 18:37 CET",
-        "peak_score": 48.9,
-        "days_in_buy1": 7,
+        "level_ts": "2026-07-15 11:11 CET",
+        "peak_score": 33.7,
+        "days_in_buy1": 1,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 4.84,
-        "perf30": 10.74,
+        "rvi_bullish": true,
+        "perf7": 1.82,
+        "perf30": 10.76,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
           {
-            "ts": "2026-07-09 12:27 CET",
-            "level": "BUY2",
-            "reason": "Score 46.6\u226545 \u00b7 AO>0 \u00b7 ER 0.94\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.6,
-            "er": 0.94
-          },
-          {
-            "ts": "2026-07-13 18:37 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 43.2<45",
-            "size_pct": 75,
-            "score": 43.2,
-            "er": 0.72
+            "ts": "2026-07-15 11:11 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.55>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 33.7,
+            "er": 0.55
           }
         ],
         "warning": null,
-        "kama": 7.335,
-        "k_pct": 0.48,
+        "kama": 192.637,
+        "k_pct": 1.15,
         "weight_pct": 100.0
       }
     ],
@@ -13239,11 +13230,77 @@
         "final_gain_pct": 0.24,
         "exit_date": "2026-07-14",
         "exit_ts": "2026-07-14 11:06 CET"
+      },
+      {
+        "ticker": "INQQ.MI",
+        "name": "iShares EM Digital Economy ETF",
+        "entry_date": "2026-07-09",
+        "entry_ts": "2026-07-09 12:27 CET",
+        "entry_price": 7.332,
+        "current_price": 7.37,
+        "target_price": 7.845,
+        "stop_loss": 7.283,
+        "trailing_stop": 7.403,
+        "current_gain_pct": 0.52,
+        "days_held": 5,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 43.2,
+        "er": 0.7234,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-13 18:37 CET",
+        "peak_score": 48.9,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 4.84,
+        "perf30": 10.74,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-09 12:27 CET",
+            "level": "BUY2",
+            "reason": "Score 46.6\u226545 \u00b7 AO>0 \u00b7 ER 0.94\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.6,
+            "er": 0.94
+          },
+          {
+            "ts": "2026-07-13 18:37 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 43.2<45",
+            "size_pct": 75,
+            "score": 43.2,
+            "er": 0.72
+          },
+          {
+            "ts": "2026-07-15 11:11 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 43.1,
+            "er": 0.72
+          }
+        ],
+        "warning": null,
+        "kama": 7.335,
+        "k_pct": 0.48,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 7.37,
+        "final_gain_pct": 0.52,
+        "exit_date": "2026-07-15",
+        "exit_ts": "2026-07-15 11:11 CET"
       }
     ],
     "cooldowns": {
-      "FAMMWF.MI": "2026-07-15",
-      "XFNT.MI": "2026-07-16"
+      "XFNT.MI": "2026-07-16",
+      "INQQ.MI": "2026-07-17"
     }
   },
   "media": {
@@ -14921,9 +14978,7 @@
         "exit_ts": "2026-07-13 12:30 CET"
       }
     ],
-    "cooldowns": {
-      "ESPY.MI": "2026-07-15"
-    }
+    "cooldowns": {}
   },
   "acqua": {
     "positions": [],
@@ -17684,7 +17739,7 @@
         "stop_loss": 138.376,
         "trailing_stop": 141.63,
         "current_gain_pct": 1.24,
-        "days_held": 1,
+        "days_held": 2,
         "pre_alert": false,
         "target_hit": false,
         "score": 41.2,
@@ -17693,7 +17748,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 15:52 CET",
         "peak_score": 47.1,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
