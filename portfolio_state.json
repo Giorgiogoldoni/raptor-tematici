@@ -5468,63 +5468,7 @@
     }
   },
   "crypto": {
-    "positions": [
-      {
-        "ticker": "BTECJ.MI",
-        "name": "iShares Blockchain JPY Hedged",
-        "entry_date": "2026-07-06",
-        "entry_ts": "2026-07-06 13:39 CET",
-        "entry_price": 12131.57,
-        "current_price": 12118.84,
-        "target_price": 12980.78,
-        "stop_loss": 11942.785,
-        "trailing_stop": 11997.819,
-        "current_gain_pct": -0.1,
-        "days_held": 9,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 40.6,
-        "er": 1.0,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-14 11:06 CET",
-        "peak_score": 59.3,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": false,
-        "rvi_bullish": true,
-        "perf7": 13.16,
-        "perf30": 14.42,
-        "stress_flags": [
-          "AO calante",
-          "Score -19pt dal picco"
-        ],
-        "stress_score": 2,
-        "events": [
-          {
-            "ts": "2026-07-06 13:39 CET",
-            "level": "BUY2",
-            "reason": "Score 59.3\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 59.3,
-            "er": 1.0
-          },
-          {
-            "ts": "2026-07-14 11:06 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 40.6<45",
-            "size_pct": 75,
-            "score": 40.6,
-            "er": 1.0
-          }
-        ],
-        "warning": null,
-        "kama": 12045.149,
-        "k_pct": 0.61,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "BTC.MI",
@@ -6748,11 +6692,81 @@
         "final_gain_pct": 2.15,
         "exit_date": "2026-07-14",
         "exit_ts": "2026-07-14 13:26 CET"
+      },
+      {
+        "ticker": "BTECJ.MI",
+        "name": "iShares Blockchain JPY Hedged",
+        "entry_date": "2026-07-06",
+        "entry_ts": "2026-07-06 13:39 CET",
+        "entry_price": 12131.57,
+        "current_price": 12118.84,
+        "target_price": 12980.78,
+        "stop_loss": 11942.785,
+        "trailing_stop": 11997.819,
+        "current_gain_pct": -0.1,
+        "days_held": 9,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 40.6,
+        "er": 1.0,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-14 11:06 CET",
+        "peak_score": 59.3,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": true,
+        "perf7": 13.16,
+        "perf30": 14.42,
+        "stress_flags": [
+          "AO calante",
+          "Score -19pt dal picco"
+        ],
+        "stress_score": 2,
+        "events": [
+          {
+            "ts": "2026-07-06 13:39 CET",
+            "level": "BUY2",
+            "reason": "Score 59.3\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 59.3,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-07-14 11:06 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 40.6<45",
+            "size_pct": 75,
+            "score": 40.6,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-07-15 15:49 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 40.6,
+            "er": 1.0
+          }
+        ],
+        "warning": null,
+        "kama": 12045.149,
+        "k_pct": 0.61,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 12118.84,
+        "final_gain_pct": -0.1,
+        "exit_date": "2026-07-15",
+        "exit_ts": "2026-07-15 15:49 CET"
       }
     ],
     "cooldowns": {
       "WEB3.MI": "2026-07-16",
-      "BTECH.MI": "2026-07-16"
+      "BTECH.MI": "2026-07-16",
+      "BTECJ.MI": "2026-07-17"
     }
   },
   "mobilita": {
@@ -11146,7 +11160,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-15 11:11 CET",
         "peak_score": 33.7,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -17726,7 +17740,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 54.1
+        "weight_pct": 54.0
       },
       {
         "ticker": "MLPS.MI",
@@ -17734,27 +17748,27 @@
         "entry_date": "2026-07-13",
         "entry_ts": "2026-07-13 12:30 CET",
         "entry_price": 139.99,
-        "current_price": 142.02,
+        "current_price": 142.11,
         "target_price": 149.789,
         "stop_loss": 138.376,
         "trailing_stop": 141.63,
-        "current_gain_pct": 1.45,
+        "current_gain_pct": 1.51,
         "days_held": 2,
         "pre_alert": false,
         "target_hit": false,
-        "score": 41.5,
-        "er": 0.5795,
+        "score": 41.8,
+        "er": 0.5832,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-07-14 15:52 CET",
         "peak_score": 47.1,
-        "days_in_buy1": 5,
+        "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 2.91,
-        "perf30": 1.88,
+        "perf7": 2.98,
+        "perf30": 1.94,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -17784,9 +17798,9 @@
           }
         ],
         "warning": null,
-        "kama": 140.236,
-        "k_pct": 1.27,
-        "weight_pct": 45.9
+        "kama": 140.248,
+        "k_pct": 1.33,
+        "weight_pct": 46.0
       }
     ],
     "history": [
