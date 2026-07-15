@@ -4079,34 +4079,33 @@
         "entry_date": "2026-06-08",
         "entry_ts": "2026-06-08 18:50 CET",
         "entry_price": 7.274,
-        "current_price": 8.248,
+        "current_price": 8.3,
         "target_price": 7.783,
         "stop_loss": 7.172,
         "trailing_stop": 8.351,
-        "current_gain_pct": 13.39,
+        "current_gain_pct": 14.11,
         "days_held": 37,
         "pre_alert": false,
         "target_hit": true,
-        "score": 20.2,
-        "er": 0.3709,
-        "current_level": "EXIT2",
-        "buy_level": "EXIT2",
-        "level_ts": "2026-07-14 19:17 CET",
+        "score": 22.7,
+        "er": 0.4094,
+        "current_level": "EXIT1",
+        "buy_level": "EXIT1",
+        "level_ts": "2026-07-15 19:20 CET",
         "peak_score": 52.3,
         "days_in_buy1": 8,
         "trend": "VERDE",
         "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": -2.33,
-        "perf30": 15.97,
+        "perf7": -1.72,
+        "perf30": 16.7,
         "stress_flags": [
           "SAR bear",
           "AO calante",
-          "ER<0.4",
-          "Score -32pt dal picco"
+          "Score -30pt dal picco"
         ],
-        "stress_score": 4,
+        "stress_score": 3,
         "events": [
           {
             "ts": "2026-06-08 18:50 CET",
@@ -4203,11 +4202,19 @@
             "size_pct": 75,
             "score": 20.9,
             "er": 0.33
+          },
+          {
+            "ts": "2026-07-15 19:20 CET",
+            "level": "EXIT1",
+            "reason": "AO in calo 3+ sessioni",
+            "size_pct": 40,
+            "score": 22.7,
+            "er": 0.41
           }
         ],
         "warning": null,
         "kama": 8.233,
-        "k_pct": 0.19,
+        "k_pct": 0.81,
         "weight_pct": 100.0
       }
     ],
@@ -11146,27 +11153,27 @@
         "entry_date": "2026-07-15",
         "entry_ts": "2026-07-15 11:11 CET",
         "entry_price": 194.85,
-        "current_price": 195.66,
+        "current_price": 195.58,
         "target_price": 208.489,
         "stop_loss": 192.073,
         "trailing_stop": 192.796,
-        "current_gain_pct": 0.42,
+        "current_gain_pct": 0.37,
         "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 35.2,
-        "er": 0.5754,
+        "score": 35.1,
+        "er": 0.5731,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-07-15 11:11 CET",
         "peak_score": 35.2,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.25,
-        "perf30": 11.22,
+        "perf7": 2.21,
+        "perf30": 11.18,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -11180,8 +11187,8 @@
           }
         ],
         "warning": null,
-        "kama": 192.997,
-        "k_pct": 1.38,
+        "kama": 192.962,
+        "k_pct": 1.36,
         "weight_pct": 100.0
       }
     ],
@@ -17740,69 +17747,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 54.6
-      },
-      {
-        "ticker": "MLPS.MI",
-        "name": "Global X MLP ETF",
-        "entry_date": "2026-07-13",
-        "entry_ts": "2026-07-13 12:30 CET",
-        "entry_price": 139.99,
-        "current_price": 141.79,
-        "target_price": 149.789,
-        "stop_loss": 138.376,
-        "trailing_stop": 141.63,
-        "current_gain_pct": 1.29,
-        "days_held": 2,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 40.7,
-        "er": 0.5695,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-14 15:52 CET",
-        "peak_score": 47.1,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 2.75,
-        "perf30": 1.71,
-        "stress_flags": [
-          "Score -6pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-07-13 12:30 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.46>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 38.0,
-            "er": 0.46
-          },
-          {
-            "ts": "2026-07-14 11:06 CET",
-            "level": "BUY2",
-            "reason": "Score 45.4\u226545 \u00b7 AO>0 \u00b7 ER 0.56\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 45.4,
-            "er": 0.56
-          },
-          {
-            "ts": "2026-07-14 15:52 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 44.4<45",
-            "size_pct": 75,
-            "score": 44.4,
-            "er": 0.55
-          }
-        ],
-        "warning": null,
-        "kama": 140.21,
-        "k_pct": 1.13,
-        "weight_pct": 45.4
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -19191,10 +19136,87 @@
         "final_gain_pct": -0.26,
         "exit_date": "2026-07-14",
         "exit_ts": "2026-07-14 13:27 CET"
+      },
+      {
+        "ticker": "MLPS.MI",
+        "name": "Global X MLP ETF",
+        "entry_date": "2026-07-13",
+        "entry_ts": "2026-07-13 12:30 CET",
+        "entry_price": 139.99,
+        "current_price": 141.79,
+        "target_price": 149.789,
+        "stop_loss": 138.376,
+        "trailing_stop": 141.63,
+        "current_gain_pct": 1.29,
+        "days_held": 2,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 40.7,
+        "er": 0.5695,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-14 15:52 CET",
+        "peak_score": 47.1,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 2.75,
+        "perf30": 1.71,
+        "stress_flags": [
+          "Score -6pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-07-13 12:30 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.46>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 38.0,
+            "er": 0.46
+          },
+          {
+            "ts": "2026-07-14 11:06 CET",
+            "level": "BUY2",
+            "reason": "Score 45.4\u226545 \u00b7 AO>0 \u00b7 ER 0.56\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.4,
+            "er": 0.56
+          },
+          {
+            "ts": "2026-07-14 15:52 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.4<45",
+            "size_pct": 75,
+            "score": 44.4,
+            "er": 0.55
+          },
+          {
+            "ts": "2026-07-15 19:20 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 40.6,
+            "er": 0.57
+          }
+        ],
+        "warning": null,
+        "kama": 140.21,
+        "k_pct": 1.13,
+        "weight_pct": 45.4,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 141.75,
+        "final_gain_pct": 1.26,
+        "exit_date": "2026-07-15",
+        "exit_ts": "2026-07-15 19:20 CET"
       }
     ],
     "cooldowns": {
-      "KWBE.MI": "2026-07-16"
+      "KWBE.MI": "2026-07-16",
+      "MLPS.MI": "2026-07-17"
     }
   }
 }
