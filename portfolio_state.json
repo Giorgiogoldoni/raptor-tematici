@@ -7742,27 +7742,27 @@
         "entry_date": "2026-07-16",
         "entry_ts": "2026-07-16 11:17 CET",
         "entry_price": 6.0,
-        "current_price": 6.005,
+        "current_price": 5.98,
         "target_price": 6.42,
         "stop_loss": 5.815,
         "trailing_stop": 5.82,
-        "current_gain_pct": 0.08,
+        "current_gain_pct": -0.33,
         "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 44.8,
-        "er": 0.6032,
+        "score": 43.7,
+        "er": 0.5717,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-07-16 11:17 CET",
         "peak_score": 44.8,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 5.67,
-        "perf30": -2.94,
+        "perf7": 5.23,
+        "perf30": -3.35,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -7776,8 +7776,8 @@
           }
         ],
         "warning": null,
-        "kama": 5.862,
-        "k_pct": 2.43,
+        "kama": 5.858,
+        "k_pct": 2.08,
         "weight_pct": 100.0
       }
     ],
@@ -11198,50 +11198,6 @@
   "digitale": {
     "positions": [
       {
-        "ticker": "FAMMWF.MI",
-        "name": "Fineco AM MSCI World Financials UCITS ETF",
-        "entry_date": "2026-07-15",
-        "entry_ts": "2026-07-15 11:11 CET",
-        "entry_price": 194.85,
-        "current_price": 195.0,
-        "target_price": 208.489,
-        "stop_loss": 192.073,
-        "trailing_stop": 192.796,
-        "current_gain_pct": 0.08,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 32.7,
-        "er": 0.4531,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-15 11:11 CET",
-        "peak_score": 35.2,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 1.41,
-        "perf30": 10.06,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-07-15 11:11 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.55>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 33.7,
-            "er": 0.55
-          }
-        ],
-        "warning": null,
-        "kama": 193.527,
-        "k_pct": 0.76,
-        "weight_pct": 50.6
-      },
-      {
         "ticker": "XFNT.MI",
         "name": "Xtrackers FinTech Innovation",
         "entry_date": "2026-07-16",
@@ -11261,7 +11217,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-16 11:18 CET",
         "peak_score": 36.0,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11285,7 +11241,7 @@
         "warning": null,
         "kama": 42.958,
         "k_pct": 0.52,
-        "weight_pct": 49.4
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -13413,10 +13369,69 @@
         "final_gain_pct": 0.52,
         "exit_date": "2026-07-15",
         "exit_ts": "2026-07-15 11:11 CET"
+      },
+      {
+        "ticker": "FAMMWF.MI",
+        "name": "Fineco AM MSCI World Financials UCITS ETF",
+        "entry_date": "2026-07-15",
+        "entry_ts": "2026-07-15 11:11 CET",
+        "entry_price": 194.85,
+        "current_price": 195.0,
+        "target_price": 208.489,
+        "stop_loss": 192.073,
+        "trailing_stop": 192.796,
+        "current_gain_pct": 0.08,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 32.7,
+        "er": 0.4531,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-15 11:11 CET",
+        "peak_score": 35.2,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 1.41,
+        "perf30": 10.06,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-15 11:11 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.55>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 33.7,
+            "er": 0.55
+          },
+          {
+            "ts": "2026-07-16 16:01 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 32.7,
+            "er": 0.45
+          }
+        ],
+        "warning": null,
+        "kama": 193.527,
+        "k_pct": 0.76,
+        "weight_pct": 50.6,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 195.0,
+        "final_gain_pct": 0.08,
+        "exit_date": "2026-07-16",
+        "exit_ts": "2026-07-16 16:01 CET"
       }
     ],
     "cooldowns": {
-      "INQQ.MI": "2026-07-17"
+      "INQQ.MI": "2026-07-17",
+      "FAMMWF.MI": "2026-07-18"
     }
   },
   "media": {
@@ -17850,16 +17865,16 @@
         "entry_date": "2026-07-16",
         "entry_ts": "2026-07-16 11:18 CET",
         "entry_price": 12.776,
-        "current_price": 12.756,
+        "current_price": 12.748,
         "target_price": 13.67,
         "stop_loss": 12.369,
         "trailing_stop": 12.369,
-        "current_gain_pct": -0.16,
+        "current_gain_pct": -0.22,
         "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 45.3,
-        "er": 0.7308,
+        "score": 45.2,
+        "er": 0.7295,
         "current_level": "BUY2",
         "buy_level": "BUY2",
         "level_ts": "2026-07-16 11:18 CET",
@@ -17869,8 +17884,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 7.66,
-        "perf30": 2.21,
+        "perf7": 7.6,
+        "perf30": 2.15,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -17884,8 +17899,8 @@
           }
         ],
         "warning": null,
-        "kama": 12.265,
-        "k_pct": 4.01,
+        "kama": 12.262,
+        "k_pct": 3.97,
         "weight_pct": 48.0
       }
     ],
