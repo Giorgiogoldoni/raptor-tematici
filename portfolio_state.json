@@ -714,9 +714,7 @@
         "exit_ts": "2026-07-14 13:26 CET"
       }
     ],
-    "cooldowns": {
-      "CLOU.MI": "2026-07-16"
-    }
+    "cooldowns": {}
   },
   "difesa": {
     "positions": [],
@@ -1919,9 +1917,7 @@
         "exit_ts": "2026-07-14 11:06 CET"
       }
     ],
-    "cooldowns": {
-      "ISPY.MI": "2026-07-16"
-    }
+    "cooldowns": {}
   },
   "energia": {
     "positions": [],
@@ -4072,152 +4068,7 @@
     "cooldowns": {}
   },
   "salute": {
-    "positions": [
-      {
-        "ticker": "EDOC.MI",
-        "name": "Global X Telemedicine ETF",
-        "entry_date": "2026-06-08",
-        "entry_ts": "2026-06-08 18:50 CET",
-        "entry_price": 7.274,
-        "current_price": 8.3,
-        "target_price": 7.783,
-        "stop_loss": 7.172,
-        "trailing_stop": 8.351,
-        "current_gain_pct": 14.11,
-        "days_held": 37,
-        "pre_alert": false,
-        "target_hit": true,
-        "score": 22.7,
-        "er": 0.4094,
-        "current_level": "EXIT1",
-        "buy_level": "EXIT1",
-        "level_ts": "2026-07-15 19:20 CET",
-        "peak_score": 52.3,
-        "days_in_buy1": 8,
-        "trend": "VERDE",
-        "sar_bullish": false,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": -1.72,
-        "perf30": 16.7,
-        "stress_flags": [
-          "SAR bear",
-          "AO calante",
-          "Score -30pt dal picco"
-        ],
-        "stress_score": 3,
-        "events": [
-          {
-            "ts": "2026-06-08 18:50 CET",
-            "level": "BUY2",
-            "reason": "Score 49.9\u226545 \u00b7 AO>0 \u00b7 ER 0.69\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 49.9,
-            "er": 0.69
-          },
-          {
-            "ts": "2026-06-11 21:37 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 42.1<45",
-            "size_pct": 75,
-            "score": 42.1,
-            "er": 0.64
-          },
-          {
-            "ts": "2026-06-16 14:13 CET",
-            "level": "EXIT2",
-            "reason": "Score -31pt (52\u219221) \u00b7 ER 0.39<0.4",
-            "size_pct": 75,
-            "score": 20.6,
-            "er": 0.39
-          },
-          {
-            "ts": "2026-06-16 20:05 CET",
-            "level": "EXIT1",
-            "reason": "AO in calo 3+ sessioni",
-            "size_pct": 40,
-            "score": 30.5,
-            "er": 0.58
-          },
-          {
-            "ts": "2026-06-22 14:51 CET",
-            "level": "EXIT2",
-            "reason": "Score -28pt (52\u219224) \u00b7 ER 0.37<0.4",
-            "size_pct": 75,
-            "score": 24.2,
-            "er": 0.37
-          },
-          {
-            "ts": "2026-06-25 15:22 CET",
-            "level": "BUY2",
-            "reason": "Score 49.0\u226545 \u00b7 AO>0 \u00b7 ER 0.96\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 49.0,
-            "er": 0.96
-          },
-          {
-            "ts": "2026-07-07 18:33 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 44.3<45",
-            "size_pct": 75,
-            "score": 44.3,
-            "er": 0.77
-          },
-          {
-            "ts": "2026-07-09 12:26 CET",
-            "level": "EXIT2",
-            "reason": "Score -21pt (52\u219232) \u00b7 ER 0.38<0.4",
-            "size_pct": 75,
-            "score": 31.7,
-            "er": 0.38
-          },
-          {
-            "ts": "2026-07-09 18:29 CET",
-            "level": "EXIT1",
-            "reason": "SAR girato sopra prezzo",
-            "size_pct": 40,
-            "score": 30.1,
-            "er": 0.6
-          },
-          {
-            "ts": "2026-07-10 18:26 CET",
-            "level": "EXIT2",
-            "reason": "Score -21pt (52\u219231) \u00b7 ER 0.31<0.4",
-            "size_pct": 75,
-            "score": 31.2,
-            "er": 0.31
-          },
-          {
-            "ts": "2026-07-14 11:06 CET",
-            "level": "EXIT1",
-            "reason": "AO in calo 3+ sessioni",
-            "size_pct": 40,
-            "score": 23.7,
-            "er": 0.41
-          },
-          {
-            "ts": "2026-07-14 19:17 CET",
-            "level": "EXIT2",
-            "reason": "Score -31pt (52\u219221) \u00b7 ER 0.33<0.4",
-            "size_pct": 75,
-            "score": 20.9,
-            "er": 0.33
-          },
-          {
-            "ts": "2026-07-15 19:20 CET",
-            "level": "EXIT1",
-            "reason": "AO in calo 3+ sessioni",
-            "size_pct": 40,
-            "score": 22.7,
-            "er": 0.41
-          }
-        ],
-        "warning": null,
-        "kama": 8.233,
-        "k_pct": 0.81,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "GENDEE.MI",
@@ -5468,10 +5319,168 @@
         "final_gain_pct": -5.05,
         "exit_date": "2026-07-14",
         "exit_ts": "2026-07-14 11:06 CET"
+      },
+      {
+        "ticker": "EDOC.MI",
+        "name": "Global X Telemedicine ETF",
+        "entry_date": "2026-06-08",
+        "entry_ts": "2026-06-08 18:50 CET",
+        "entry_price": 7.274,
+        "current_price": 8.3,
+        "target_price": 7.783,
+        "stop_loss": 7.172,
+        "trailing_stop": 8.351,
+        "current_gain_pct": 14.11,
+        "days_held": 37,
+        "pre_alert": false,
+        "target_hit": true,
+        "score": 22.7,
+        "er": 0.4094,
+        "current_level": "EXIT1",
+        "buy_level": "EXIT1",
+        "level_ts": "2026-07-15 19:20 CET",
+        "peak_score": 52.3,
+        "days_in_buy1": 8,
+        "trend": "VERDE",
+        "sar_bullish": false,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": -1.72,
+        "perf30": 16.7,
+        "stress_flags": [
+          "SAR bear",
+          "AO calante",
+          "Score -30pt dal picco"
+        ],
+        "stress_score": 3,
+        "events": [
+          {
+            "ts": "2026-06-08 18:50 CET",
+            "level": "BUY2",
+            "reason": "Score 49.9\u226545 \u00b7 AO>0 \u00b7 ER 0.69\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 49.9,
+            "er": 0.69
+          },
+          {
+            "ts": "2026-06-11 21:37 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 42.1<45",
+            "size_pct": 75,
+            "score": 42.1,
+            "er": 0.64
+          },
+          {
+            "ts": "2026-06-16 14:13 CET",
+            "level": "EXIT2",
+            "reason": "Score -31pt (52\u219221) \u00b7 ER 0.39<0.4",
+            "size_pct": 75,
+            "score": 20.6,
+            "er": 0.39
+          },
+          {
+            "ts": "2026-06-16 20:05 CET",
+            "level": "EXIT1",
+            "reason": "AO in calo 3+ sessioni",
+            "size_pct": 40,
+            "score": 30.5,
+            "er": 0.58
+          },
+          {
+            "ts": "2026-06-22 14:51 CET",
+            "level": "EXIT2",
+            "reason": "Score -28pt (52\u219224) \u00b7 ER 0.37<0.4",
+            "size_pct": 75,
+            "score": 24.2,
+            "er": 0.37
+          },
+          {
+            "ts": "2026-06-25 15:22 CET",
+            "level": "BUY2",
+            "reason": "Score 49.0\u226545 \u00b7 AO>0 \u00b7 ER 0.96\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 49.0,
+            "er": 0.96
+          },
+          {
+            "ts": "2026-07-07 18:33 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.3<45",
+            "size_pct": 75,
+            "score": 44.3,
+            "er": 0.77
+          },
+          {
+            "ts": "2026-07-09 12:26 CET",
+            "level": "EXIT2",
+            "reason": "Score -21pt (52\u219232) \u00b7 ER 0.38<0.4",
+            "size_pct": 75,
+            "score": 31.7,
+            "er": 0.38
+          },
+          {
+            "ts": "2026-07-09 18:29 CET",
+            "level": "EXIT1",
+            "reason": "SAR girato sopra prezzo",
+            "size_pct": 40,
+            "score": 30.1,
+            "er": 0.6
+          },
+          {
+            "ts": "2026-07-10 18:26 CET",
+            "level": "EXIT2",
+            "reason": "Score -21pt (52\u219231) \u00b7 ER 0.31<0.4",
+            "size_pct": 75,
+            "score": 31.2,
+            "er": 0.31
+          },
+          {
+            "ts": "2026-07-14 11:06 CET",
+            "level": "EXIT1",
+            "reason": "AO in calo 3+ sessioni",
+            "size_pct": 40,
+            "score": 23.7,
+            "er": 0.41
+          },
+          {
+            "ts": "2026-07-14 19:17 CET",
+            "level": "EXIT2",
+            "reason": "Score -31pt (52\u219221) \u00b7 ER 0.33<0.4",
+            "size_pct": 75,
+            "score": 20.9,
+            "er": 0.33
+          },
+          {
+            "ts": "2026-07-15 19:20 CET",
+            "level": "EXIT1",
+            "reason": "AO in calo 3+ sessioni",
+            "size_pct": 40,
+            "score": 22.7,
+            "er": 0.41
+          },
+          {
+            "ts": "2026-07-16 11:17 CET",
+            "level": "EXIT3",
+            "reason": "Score 17.9<18 soglia EXIT1",
+            "size_pct": 100,
+            "score": 17.9,
+            "er": 0.16
+          }
+        ],
+        "warning": null,
+        "kama": 8.233,
+        "k_pct": 0.81,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 17.9<18 soglia EXIT1",
+        "exit_price": 8.226,
+        "final_gain_pct": 13.09,
+        "exit_date": "2026-07-16",
+        "exit_ts": "2026-07-16 11:17 CET"
       }
     ],
     "cooldowns": {
-      "BIOT.MI": "2026-07-16"
+      "EDOC.MI": "2026-07-18"
     }
   },
   "crypto": {
@@ -6771,8 +6780,6 @@
       }
     ],
     "cooldowns": {
-      "WEB3.MI": "2026-07-16",
-      "BTECH.MI": "2026-07-16",
       "BTECJ.MI": "2026-07-17"
     }
   },
@@ -7728,7 +7735,52 @@
     "cooldowns": {}
   },
   "infrastrutture": {
-    "positions": [],
+    "positions": [
+      {
+        "ticker": "CITE.MI",
+        "name": "iShares Digitalisation ETF",
+        "entry_date": "2026-07-16",
+        "entry_ts": "2026-07-16 11:17 CET",
+        "entry_price": 6.0,
+        "current_price": 6.0,
+        "target_price": 6.42,
+        "stop_loss": 5.815,
+        "trailing_stop": 5.815,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 44.6,
+        "er": 0.6,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-16 11:17 CET",
+        "peak_score": 44.6,
+        "days_in_buy1": 1,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 5.58,
+        "perf30": -3.02,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-16 11:17 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.60>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 44.6,
+            "er": 0.6
+          }
+        ],
+        "warning": null,
+        "kama": 5.862,
+        "k_pct": 2.36,
+        "weight_pct": 100.0
+      }
+    ],
     "history": [
       {
         "ticker": "PAVE.MI",
@@ -9572,9 +9624,7 @@
         "exit_ts": "2026-07-14 11:06 CET"
       }
     ],
-    "cooldowns": {
-      "XLPE.MI": "2026-07-16"
-    }
+    "cooldowns": {}
   },
   "risorse": {
     "positions": [],
@@ -11158,7 +11208,7 @@
         "stop_loss": 192.073,
         "trailing_stop": 192.796,
         "current_gain_pct": 0.37,
-        "days_held": 0,
+        "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
         "score": 35.1,
@@ -11167,7 +11217,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-15 11:11 CET",
         "peak_score": 35.2,
-        "days_in_buy1": 5,
+        "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11189,7 +11239,51 @@
         "warning": null,
         "kama": 192.962,
         "k_pct": 1.36,
-        "weight_pct": 100.0
+        "weight_pct": 49.4
+      },
+      {
+        "ticker": "XFNT.MI",
+        "name": "Xtrackers FinTech Innovation",
+        "entry_date": "2026-07-16",
+        "entry_ts": "2026-07-16 11:18 CET",
+        "entry_price": 43.465,
+        "current_price": 43.465,
+        "target_price": 46.508,
+        "stop_loss": 43.037,
+        "trailing_stop": 43.037,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 36.0,
+        "er": 0.5887,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-16 11:18 CET",
+        "peak_score": 36.0,
+        "days_in_buy1": 1,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 1.8,
+        "perf30": 1.21,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-16 11:18 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.59>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 36.0,
+            "er": 0.59
+          }
+        ],
+        "warning": null,
+        "kama": 42.939,
+        "k_pct": 1.23,
+        "weight_pct": 50.6
       }
     ],
     "history": [
@@ -13320,7 +13414,6 @@
       }
     ],
     "cooldowns": {
-      "XFNT.MI": "2026-07-16",
       "INQQ.MI": "2026-07-17"
     }
   },
@@ -17747,7 +17840,51 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 100.0
+        "weight_pct": 51.9
+      },
+      {
+        "ticker": "KWBE.MI",
+        "name": "L&G ROBO Global Robotics ETF",
+        "entry_date": "2026-07-16",
+        "entry_ts": "2026-07-16 11:18 CET",
+        "entry_price": 12.776,
+        "current_price": 12.776,
+        "target_price": 13.67,
+        "stop_loss": 12.369,
+        "trailing_stop": 12.369,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 45.5,
+        "er": 0.734,
+        "current_level": "BUY2",
+        "buy_level": "BUY2",
+        "level_ts": "2026-07-16 11:18 CET",
+        "peak_score": 45.5,
+        "days_in_buy1": 0,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 7.83,
+        "perf30": 2.37,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-16 11:18 CET",
+            "level": "BUY2",
+            "reason": "Score 45.5\u226545 \u00b7 AO>0 \u00b7 ER 0.73\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.5,
+            "er": 0.73
+          }
+        ],
+        "warning": null,
+        "kama": 12.272,
+        "k_pct": 4.11,
+        "weight_pct": 48.1
       }
     ],
     "history": [
@@ -19215,7 +19352,6 @@
       }
     ],
     "cooldowns": {
-      "KWBE.MI": "2026-07-16",
       "MLPS.MI": "2026-07-17"
     }
   }
