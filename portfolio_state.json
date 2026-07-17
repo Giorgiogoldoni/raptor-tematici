@@ -7740,27 +7740,27 @@
         "entry_date": "2026-07-17",
         "entry_ts": "2026-07-17 11:11 CET",
         "entry_price": 73.96,
-        "current_price": 74.13,
+        "current_price": 74.19,
         "target_price": 79.137,
         "stop_loss": 72.919,
-        "trailing_stop": 73.071,
-        "current_gain_pct": 0.23,
+        "trailing_stop": 73.125,
+        "current_gain_pct": 0.31,
         "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 32.2,
-        "er": 0.389,
+        "score": 32.6,
+        "er": 0.397,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-07-17 13:23 CET",
-        "peak_score": 32.2,
+        "peak_score": 32.6,
         "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.46,
-        "perf30": 6.26,
+        "perf7": 2.54,
+        "perf30": 6.35,
         "stress_flags": [
           "ER<0.4"
         ],
@@ -7784,9 +7784,9 @@
           }
         ],
         "warning": null,
-        "kama": 73.322,
-        "k_pct": 1.1,
-        "weight_pct": 50.5
+        "kama": 73.348,
+        "k_pct": 1.15,
+        "weight_pct": 50.9
       },
       {
         "ticker": "XRES.MI",
@@ -7794,27 +7794,27 @@
         "entry_date": "2026-07-17",
         "entry_ts": "2026-07-17 11:11 CET",
         "entry_price": 24.73,
-        "current_price": 24.72,
+        "current_price": 24.71,
         "target_price": 26.461,
         "stop_loss": 24.302,
         "trailing_stop": 24.302,
-        "current_gain_pct": -0.04,
+        "current_gain_pct": -0.08,
         "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 31.5,
-        "er": 0.3535,
+        "score": 31.4,
+        "er": 0.3505,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-07-17 11:11 CET",
         "peak_score": 31.7,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.66,
-        "perf30": 3.91,
+        "perf7": 2.62,
+        "perf30": 3.87,
         "stress_flags": [
           "ER<0.4"
         ],
@@ -7830,9 +7830,9 @@
           }
         ],
         "warning": null,
-        "kama": 24.261,
-        "k_pct": 1.89,
-        "weight_pct": 49.5
+        "kama": 24.257,
+        "k_pct": 1.87,
+        "weight_pct": 49.1
       }
     ],
     "history": [
@@ -11320,50 +11320,6 @@
   "digitale": {
     "positions": [
       {
-        "ticker": "XFNT.MI",
-        "name": "Xtrackers FinTech Innovation",
-        "entry_date": "2026-07-16",
-        "entry_ts": "2026-07-16 11:18 CET",
-        "entry_price": 43.465,
-        "current_price": 43.315,
-        "target_price": 46.508,
-        "stop_loss": 43.037,
-        "trailing_stop": 43.037,
-        "current_gain_pct": -0.35,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 34.5,
-        "er": 0.4749,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-16 11:18 CET",
-        "peak_score": 36.0,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 1.91,
-        "perf30": 2.75,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-07-16 11:18 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.59>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 36.0,
-            "er": 0.59
-          }
-        ],
-        "warning": null,
-        "kama": 43.004,
-        "k_pct": 0.72,
-        "weight_pct": 60.1
-      },
-      {
         "ticker": "XDG6.MI",
         "name": "Xtrackers Digital Infrastructure",
         "entry_date": "2026-07-16",
@@ -11383,7 +11339,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-16 18:19 CET",
         "peak_score": 22.9,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -11405,7 +11361,7 @@
         "warning": null,
         "kama": 33.621,
         "k_pct": 0.71,
-        "weight_pct": 39.9
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -13591,10 +13547,69 @@
         "final_gain_pct": 0.08,
         "exit_date": "2026-07-16",
         "exit_ts": "2026-07-16 16:01 CET"
+      },
+      {
+        "ticker": "XFNT.MI",
+        "name": "Xtrackers FinTech Innovation",
+        "entry_date": "2026-07-16",
+        "entry_ts": "2026-07-16 11:18 CET",
+        "entry_price": 43.465,
+        "current_price": 43.315,
+        "target_price": 46.508,
+        "stop_loss": 43.037,
+        "trailing_stop": 43.037,
+        "current_gain_pct": -0.35,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 34.5,
+        "er": 0.4749,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-16 11:18 CET",
+        "peak_score": 36.0,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 1.91,
+        "perf30": 2.75,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-16 11:18 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.59>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 36.0,
+            "er": 0.59
+          },
+          {
+            "ts": "2026-07-17 15:46 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 34.5,
+            "er": 0.47
+          }
+        ],
+        "warning": null,
+        "kama": 43.004,
+        "k_pct": 0.72,
+        "weight_pct": 60.1,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 43.315,
+        "final_gain_pct": -0.35,
+        "exit_date": "2026-07-17",
+        "exit_ts": "2026-07-17 15:46 CET"
       }
     ],
     "cooldowns": {
-      "FAMMWF.MI": "2026-07-18"
+      "FAMMWF.MI": "2026-07-18",
+      "XFNT.MI": "2026-07-19"
     }
   },
   "media": {
@@ -18020,7 +18035,51 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 100.0
+        "weight_pct": 61.6
+      },
+      {
+        "ticker": "MLPS.MI",
+        "name": "Global X MLP ETF",
+        "entry_date": "2026-07-17",
+        "entry_ts": "2026-07-17 15:46 CET",
+        "entry_price": 143.18,
+        "current_price": 143.18,
+        "target_price": 153.203,
+        "stop_loss": 141.418,
+        "trailing_stop": 141.418,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 30.5,
+        "er": 0.5938,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-07-17 15:46 CET",
+        "peak_score": 30.5,
+        "days_in_buy1": 1,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 1.77,
+        "perf30": 1.89,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-07-17 15:46 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.59>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 30.5,
+            "er": 0.59
+          }
+        ],
+        "warning": null,
+        "kama": 141.361,
+        "k_pct": 1.29,
+        "weight_pct": 38.4
       }
     ],
     "history": [
