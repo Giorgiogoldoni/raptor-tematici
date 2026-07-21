@@ -7738,16 +7738,16 @@
         "entry_date": "2026-07-17",
         "entry_ts": "2026-07-17 11:11 CET",
         "entry_price": 73.96,
-        "current_price": 73.97,
+        "current_price": 74.05,
         "target_price": 79.137,
         "stop_loss": 72.919,
         "trailing_stop": 73.125,
-        "current_gain_pct": 0.01,
+        "current_gain_pct": 0.12,
         "days_held": 4,
         "pre_alert": false,
         "target_hit": false,
-        "score": 32.5,
-        "er": 0.1785,
+        "score": 33.1,
+        "er": 0.1942,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-07-20 15:09 CET",
@@ -7757,8 +7757,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.89,
-        "perf30": 5.84,
+        "perf7": 3.0,
+        "perf30": 5.95,
         "stress_flags": [
           "ER<0.4"
         ],
@@ -7798,9 +7798,9 @@
           }
         ],
         "warning": null,
-        "kama": 73.545,
-        "k_pct": 0.58,
-        "weight_pct": 51.5
+        "kama": 73.57,
+        "k_pct": 0.65,
+        "weight_pct": 51.8
       },
       {
         "ticker": "XRES.MI",
@@ -7808,16 +7808,16 @@
         "entry_date": "2026-07-17",
         "entry_ts": "2026-07-17 11:11 CET",
         "entry_price": 24.73,
-        "current_price": 24.565,
+        "current_price": 24.575,
         "target_price": 26.461,
         "stop_loss": 24.302,
         "trailing_stop": 24.355,
-        "current_gain_pct": -0.67,
+        "current_gain_pct": -0.63,
         "days_held": 4,
         "pre_alert": false,
         "target_hit": false,
-        "score": 30.6,
-        "er": 0.1105,
+        "score": 30.8,
+        "er": 0.1152,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-07-17 17:17 CET",
@@ -7827,8 +7827,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.89,
-        "perf30": 3.56,
+        "perf7": 2.93,
+        "perf30": 3.6,
         "stress_flags": [
           "ER<0.4"
         ],
@@ -7852,9 +7852,9 @@
           }
         ],
         "warning": null,
-        "kama": 24.316,
-        "k_pct": 1.02,
-        "weight_pct": 48.5
+        "kama": 24.318,
+        "k_pct": 1.06,
+        "weight_pct": 48.2
       }
     ],
     "history": [
