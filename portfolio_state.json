@@ -24,7 +24,7 @@
         "perf7": 4.33,
         "perf30": 1.22,
         "warning": "Dati non disponibili",
-        "weight_pct": 33.6
+        "weight_pct": 33.9
       },
       {
         "ticker": "FAMMWS.MI",
@@ -49,7 +49,7 @@
         "perf7": 15.29,
         "perf30": 13.08,
         "warning": "Dati non disponibili",
-        "weight_pct": 38.6
+        "weight_pct": 39.0
       },
       {
         "ticker": "XDER.MI",
@@ -57,29 +57,31 @@
         "entry_date": "2026-07-22",
         "entry_ts": "2026-07-22 13:49 CET",
         "entry_price": 25.24,
-        "current_price": 25.255,
+        "current_price": 25.195,
         "target_price": 27.007,
         "stop_loss": 24.819,
         "trailing_stop": 24.884,
-        "current_gain_pct": 0.06,
+        "current_gain_pct": -0.18,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 40.0,
-        "er": 0.4178,
+        "score": 38.6,
+        "er": 0.3831,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-07-22 13:49 CET",
         "peak_score": 42.1,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 1.71,
-        "perf30": 6.11,
-        "stress_flags": [],
-        "stress_score": 0,
+        "perf7": 1.47,
+        "perf30": 5.86,
+        "stress_flags": [
+          "ER<0.4"
+        ],
+        "stress_score": 1,
         "events": [
           {
             "ts": "2026-07-22 13:49 CET",
@@ -91,9 +93,9 @@
           }
         ],
         "warning": null,
-        "kama": 25.003,
-        "k_pct": 1.01,
-        "weight_pct": 27.8
+        "kama": 24.994,
+        "k_pct": 0.81,
+        "weight_pct": 27.1
       }
     ],
     "history": [
@@ -7782,16 +7784,16 @@
         "entry_date": "2026-07-17",
         "entry_ts": "2026-07-17 11:11 CET",
         "entry_price": 73.96,
-        "current_price": 73.73,
+        "current_price": 73.76,
         "target_price": 79.137,
         "stop_loss": 72.919,
         "trailing_stop": 73.125,
-        "current_gain_pct": -0.31,
+        "current_gain_pct": -0.27,
         "days_held": 6,
         "pre_alert": false,
         "target_hit": false,
-        "score": 36.7,
-        "er": 0.4839,
+        "score": 36.9,
+        "er": 0.4884,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-07-20 15:09 CET",
@@ -7801,8 +7803,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 1.75,
-        "perf30": 4.55,
+        "perf7": 1.79,
+        "perf30": 4.59,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -7840,9 +7842,9 @@
           }
         ],
         "warning": null,
-        "kama": 73.591,
-        "k_pct": 0.19,
-        "weight_pct": 36.9
+        "kama": 73.592,
+        "k_pct": 0.23,
+        "weight_pct": 36.1
       },
       {
         "ticker": "XRES.MI",
@@ -7850,27 +7852,27 @@
         "entry_date": "2026-07-17",
         "entry_ts": "2026-07-17 11:11 CET",
         "entry_price": 24.73,
-        "current_price": 24.445,
+        "current_price": 24.555,
         "target_price": 26.461,
         "stop_loss": 24.302,
         "trailing_stop": 24.355,
-        "current_gain_pct": -1.15,
+        "current_gain_pct": -0.71,
         "days_held": 6,
         "pre_alert": false,
         "target_hit": false,
-        "score": 31.7,
-        "er": 0.269,
+        "score": 34.1,
+        "er": 0.3132,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-07-17 17:17 CET",
-        "peak_score": 32.8,
+        "peak_score": 34.1,
         "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 1.6,
-        "perf30": 2.47,
+        "perf7": 2.06,
+        "perf30": 2.93,
         "stress_flags": [
           "ER<0.4"
         ],
@@ -7894,9 +7896,9 @@
           }
         ],
         "warning": null,
-        "kama": 24.33,
-        "k_pct": 0.47,
-        "weight_pct": 31.9
+        "kama": 24.332,
+        "k_pct": 0.92,
+        "weight_pct": 33.4
       },
       {
         "ticker": "EPRE.MI",
@@ -7918,7 +7920,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-07-23 11:27 CET",
         "peak_score": 31.1,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -7940,7 +7942,7 @@
         "warning": null,
         "kama": 341.691,
         "k_pct": 1.16,
-        "weight_pct": 31.3
+        "weight_pct": 30.5
       }
     ],
     "history": [
@@ -9862,31 +9864,31 @@
         "entry_date": "2026-07-22",
         "entry_ts": "2026-07-22 11:28 CET",
         "entry_price": 54.49,
-        "current_price": 55.28,
+        "current_price": 54.7,
         "target_price": 58.304,
         "stop_loss": 51.995,
         "trailing_stop": 52.832,
-        "current_gain_pct": 1.45,
+        "current_gain_pct": 0.39,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 36.3,
-        "er": 0.3294,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-07-22 11:28 CET",
+        "score": 32.0,
+        "er": 0.2756,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-07-23 16:09 CET",
         "peak_score": 42.8,
-        "days_in_buy1": 7,
+        "days_in_buy1": 8,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.66,
-        "perf30": 1.19,
+        "perf7": 1.58,
+        "perf30": 0.13,
         "stress_flags": [
           "AO negativo",
           "ER<0.4",
-          "Score -6pt dal picco"
+          "Score -11pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -9897,12 +9899,20 @@
             "size_pct": 35,
             "score": 40.9,
             "er": 0.41
+          },
+          {
+            "ts": "2026-07-23 16:09 CET",
+            "level": "EXIT2",
+            "reason": "Score -11pt (43\u219232) \u00b7 ER 0.28<0.4",
+            "size_pct": 75,
+            "score": 32.0,
+            "er": 0.28
           }
         ],
         "warning": null,
-        "kama": 52.902,
-        "k_pct": 4.49,
-        "weight_pct": 36.0
+        "kama": 52.699,
+        "k_pct": 3.8,
+        "weight_pct": 35.3
       },
       {
         "ticker": "COPM.MI",
@@ -9910,16 +9920,16 @@
         "entry_date": "2026-07-22",
         "entry_ts": "2026-07-22 11:28 CET",
         "entry_price": 9.06,
-        "current_price": 9.293,
+        "current_price": 9.165,
         "target_price": 9.694,
         "stop_loss": 8.707,
         "trailing_stop": 8.939,
-        "current_gain_pct": 2.57,
+        "current_gain_pct": 1.16,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 33.1,
-        "er": 0.3365,
+        "score": 27.3,
+        "er": 0.2667,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-07-23 11:27 CET",
@@ -9929,13 +9939,14 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.38,
-        "perf30": 1.07,
+        "perf7": 0.97,
+        "perf30": -0.33,
         "stress_flags": [
           "AO negativo",
-          "ER<0.4"
+          "ER<0.4",
+          "Score -10pt dal picco"
         ],
-        "stress_score": 2,
+        "stress_score": 3,
         "events": [
           {
             "ts": "2026-07-22 11:28 CET",
@@ -9955,9 +9966,9 @@
           }
         ],
         "warning": null,
-        "kama": 8.961,
-        "k_pct": 3.7,
-        "weight_pct": 32.9
+        "kama": 8.919,
+        "k_pct": 2.76,
+        "weight_pct": 30.1
       },
       {
         "ticker": "COPR.MI",
@@ -10013,7 +10024,7 @@
         "warning": null,
         "kama": 18.467,
         "k_pct": 3.99,
-        "weight_pct": 31.1
+        "weight_pct": 34.5
       }
     ],
     "history": [
