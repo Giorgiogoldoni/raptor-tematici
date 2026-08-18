@@ -1093,7 +1093,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 17:34 CET",
         "peak_score": 52.5,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -1174,61 +1174,7 @@
         "warning": null,
         "kama": 10.974,
         "k_pct": -0.07,
-        "weight_pct": 51.1
-      },
-      {
-        "ticker": "ARMR.MI",
-        "name": "Amundi Future of Defence ETF",
-        "entry_date": "2026-08-18",
-        "entry_ts": "2026-08-18 09:40 CET",
-        "entry_price": 27.48,
-        "current_price": 27.19,
-        "target_price": 29.404,
-        "stop_loss": 26.824,
-        "trailing_stop": 26.824,
-        "current_gain_pct": -1.06,
-        "days_held": 0,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 30.3,
-        "er": 0.6427,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-18 12:31 CET",
-        "peak_score": 52.9,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 2.84,
-        "perf30": 6.86,
-        "stress_flags": [
-          "Score -23pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-08-18 09:40 CET",
-            "level": "BUY2",
-            "reason": "Score 52.9\u226545 \u00b7 AO>0 \u00b7 ER 0.84\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 52.9,
-            "er": 0.84
-          },
-          {
-            "ts": "2026-08-18 12:31 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 28.3<45",
-            "size_pct": 75,
-            "score": 28.3,
-            "er": 0.6
-          }
-        ],
-        "warning": null,
-        "kama": 27.009,
-        "k_pct": 0.67,
-        "weight_pct": 48.9
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -3130,12 +3076,81 @@
         "final_gain_pct": 0.37,
         "exit_date": "2026-08-17",
         "exit_ts": "2026-08-17 16:30 CET"
+      },
+      {
+        "ticker": "ARMR.MI",
+        "name": "Amundi Future of Defence ETF",
+        "entry_date": "2026-08-18",
+        "entry_ts": "2026-08-18 09:40 CET",
+        "entry_price": 27.48,
+        "current_price": 27.19,
+        "target_price": 29.404,
+        "stop_loss": 26.824,
+        "trailing_stop": 26.824,
+        "current_gain_pct": -1.06,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 30.3,
+        "er": 0.6427,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-08-18 12:31 CET",
+        "peak_score": 52.9,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 2.84,
+        "perf30": 6.86,
+        "stress_flags": [
+          "Score -23pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-08-18 09:40 CET",
+            "level": "BUY2",
+            "reason": "Score 52.9\u226545 \u00b7 AO>0 \u00b7 ER 0.84\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 52.9,
+            "er": 0.84
+          },
+          {
+            "ts": "2026-08-18 12:31 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 28.3<45",
+            "size_pct": 75,
+            "score": 28.3,
+            "er": 0.6
+          },
+          {
+            "ts": "2026-08-18 19:29 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 30.3,
+            "er": 0.64
+          }
+        ],
+        "warning": null,
+        "kama": 27.009,
+        "k_pct": 0.67,
+        "weight_pct": 48.9,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 27.19,
+        "final_gain_pct": -1.06,
+        "exit_date": "2026-08-18",
+        "exit_ts": "2026-08-18 19:29 CET"
       }
     ],
     "cooldowns": {
       "WDEF.MI": "2026-08-19",
       "LOCK.MI": "2026-08-19",
-      "VPN.MI": "2026-08-19"
+      "VPN.MI": "2026-08-19",
+      "ARMR.MI": "2026-08-20"
     }
   },
   "energia": {
@@ -6553,7 +6568,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 17:35 CET",
         "peak_score": 47.4,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -8917,7 +8932,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 17:35 CET",
         "peak_score": 48.3,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -10271,7 +10286,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 15:45 CET",
         "peak_score": 56.7,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -14446,7 +14461,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 16:36 CET",
         "peak_score": 44.4,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": true,
