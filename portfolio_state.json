@@ -1070,110 +1070,7 @@
     "cooldowns": {}
   },
   "difesa": {
-    "positions": [
-      {
-        "ticker": "ARMI.MI",
-        "name": "VanEck Defense ETF",
-        "entry_date": "2026-07-29",
-        "entry_ts": "2026-07-29 19:18 CET",
-        "entry_price": 10.156,
-        "current_price": 11.0,
-        "target_price": 10.867,
-        "stop_loss": 9.923,
-        "trailing_stop": 10.945,
-        "current_gain_pct": 8.31,
-        "days_held": 21,
-        "pre_alert": false,
-        "target_hit": true,
-        "score": 24.1,
-        "er": 0.538,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-18 17:34 CET",
-        "peak_score": 52.5,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 2.59,
-        "perf30": 8.35,
-        "stress_flags": [
-          "Score -28pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-07-29 19:18 CET",
-            "level": "BUY2",
-            "reason": "Score 51.2\u226545 \u00b7 AO>0 \u00b7 ER 0.86\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 51.2,
-            "er": 0.86
-          },
-          {
-            "ts": "2026-07-31 17:22 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 40.6<45",
-            "size_pct": 75,
-            "score": 40.6,
-            "er": 0.74
-          },
-          {
-            "ts": "2026-08-03 12:45 CET",
-            "level": "BUY2",
-            "reason": "Score 48.4\u226545 \u00b7 AO>0 \u00b7 ER 0.87\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 48.4,
-            "er": 0.87
-          },
-          {
-            "ts": "2026-08-04 11:39 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 42.8<45",
-            "size_pct": 75,
-            "score": 42.8,
-            "er": 0.76
-          },
-          {
-            "ts": "2026-08-04 14:03 CET",
-            "level": "BUY2",
-            "reason": "Score 51.1\u226545 \u00b7 AO>0 \u00b7 ER 0.89\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 51.1,
-            "er": 0.89
-          },
-          {
-            "ts": "2026-08-17 14:50 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 44.2<45",
-            "size_pct": 75,
-            "score": 44.2,
-            "er": 0.92
-          },
-          {
-            "ts": "2026-08-18 09:40 CET",
-            "level": "BUY2",
-            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.93\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 46.4,
-            "er": 0.93
-          },
-          {
-            "ts": "2026-08-18 17:34 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 30.0<45",
-            "size_pct": 75,
-            "score": 30.0,
-            "er": 0.55
-          }
-        ],
-        "warning": null,
-        "kama": 10.993,
-        "k_pct": 0.06,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "VPN.MI",
@@ -3141,10 +3038,127 @@
         "final_gain_pct": -1.06,
         "exit_date": "2026-08-18",
         "exit_ts": "2026-08-18 19:29 CET"
+      },
+      {
+        "ticker": "ARMI.MI",
+        "name": "VanEck Defense ETF",
+        "entry_date": "2026-07-29",
+        "entry_ts": "2026-07-29 19:18 CET",
+        "entry_price": 10.156,
+        "current_price": 11.0,
+        "target_price": 10.867,
+        "stop_loss": 9.923,
+        "trailing_stop": 10.945,
+        "current_gain_pct": 8.31,
+        "days_held": 21,
+        "pre_alert": false,
+        "target_hit": true,
+        "score": 24.1,
+        "er": 0.538,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-08-18 17:34 CET",
+        "peak_score": 52.5,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 2.59,
+        "perf30": 8.35,
+        "stress_flags": [
+          "Score -28pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-07-29 19:18 CET",
+            "level": "BUY2",
+            "reason": "Score 51.2\u226545 \u00b7 AO>0 \u00b7 ER 0.86\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 51.2,
+            "er": 0.86
+          },
+          {
+            "ts": "2026-07-31 17:22 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 40.6<45",
+            "size_pct": 75,
+            "score": 40.6,
+            "er": 0.74
+          },
+          {
+            "ts": "2026-08-03 12:45 CET",
+            "level": "BUY2",
+            "reason": "Score 48.4\u226545 \u00b7 AO>0 \u00b7 ER 0.87\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 48.4,
+            "er": 0.87
+          },
+          {
+            "ts": "2026-08-04 11:39 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 42.8<45",
+            "size_pct": 75,
+            "score": 42.8,
+            "er": 0.76
+          },
+          {
+            "ts": "2026-08-04 14:03 CET",
+            "level": "BUY2",
+            "reason": "Score 51.1\u226545 \u00b7 AO>0 \u00b7 ER 0.89\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 51.1,
+            "er": 0.89
+          },
+          {
+            "ts": "2026-08-17 14:50 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.2<45",
+            "size_pct": 75,
+            "score": 44.2,
+            "er": 0.92
+          },
+          {
+            "ts": "2026-08-18 09:40 CET",
+            "level": "BUY2",
+            "reason": "Score 46.4\u226545 \u00b7 AO>0 \u00b7 ER 0.93\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 46.4,
+            "er": 0.93
+          },
+          {
+            "ts": "2026-08-18 17:34 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 30.0<45",
+            "size_pct": 75,
+            "score": 30.0,
+            "er": 0.55
+          },
+          {
+            "ts": "2026-08-19 13:27 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 24.1,
+            "er": 0.54
+          }
+        ],
+        "warning": null,
+        "kama": 10.993,
+        "k_pct": 0.06,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 11.0,
+        "final_gain_pct": 8.31,
+        "exit_date": "2026-08-19",
+        "exit_ts": "2026-08-19 13:27 CET"
       }
     ],
     "cooldowns": {
-      "ARMR.MI": "2026-08-20"
+      "ARMR.MI": "2026-08-20",
+      "ARMI.MI": "2026-08-21"
     }
   },
   "energia": {
@@ -6351,16 +6365,16 @@
         "entry_date": "2026-08-06",
         "entry_ts": "2026-08-06 17:16 CET",
         "entry_price": 9.455,
-        "current_price": 9.444,
+        "current_price": 9.442,
         "target_price": 10.117,
         "stop_loss": 9.324,
         "trailing_stop": 9.434,
-        "current_gain_pct": -0.12,
+        "current_gain_pct": -0.14,
         "days_held": 13,
         "pre_alert": false,
         "target_hit": false,
-        "score": 18.3,
-        "er": 0.2115,
+        "score": 18.1,
+        "er": 0.2028,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-08-19 09:40 CET",
@@ -6370,14 +6384,14 @@
         "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": -0.57,
-        "perf30": 0.47,
+        "perf7": -0.59,
+        "perf30": 0.45,
         "stress_flags": [
           "KAMA rotta",
           "SAR bear",
           "AO calante",
           "ER<0.4",
-          "Score -14pt dal picco"
+          "Score -15pt dal picco"
         ],
         "stress_score": 5,
         "events": [
@@ -6480,8 +6494,8 @@
         ],
         "warning": null,
         "kama": 9.477,
-        "k_pct": -0.35,
-        "weight_pct": 19.5
+        "k_pct": -0.37,
+        "weight_pct": 28.9
       },
       {
         "ticker": "BIOT.MI",
@@ -6503,7 +6517,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 45.4,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -6557,62 +6571,7 @@
         "warning": null,
         "kama": 13.021,
         "k_pct": 1.08,
-        "weight_pct": 47.5
-      },
-      {
-        "ticker": "WDNA.MI",
-        "name": "WisdomTree Biorevolution ETF",
-        "entry_date": "2026-08-18",
-        "entry_ts": "2026-08-18 12:31 CET",
-        "entry_price": 20.925,
-        "current_price": 20.795,
-        "target_price": 22.39,
-        "stop_loss": 20.488,
-        "trailing_stop": 20.488,
-        "current_gain_pct": -0.62,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 30.9,
-        "er": 0.5428,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-18 17:35 CET",
-        "peak_score": 47.4,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 3.07,
-        "perf30": -1.16,
-        "stress_flags": [
-          "AO calante",
-          "Score -16pt dal picco"
-        ],
-        "stress_score": 2,
-        "events": [
-          {
-            "ts": "2026-08-18 12:31 CET",
-            "level": "BUY2",
-            "reason": "Score 47.4\u226545 \u00b7 AO>0 \u00b7 ER 0.65\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 47.4,
-            "er": 0.65
-          },
-          {
-            "ts": "2026-08-18 17:35 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 44.6<45",
-            "size_pct": 75,
-            "score": 44.6,
-            "er": 0.63
-          }
-        ],
-        "warning": null,
-        "kama": 20.672,
-        "k_pct": 0.6,
-        "weight_pct": 33.0
+        "weight_pct": 71.1
       }
     ],
     "history": [
@@ -8856,10 +8815,80 @@
         "final_gain_pct": 3.69,
         "exit_date": "2026-08-18",
         "exit_ts": "2026-08-18 12:31 CET"
+      },
+      {
+        "ticker": "WDNA.MI",
+        "name": "WisdomTree Biorevolution ETF",
+        "entry_date": "2026-08-18",
+        "entry_ts": "2026-08-18 12:31 CET",
+        "entry_price": 20.925,
+        "current_price": 20.795,
+        "target_price": 22.39,
+        "stop_loss": 20.488,
+        "trailing_stop": 20.488,
+        "current_gain_pct": -0.62,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 30.9,
+        "er": 0.5428,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-08-18 17:35 CET",
+        "peak_score": 47.4,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 3.07,
+        "perf30": -1.16,
+        "stress_flags": [
+          "AO calante",
+          "Score -16pt dal picco"
+        ],
+        "stress_score": 2,
+        "events": [
+          {
+            "ts": "2026-08-18 12:31 CET",
+            "level": "BUY2",
+            "reason": "Score 47.4\u226545 \u00b7 AO>0 \u00b7 ER 0.65\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 47.4,
+            "er": 0.65
+          },
+          {
+            "ts": "2026-08-18 17:35 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 44.6<45",
+            "size_pct": 75,
+            "score": 44.6,
+            "er": 0.63
+          },
+          {
+            "ts": "2026-08-19 13:27 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 30.9,
+            "er": 0.54
+          }
+        ],
+        "warning": null,
+        "kama": 20.672,
+        "k_pct": 0.6,
+        "weight_pct": 33.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 20.795,
+        "final_gain_pct": -0.62,
+        "exit_date": "2026-08-19",
+        "exit_ts": "2026-08-19 13:27 CET"
       }
     ],
     "cooldowns": {
-      "GNOM.MI": "2026-08-20"
+      "GNOM.MI": "2026-08-20",
+      "WDNA.MI": "2026-08-21"
     }
   },
   "crypto": {
@@ -8884,7 +8913,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 50.9,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -8932,61 +8961,7 @@
         "warning": null,
         "kama": 9.898,
         "k_pct": 0.08,
-        "weight_pct": 43.8
-      },
-      {
-        "ticker": "BTECJ.MI",
-        "name": "iShares Blockchain JPY Hedged",
-        "entry_date": "2026-08-14",
-        "entry_ts": "2026-08-14 10:18 CET",
-        "entry_price": 12998.57,
-        "current_price": 12998.57,
-        "target_price": 13908.47,
-        "stop_loss": 12903.829,
-        "trailing_stop": 12922.715,
-        "current_gain_pct": 0.0,
-        "days_held": 5,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 36.9,
-        "er": 1.0,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-18 17:35 CET",
-        "peak_score": 48.3,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": false,
-        "rvi_bullish": true,
-        "perf7": 5.97,
-        "perf30": 7.26,
-        "stress_flags": [
-          "Score -11pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-08-14 10:18 CET",
-            "level": "BUY2",
-            "reason": "Score 47.0\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 47.0,
-            "er": 1.0
-          },
-          {
-            "ts": "2026-08-18 17:35 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 36.2<45",
-            "size_pct": 75,
-            "score": 36.2,
-            "er": 0.6
-          }
-        ],
-        "warning": null,
-        "kama": 12959.901,
-        "k_pct": 0.3,
-        "weight_pct": 56.2
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -10281,9 +10256,79 @@
         "final_gain_pct": -0.1,
         "exit_date": "2026-07-15",
         "exit_ts": "2026-07-15 15:49 CET"
+      },
+      {
+        "ticker": "BTECJ.MI",
+        "name": "iShares Blockchain JPY Hedged",
+        "entry_date": "2026-08-14",
+        "entry_ts": "2026-08-14 10:18 CET",
+        "entry_price": 12998.57,
+        "current_price": 12998.57,
+        "target_price": 13908.47,
+        "stop_loss": 12903.829,
+        "trailing_stop": 12922.715,
+        "current_gain_pct": 0.0,
+        "days_held": 5,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 36.9,
+        "er": 1.0,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-08-18 17:35 CET",
+        "peak_score": 48.3,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": true,
+        "perf7": 5.97,
+        "perf30": 7.26,
+        "stress_flags": [
+          "Score -11pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-08-14 10:18 CET",
+            "level": "BUY2",
+            "reason": "Score 47.0\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 47.0,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-08-18 17:35 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 36.2<45",
+            "size_pct": 75,
+            "score": 36.2,
+            "er": 0.6
+          },
+          {
+            "ts": "2026-08-19 13:27 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 36.9,
+            "er": 1.0
+          }
+        ],
+        "warning": null,
+        "kama": 12959.901,
+        "k_pct": 0.3,
+        "weight_pct": 56.2,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 12998.57,
+        "final_gain_pct": 0.0,
+        "exit_date": "2026-08-19",
+        "exit_ts": "2026-08-19 13:27 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "BTECJ.MI": "2026-08-21"
+    }
   },
   "mobilita": {
     "positions": [
@@ -10307,7 +10352,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 48.4,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11662,7 +11707,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 38.6,
-        "days_in_buy1": 4,
+        "days_in_buy1": 5,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
