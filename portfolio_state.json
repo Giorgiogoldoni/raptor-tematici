@@ -1091,7 +1091,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 17:34 CET",
         "peak_score": 52.5,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -3191,7 +3191,7 @@
         "warning": null,
         "kama": 46.193,
         "k_pct": 2.18,
-        "weight_pct": 52.6
+        "weight_pct": 52.8
       },
       {
         "ticker": "OIH.MI",
@@ -3199,16 +3199,16 @@
         "entry_date": "2026-08-18",
         "entry_ts": "2026-08-18 14:52 CET",
         "entry_price": 29.92,
-        "current_price": 29.555,
+        "current_price": 29.475,
         "target_price": 32.014,
         "stop_loss": 29.08,
         "trailing_stop": 29.08,
-        "current_gain_pct": -1.22,
+        "current_gain_pct": -1.49,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 46.3,
-        "er": 0.628,
+        "score": 45.9,
+        "er": 0.6163,
         "current_level": "BUY2",
         "buy_level": "BUY2",
         "level_ts": "2026-08-18 14:52 CET",
@@ -3218,8 +3218,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 6.72,
-        "perf30": 13.52,
+        "perf7": 6.43,
+        "perf30": 13.21,
         "stress_flags": [],
         "stress_score": 0,
         "events": [
@@ -3233,9 +3233,9 @@
           }
         ],
         "warning": null,
-        "kama": 29.273,
-        "k_pct": 0.96,
-        "weight_pct": 47.4
+        "kama": 29.238,
+        "k_pct": 0.81,
+        "weight_pct": 47.2
       }
     ],
     "history": [
@@ -6503,7 +6503,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 45.4,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -6579,7 +6579,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 17:35 CET",
         "peak_score": 47.4,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -8884,7 +8884,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 50.9,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -8954,7 +8954,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-18 17:35 CET",
         "peak_score": 48.3,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -10307,7 +10307,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 48.4,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "GRIGIO",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -11662,7 +11662,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-19 09:40 CET",
         "peak_score": 38.6,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -14408,54 +14408,7 @@
     }
   },
   "risorse": {
-    "positions": [
-      {
-        "ticker": "RARE.MI",
-        "name": "VanEck Rare Earth ETF",
-        "entry_date": "2026-08-18",
-        "entry_ts": "2026-08-18 16:36 CET",
-        "entry_price": 49.105,
-        "current_price": 49.225,
-        "target_price": 52.542,
-        "stop_loss": 47.209,
-        "trailing_stop": 47.379,
-        "current_gain_pct": 0.24,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 34.4,
-        "er": 0.5388,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-18 16:36 CET",
-        "peak_score": 44.4,
-        "days_in_buy1": 7,
-        "trend": "GRIGIO",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 3.73,
-        "perf30": 3.14,
-        "stress_flags": [
-          "Score -10pt dal picco"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-08-18 16:36 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.59>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 44.4,
-            "er": 0.59
-          }
-        ],
-        "warning": null,
-        "kama": 48.889,
-        "k_pct": 0.69,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "METL.MI",
@@ -17211,12 +17164,73 @@
         "final_gain_pct": 2.37,
         "exit_date": "2026-08-19",
         "exit_ts": "2026-08-19 09:41 CET"
+      },
+      {
+        "ticker": "RARE.MI",
+        "name": "VanEck Rare Earth ETF",
+        "entry_date": "2026-08-18",
+        "entry_ts": "2026-08-18 16:36 CET",
+        "entry_price": 49.105,
+        "current_price": 49.225,
+        "target_price": 52.542,
+        "stop_loss": 47.209,
+        "trailing_stop": 47.379,
+        "current_gain_pct": 0.24,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 34.4,
+        "er": 0.5388,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-08-18 16:36 CET",
+        "peak_score": 44.4,
+        "days_in_buy1": 7,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 3.73,
+        "perf30": 3.14,
+        "stress_flags": [
+          "Score -10pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-08-18 16:36 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.59>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 44.4,
+            "er": 0.59
+          },
+          {
+            "ts": "2026-08-19 12:32 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 34.4,
+            "er": 0.54
+          }
+        ],
+        "warning": null,
+        "kama": 48.889,
+        "k_pct": 0.69,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 49.225,
+        "final_gain_pct": 0.24,
+        "exit_date": "2026-08-19",
+        "exit_ts": "2026-08-19 12:32 CET"
       }
     ],
     "cooldowns": {
       "REMX.MI": "2026-08-20",
       "GSM.MI": "2026-08-20",
-      "COPX.MI": "2026-08-21"
+      "COPX.MI": "2026-08-21",
+      "RARE.MI": "2026-08-21"
     }
   },
   "digitale": {
@@ -20327,11 +20341,11 @@
         "target_hit": false,
         "score": 31.4,
         "er": 0.5396,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-19 11:37 CET",
+        "current_level": "EXIT1",
+        "buy_level": "EXIT1",
+        "level_ts": "2026-08-19 12:32 CET",
         "peak_score": 46.2,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -20357,6 +20371,14 @@
             "level": "DOWNGRADE_BUY1",
             "reason": "BUY2\u2192BUY1: Score 31.4<45",
             "size_pct": 75,
+            "score": 31.4,
+            "er": 0.54
+          },
+          {
+            "ts": "2026-08-19 12:32 CET",
+            "level": "EXIT1",
+            "reason": "AO in calo 3+ sessioni",
+            "size_pct": 40,
             "score": 31.4,
             "er": 0.54
           }
