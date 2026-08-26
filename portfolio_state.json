@@ -3335,70 +3335,7 @@
     "cooldowns": {}
   },
   "energia": {
-    "positions": [
-      {
-        "ticker": "U3O8.MI",
-        "name": "Global X Uranium ETF",
-        "entry_date": "2026-08-25",
-        "entry_ts": "2026-08-25 16:49 CET",
-        "entry_price": 12.886,
-        "current_price": 13.076,
-        "target_price": 13.788,
-        "stop_loss": 12.4,
-        "trailing_stop": 12.763,
-        "current_gain_pct": 1.47,
-        "days_held": 1,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 45.6,
-        "er": 0.3663,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-26 12:38 CET",
-        "peak_score": 48.3,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 9.44,
-        "perf30": 14.74,
-        "stress_flags": [
-          "ER<0.4"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-08-25 16:49 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.36>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 43.6,
-            "er": 0.36
-          },
-          {
-            "ts": "2026-08-25 17:45 CET",
-            "level": "EXIT2",
-            "reason": "Score -8pt (52\u219244) \u00b7 ER 0.39<0.4",
-            "size_pct": 75,
-            "score": 44.1,
-            "er": 0.39
-          },
-          {
-            "ts": "2026-08-26 12:38 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.37>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 45.6,
-            "er": 0.37
-          }
-        ],
-        "warning": null,
-        "kama": 12.312,
-        "k_pct": 6.2,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "HDRO.MI",
@@ -6874,10 +6811,87 @@
         "final_gain_pct": -0.16,
         "exit_date": "2026-08-26",
         "exit_ts": "2026-08-26 16:54 CET"
+      },
+      {
+        "ticker": "U3O8.MI",
+        "name": "Global X Uranium ETF",
+        "entry_date": "2026-08-25",
+        "entry_ts": "2026-08-25 16:49 CET",
+        "entry_price": 12.886,
+        "current_price": 13.076,
+        "target_price": 13.788,
+        "stop_loss": 12.4,
+        "trailing_stop": 12.763,
+        "current_gain_pct": 1.47,
+        "days_held": 1,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 45.6,
+        "er": 0.3663,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-08-26 12:38 CET",
+        "peak_score": 48.3,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 9.44,
+        "perf30": 14.74,
+        "stress_flags": [
+          "ER<0.4"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-08-25 16:49 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.36>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 43.6,
+            "er": 0.36
+          },
+          {
+            "ts": "2026-08-25 17:45 CET",
+            "level": "EXIT2",
+            "reason": "Score -8pt (52\u219244) \u00b7 ER 0.39<0.4",
+            "size_pct": 75,
+            "score": 44.1,
+            "er": 0.39
+          },
+          {
+            "ts": "2026-08-26 12:38 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.37>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 45.6,
+            "er": 0.37
+          },
+          {
+            "ts": "2026-08-26 21:06 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 45.6,
+            "er": 0.37
+          }
+        ],
+        "warning": null,
+        "kama": 12.312,
+        "k_pct": 6.2,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 13.076,
+        "final_gain_pct": 1.47,
+        "exit_date": "2026-08-26",
+        "exit_ts": "2026-08-26 21:06 CET"
       }
     ],
     "cooldowns": {
-      "URNJ.MI": "2026-08-28"
+      "URNJ.MI": "2026-08-28",
+      "U3O8.MI": "2026-08-28"
     }
   },
   "salute": {
@@ -11622,7 +11636,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-26 18:20 CET",
         "peak_score": 47.9,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -15818,7 +15832,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-26 18:20 CET",
         "peak_score": 49.1,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -15902,7 +15916,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-26 18:20 CET",
         "peak_score": 47.5,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -16018,7 +16032,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-26 12:38 CET",
         "peak_score": 47.2,
-        "days_in_buy1": 6,
+        "days_in_buy1": 7,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -29019,7 +29033,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-08-26 16:54 CET",
         "peak_score": 41.5,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
