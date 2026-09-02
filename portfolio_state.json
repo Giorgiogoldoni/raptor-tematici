@@ -7039,79 +7039,7 @@
     }
   },
   "salute": {
-    "positions": [
-      {
-        "ticker": "CURE.MI",
-        "name": "Global X Genomics & Biotechnology",
-        "entry_date": "2026-08-21",
-        "entry_ts": "2026-08-21 16:38 CET",
-        "entry_price": 22.945,
-        "current_price": 23.425,
-        "target_price": 24.551,
-        "stop_loss": 22.44,
-        "trailing_stop": 23.186,
-        "current_gain_pct": 2.09,
-        "days_held": 12,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 27.9,
-        "er": 0.4867,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-08-28 21:19 CET",
-        "peak_score": 49.3,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": -0.15,
-        "perf30": 18.98,
-        "stress_flags": [
-          "AO calante",
-          "Score -21pt dal picco"
-        ],
-        "stress_score": 2,
-        "events": [
-          {
-            "ts": "2026-08-21 16:38 CET",
-            "level": "BUY2",
-            "reason": "Score 47.8\u226545 \u00b7 AO>0 \u00b7 ER 0.82\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 47.8,
-            "er": 0.82
-          },
-          {
-            "ts": "2026-08-24 15:54 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 42.0<45",
-            "size_pct": 75,
-            "score": 42.0,
-            "er": 0.51
-          },
-          {
-            "ts": "2026-08-25 09:47 CET",
-            "level": "BUY2",
-            "reason": "Score 45.2\u226545 \u00b7 AO>0 \u00b7 ER 0.64\u22650.5 \u00b7 SAR bull",
-            "size_pct": 70,
-            "score": 45.2,
-            "er": 0.64
-          },
-          {
-            "ts": "2026-08-28 21:19 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 31.9<45 \u00b7 ER 0.49<0.5",
-            "size_pct": 75,
-            "score": 31.9,
-            "er": 0.49
-          }
-        ],
-        "warning": null,
-        "kama": 23.1,
-        "k_pct": 1.41,
-        "weight_pct": 100.0
-      }
-    ],
+    "positions": [],
     "history": [
       {
         "ticker": "GENDEE.MI",
@@ -10024,11 +9952,97 @@
         "final_gain_pct": -0.38,
         "exit_date": "2026-09-01",
         "exit_ts": "2026-09-01 19:13 CET"
+      },
+      {
+        "ticker": "CURE.MI",
+        "name": "Global X Genomics & Biotechnology",
+        "entry_date": "2026-08-21",
+        "entry_ts": "2026-08-21 16:38 CET",
+        "entry_price": 22.945,
+        "current_price": 23.425,
+        "target_price": 24.551,
+        "stop_loss": 22.44,
+        "trailing_stop": 23.186,
+        "current_gain_pct": 2.09,
+        "days_held": 12,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 27.9,
+        "er": 0.4867,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-08-28 21:19 CET",
+        "peak_score": 49.3,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": -0.15,
+        "perf30": 18.98,
+        "stress_flags": [
+          "AO calante",
+          "Score -21pt dal picco"
+        ],
+        "stress_score": 2,
+        "events": [
+          {
+            "ts": "2026-08-21 16:38 CET",
+            "level": "BUY2",
+            "reason": "Score 47.8\u226545 \u00b7 AO>0 \u00b7 ER 0.82\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 47.8,
+            "er": 0.82
+          },
+          {
+            "ts": "2026-08-24 15:54 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 42.0<45",
+            "size_pct": 75,
+            "score": 42.0,
+            "er": 0.51
+          },
+          {
+            "ts": "2026-08-25 09:47 CET",
+            "level": "BUY2",
+            "reason": "Score 45.2\u226545 \u00b7 AO>0 \u00b7 ER 0.64\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.2,
+            "er": 0.64
+          },
+          {
+            "ts": "2026-08-28 21:19 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 31.9<45 \u00b7 ER 0.49<0.5",
+            "size_pct": 75,
+            "score": 31.9,
+            "er": 0.49
+          },
+          {
+            "ts": "2026-09-02 21:39 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 27.9,
+            "er": 0.49
+          }
+        ],
+        "warning": null,
+        "kama": 23.1,
+        "k_pct": 1.41,
+        "weight_pct": 100.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 23.425,
+        "final_gain_pct": 2.09,
+        "exit_date": "2026-09-02",
+        "exit_ts": "2026-09-02 21:39 CET"
       }
     ],
     "cooldowns": {
       "XGEN.MI": "2026-09-03",
-      "WDNA.MI": "2026-09-03"
+      "WDNA.MI": "2026-09-03",
+      "CURE.MI": "2026-09-04"
     }
   },
   "crypto": {
@@ -16126,7 +16140,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-09-02 14:00 CET",
         "peak_score": 49.9,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -20062,7 +20076,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-09-02 14:00 CET",
         "peak_score": 35.8,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
