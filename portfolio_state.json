@@ -10432,7 +10432,7 @@
         "stop_loss": 15.898,
         "trailing_stop": 16.289,
         "current_gain_pct": -0.19,
-        "days_held": 10,
+        "days_held": 11,
         "pre_alert": false,
         "target_hit": false,
         "score": 30.5,
@@ -24112,16 +24112,16 @@
         "entry_date": "2026-09-10",
         "entry_ts": "2026-09-10 14:07 CET",
         "entry_price": 36.45,
-        "current_price": 35.545,
+        "current_price": 35.48,
         "target_price": 39.002,
         "stop_loss": 35.651,
         "trailing_stop": 35.651,
-        "current_gain_pct": -2.48,
-        "days_held": 4,
+        "current_gain_pct": -2.66,
+        "days_held": 5,
         "pre_alert": false,
         "target_hit": false,
-        "score": 27.7,
-        "er": 0.0993,
+        "score": 27.0,
+        "er": 0.0797,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-09-10 18:56 CET",
@@ -24131,12 +24131,12 @@
         "sar_bullish": true,
         "vortex_bullish": false,
         "rvi_bullish": false,
-        "perf7": 2.51,
-        "perf30": 6.33,
+        "perf7": 2.32,
+        "perf30": 6.13,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -13pt dal picco"
+          "Score -14pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -24158,8 +24158,8 @@
           }
         ],
         "warning": null,
-        "kama": 35.787,
-        "k_pct": -0.68,
+        "kama": 35.785,
+        "k_pct": -0.85,
         "weight_pct": 100.0
       }
     ],
@@ -30845,7 +30845,51 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 100.0
+        "weight_pct": 68.2
+      },
+      {
+        "ticker": "HERU.MI",
+        "name": "HANetf European Equity ETF",
+        "entry_date": "2026-09-15",
+        "entry_ts": "2026-09-15 14:31 CET",
+        "entry_price": 11.412,
+        "current_price": 11.412,
+        "target_price": 12.211,
+        "stop_loss": 11.275,
+        "trailing_stop": 11.275,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 22.9,
+        "er": 0.4253,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-09-15 14:31 CET",
+        "peak_score": 22.9,
+        "days_in_buy1": 1,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": false,
+        "perf7": 2.7,
+        "perf30": 3.78,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-09-15 14:31 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.43>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 22.9,
+            "er": 0.43
+          }
+        ],
+        "warning": null,
+        "kama": 11.191,
+        "k_pct": 1.97,
+        "weight_pct": 31.8
       }
     ],
     "history": [
