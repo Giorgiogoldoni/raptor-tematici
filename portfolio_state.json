@@ -24,7 +24,7 @@
         "perf7": 4.33,
         "perf30": 1.22,
         "warning": "Dati non disponibili",
-        "weight_pct": 33.3
+        "weight_pct": 33.5
       },
       {
         "ticker": "FAMMWS.MI",
@@ -49,7 +49,7 @@
         "perf7": 15.29,
         "perf30": 13.08,
         "warning": "Dati non disponibili",
-        "weight_pct": 38.2
+        "weight_pct": 38.5
       },
       {
         "ticker": "AIAI.MI",
@@ -57,16 +57,16 @@
         "entry_date": "2026-09-22",
         "entry_ts": "2026-09-22 14:27 CET",
         "entry_price": 37.24,
-        "current_price": 38.805,
+        "current_price": 38.68,
         "target_price": 39.847,
         "stop_loss": 36.138,
         "trailing_stop": 39.089,
-        "current_gain_pct": 4.2,
+        "current_gain_pct": 3.87,
         "days_held": 16,
         "pre_alert": false,
         "target_hit": false,
-        "score": 41.4,
-        "er": 0.2671,
+        "score": 40.5,
+        "er": 0.2341,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 16:19 CET",
@@ -76,12 +76,12 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 3.97,
-        "perf30": 13.04,
+        "perf7": 3.63,
+        "perf30": 12.67,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -12pt dal picco"
+          "Score -13pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -103,9 +103,9 @@
           }
         ],
         "warning": null,
-        "kama": 39.073,
-        "k_pct": -0.69,
-        "weight_pct": 28.5
+        "kama": 39.071,
+        "k_pct": -1.0,
+        "weight_pct": 28.0
       }
     ],
     "history": [
@@ -1528,16 +1528,16 @@
         "entry_date": "2026-10-05",
         "entry_ts": "2026-10-05 17:40 CET",
         "entry_price": 11.97,
-        "current_price": 12.084,
+        "current_price": 11.998,
         "target_price": 12.808,
         "stop_loss": 11.681,
         "trailing_stop": 11.801,
-        "current_gain_pct": 0.95,
+        "current_gain_pct": 0.23,
         "days_held": 3,
         "pre_alert": false,
         "target_hit": false,
-        "score": 43.1,
-        "er": 0.3885,
+        "score": 41.3,
+        "er": 0.2978,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-08 16:27 CET",
@@ -1547,8 +1547,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 6.82,
-        "perf30": 14.87,
+        "perf7": 6.06,
+        "perf30": 14.05,
         "stress_flags": [
           "ER<0.4"
         ],
@@ -1572,101 +1572,9 @@
           }
         ],
         "warning": null,
-        "kama": 11.95,
-        "k_pct": 1.12,
-        "weight_pct": 34.2
-      },
-      {
-        "ticker": "ICBR.MI",
-        "name": "iShares Cyber Security & Tech UCITS ETF",
-        "entry_date": "2026-10-05",
-        "entry_ts": "2026-10-05 17:40 CET",
-        "entry_price": 7.352,
-        "current_price": 7.441,
-        "target_price": 7.867,
-        "stop_loss": 7.199,
-        "trailing_stop": 7.29,
-        "current_gain_pct": 1.21,
-        "days_held": 3,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 44.1,
-        "er": 0.3098,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-10-05 17:40 CET",
-        "peak_score": 47.8,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 6.13,
-        "perf30": 16.67,
-        "stress_flags": [
-          "ER<0.4"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-10-05 17:40 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 43.0,
-            "er": 0.39
-          }
-        ],
-        "warning": null,
-        "kama": 7.328,
-        "k_pct": 1.54,
-        "weight_pct": 35.0
-      },
-      {
-        "ticker": "FAMMAI.MI",
-        "name": "Fineco AM MSCI ACWI Cyber Security UCITS ETF",
-        "entry_date": "2026-10-05",
-        "entry_ts": "2026-10-05 17:40 CET",
-        "entry_price": 199.79,
-        "current_price": 200.36,
-        "target_price": 213.775,
-        "stop_loss": 193.877,
-        "trailing_stop": 197.291,
-        "current_gain_pct": 0.29,
-        "days_held": 3,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 38.7,
-        "er": 0.155,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-10-05 17:40 CET",
-        "peak_score": 42.7,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 5.69,
-        "perf30": 13.58,
-        "stress_flags": [
-          "ER<0.4"
-        ],
-        "stress_score": 1,
-        "events": [
-          {
-            "ts": "2026-10-05 17:40 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.35>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 35.7,
-            "er": 0.35
-          }
-        ],
-        "warning": null,
-        "kama": 198.513,
-        "k_pct": 0.93,
-        "weight_pct": 30.7
+        "kama": 11.888,
+        "k_pct": 0.92,
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -4046,9 +3954,132 @@
         "final_gain_pct": -0.37,
         "exit_date": "2026-09-28",
         "exit_ts": "2026-09-28 17:06 CET"
+      },
+      {
+        "ticker": "ICBR.MI",
+        "name": "iShares Cyber Security & Tech UCITS ETF",
+        "entry_date": "2026-10-05",
+        "entry_ts": "2026-10-05 17:40 CET",
+        "entry_price": 7.352,
+        "current_price": 7.441,
+        "target_price": 7.867,
+        "stop_loss": 7.199,
+        "trailing_stop": 7.29,
+        "current_gain_pct": 1.21,
+        "days_held": 3,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 44.1,
+        "er": 0.3098,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-10-05 17:40 CET",
+        "peak_score": 47.8,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 6.13,
+        "perf30": 16.67,
+        "stress_flags": [
+          "ER<0.4"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-10-05 17:40 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.39>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 43.0,
+            "er": 0.39
+          },
+          {
+            "ts": "2026-10-08 22:34 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 42.4,
+            "er": 0.23
+          }
+        ],
+        "warning": null,
+        "kama": 7.328,
+        "k_pct": 1.54,
+        "weight_pct": 35.0,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 7.386,
+        "final_gain_pct": 0.46,
+        "exit_date": "2026-10-08",
+        "exit_ts": "2026-10-08 22:34 CET"
+      },
+      {
+        "ticker": "FAMMAI.MI",
+        "name": "Fineco AM MSCI ACWI Cyber Security UCITS ETF",
+        "entry_date": "2026-10-05",
+        "entry_ts": "2026-10-05 17:40 CET",
+        "entry_price": 199.79,
+        "current_price": 200.36,
+        "target_price": 213.775,
+        "stop_loss": 193.877,
+        "trailing_stop": 197.291,
+        "current_gain_pct": 0.29,
+        "days_held": 3,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 38.7,
+        "er": 0.155,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-10-05 17:40 CET",
+        "peak_score": 42.7,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": true,
+        "perf7": 5.69,
+        "perf30": 13.58,
+        "stress_flags": [
+          "ER<0.4"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-10-05 17:40 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.35>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 35.7,
+            "er": 0.35
+          },
+          {
+            "ts": "2026-10-08 22:34 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 37.8,
+            "er": 0.12
+          }
+        ],
+        "warning": null,
+        "kama": 198.513,
+        "k_pct": 0.93,
+        "weight_pct": 30.7,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 199.61,
+        "final_gain_pct": -0.09,
+        "exit_date": "2026-10-08",
+        "exit_ts": "2026-10-08 22:34 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "ICBR.MI": "2026-10-10",
+      "FAMMAI.MI": "2026-10-10"
+    }
   },
   "energia": {
     "positions": [
@@ -4058,30 +4089,30 @@
         "entry_date": "2026-10-05",
         "entry_ts": "2026-10-05 17:40 CET",
         "entry_price": 26.0,
-        "current_price": 25.735,
+        "current_price": 25.64,
         "target_price": 27.82,
         "stop_loss": 25.537,
         "trailing_stop": 25.728,
-        "current_gain_pct": -1.02,
+        "current_gain_pct": -1.38,
         "days_held": 3,
         "pre_alert": false,
         "target_hit": false,
-        "score": 39.6,
-        "er": 0.2902,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-10-07 16:19 CET",
+        "score": 37.6,
+        "er": 0.2464,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-10-08 22:34 CET",
         "peak_score": 46.6,
-        "days_in_buy1": 3,
+        "days_in_buy1": 4,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 4.42,
-        "perf30": 6.06,
+        "perf7": 4.04,
+        "perf30": 5.67,
         "stress_flags": [
           "ER<0.4",
-          "Score -7pt dal picco"
+          "Score -9pt dal picco"
         ],
         "stress_score": 2,
         "events": [
@@ -4116,58 +4147,20 @@
             "size_pct": 75,
             "score": 42.3,
             "er": 0.46
-          }
-        ],
-        "warning": null,
-        "kama": 25.595,
-        "k_pct": 0.55,
-        "weight_pct": 55.2
-      },
-      {
-        "ticker": "XNGI.MI",
-        "name": "Xtrackers MSCI World Energy ETF",
-        "entry_date": "2026-10-05",
-        "entry_ts": "2026-10-05 17:40 CET",
-        "entry_price": 72.44,
-        "current_price": 72.43,
-        "target_price": 77.511,
-        "stop_loss": 71.36,
-        "trailing_stop": 71.973,
-        "current_gain_pct": -0.01,
-        "days_held": 3,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 32.2,
-        "er": 0.2209,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-10-05 17:40 CET",
-        "peak_score": 34.8,
-        "days_in_buy1": 7,
-        "trend": "VERDE",
-        "sar_bullish": true,
-        "vortex_bullish": true,
-        "rvi_bullish": false,
-        "perf7": 3.49,
-        "perf30": 11.07,
-        "stress_flags": [
-          "ER<0.4"
-        ],
-        "stress_score": 1,
-        "events": [
+          },
           {
-            "ts": "2026-10-05 17:40 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.42>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 31.3,
-            "er": 0.42
+            "ts": "2026-10-08 22:34 CET",
+            "level": "EXIT2",
+            "reason": "Score -9pt (47\u219238) \u00b7 ER 0.25<0.4",
+            "size_pct": 75,
+            "score": 37.6,
+            "er": 0.25
           }
         ],
         "warning": null,
-        "kama": 72.239,
-        "k_pct": 0.26,
-        "weight_pct": 44.8
+        "kama": 25.576,
+        "k_pct": 0.25,
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -8405,11 +8398,72 @@
         "final_gain_pct": -2.34,
         "exit_date": "2026-10-08",
         "exit_ts": "2026-10-08 16:27 CET"
+      },
+      {
+        "ticker": "XNGI.MI",
+        "name": "Xtrackers MSCI World Energy ETF",
+        "entry_date": "2026-10-05",
+        "entry_ts": "2026-10-05 17:40 CET",
+        "entry_price": 72.44,
+        "current_price": 72.43,
+        "target_price": 77.511,
+        "stop_loss": 71.36,
+        "trailing_stop": 71.973,
+        "current_gain_pct": -0.01,
+        "days_held": 3,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 32.2,
+        "er": 0.2209,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-10-05 17:40 CET",
+        "peak_score": 34.8,
+        "days_in_buy1": 7,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": true,
+        "rvi_bullish": false,
+        "perf7": 3.49,
+        "perf30": 11.07,
+        "stress_flags": [
+          "ER<0.4"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-10-05 17:40 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 0.42>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 31.3,
+            "er": 0.42
+          },
+          {
+            "ts": "2026-10-08 22:34 CET",
+            "level": "EXIT1b",
+            "reason": "Time stop: 8gg in BUY1",
+            "size_pct": 100,
+            "score": 32.1,
+            "er": 0.22
+          }
+        ],
+        "warning": null,
+        "kama": 72.239,
+        "k_pct": 0.26,
+        "weight_pct": 44.8,
+        "exit_level": "EXIT1b",
+        "exit_reason": "Time stop: 8gg in BUY1",
+        "exit_price": 72.42,
+        "final_gain_pct": -0.03,
+        "exit_date": "2026-10-08",
+        "exit_ts": "2026-10-08 22:34 CET"
       }
     ],
     "cooldowns": {
       "URNJ.MI": "2026-10-09",
-      "U3O8.MI": "2026-10-10"
+      "U3O8.MI": "2026-10-10",
+      "XNGI.MI": "2026-10-10"
     }
   },
   "salute": {
@@ -8420,31 +8474,32 @@
         "entry_date": "2026-09-21",
         "entry_ts": "2026-09-21 21:09 CET",
         "entry_price": 52.2,
-        "current_price": 54.08,
+        "current_price": 53.9,
         "target_price": 55.854,
         "stop_loss": 51.701,
         "trailing_stop": 53.747,
-        "current_gain_pct": 3.6,
+        "current_gain_pct": 3.26,
         "days_held": 17,
         "pre_alert": false,
         "target_hit": false,
-        "score": 29.5,
-        "er": 0.4762,
-        "current_level": "EXIT1",
-        "buy_level": "EXIT1",
-        "level_ts": "2026-10-06 00:22 CET",
+        "score": 26.7,
+        "er": 0.3778,
+        "current_level": "EXIT2",
+        "buy_level": "EXIT2",
+        "level_ts": "2026-10-08 22:34 CET",
         "peak_score": 53.0,
         "days_in_buy1": 6,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 1.71,
-        "perf30": 7.84,
+        "perf7": 1.37,
+        "perf30": 7.48,
         "stress_flags": [
-          "Score -24pt dal picco"
+          "ER<0.4",
+          "Score -26pt dal picco"
         ],
-        "stress_score": 1,
+        "stress_score": 2,
         "events": [
           {
             "ts": "2026-09-21 21:09 CET",
@@ -8525,11 +8580,19 @@
             "size_pct": 40,
             "score": 25.9,
             "er": 0.7
+          },
+          {
+            "ts": "2026-10-08 22:34 CET",
+            "level": "EXIT2",
+            "reason": "Score -26pt (53\u219227) \u00b7 ER 0.38<0.4",
+            "size_pct": 75,
+            "score": 26.7,
+            "er": 0.38
           }
         ],
         "warning": null,
-        "kama": 53.76,
-        "k_pct": 0.59,
+        "kama": 53.681,
+        "k_pct": 0.41,
         "weight_pct": 100.0
       }
     ],
@@ -11796,7 +11859,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-10-08 16:27 CET",
         "peak_score": 55.4,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -14060,16 +14123,16 @@
         "entry_date": "2026-09-28",
         "entry_ts": "2026-09-28 17:07 CET",
         "entry_price": 11.026,
-        "current_price": 11.234,
+        "current_price": 11.184,
         "target_price": 11.798,
         "stop_loss": 10.78,
         "trailing_stop": 11.372,
-        "current_gain_pct": 1.89,
+        "current_gain_pct": 1.43,
         "days_held": 10,
         "pre_alert": false,
         "target_hit": false,
-        "score": 31.7,
-        "er": 0.0788,
+        "score": 30.3,
+        "er": 0.0428,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-05 17:40 CET",
@@ -14079,12 +14142,12 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 1.89,
-        "perf30": 5.29,
+        "perf7": 1.43,
+        "perf30": 4.82,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -10pt dal picco"
+          "Score -12pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -14139,8 +14202,8 @@
         ],
         "warning": null,
         "kama": 11.326,
-        "k_pct": -0.81,
-        "weight_pct": 49.6
+        "k_pct": -1.25,
+        "weight_pct": 48.5
       },
       {
         "ticker": "DRVE.MI",
@@ -14194,7 +14257,7 @@
         "warning": null,
         "kama": 14.979,
         "k_pct": 2.49,
-        "weight_pct": 50.4
+        "weight_pct": 51.5
       }
     ],
     "history": [
@@ -15725,16 +15788,16 @@
         "entry_date": "2026-09-30",
         "entry_ts": "2026-09-30 15:26 CET",
         "entry_price": 83.95,
-        "current_price": 85.53,
+        "current_price": 84.97,
         "target_price": 89.827,
         "stop_loss": 82.967,
         "trailing_stop": 86.802,
-        "current_gain_pct": 1.88,
+        "current_gain_pct": 1.22,
         "days_held": 8,
         "pre_alert": false,
         "target_hit": false,
-        "score": 38.6,
-        "er": 0.2191,
+        "score": 34.1,
+        "er": 0.137,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 22:30 CET",
@@ -15743,13 +15806,13 @@
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
-        "rvi_bullish": true,
-        "perf7": 2.8,
-        "perf30": 5.36,
+        "rvi_bullish": false,
+        "perf7": 2.13,
+        "perf30": 4.67,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -12pt dal picco"
+          "Score -17pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -15787,9 +15850,9 @@
           }
         ],
         "warning": null,
-        "kama": 86.683,
-        "k_pct": -1.33,
-        "weight_pct": 55.2
+        "kama": 86.694,
+        "k_pct": -1.99,
+        "weight_pct": 53.3
       },
       {
         "ticker": "CITY.MI",
@@ -15797,16 +15860,16 @@
         "entry_date": "2026-10-06",
         "entry_ts": "2026-10-06 00:22 CET",
         "entry_price": 9.233,
-        "current_price": 9.223,
+        "current_price": 9.189,
         "target_price": 9.879,
         "stop_loss": 9.116,
         "trailing_stop": 9.256,
-        "current_gain_pct": -0.11,
+        "current_gain_pct": -0.48,
         "days_held": 2,
         "pre_alert": false,
         "target_hit": false,
-        "score": 31.3,
-        "er": 0.0542,
+        "score": 29.9,
+        "er": 0.0078,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 16:19 CET",
@@ -15816,12 +15879,12 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.25,
-        "perf30": 0.65,
+        "perf7": 1.87,
+        "perf30": 0.28,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -7pt dal picco"
+          "Score -9pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -15859,9 +15922,9 @@
           }
         ],
         "warning": null,
-        "kama": 9.267,
-        "k_pct": -0.47,
-        "weight_pct": 44.8
+        "kama": 9.266,
+        "k_pct": -0.83,
+        "weight_pct": 46.7
       }
     ],
     "history": [
@@ -23078,7 +23141,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-10-08 16:27 CET",
         "peak_score": 52.6,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
@@ -23142,51 +23205,7 @@
         "warning": null,
         "kama": 17.21,
         "k_pct": 1.27,
-        "weight_pct": 59.3
-      },
-      {
-        "ticker": "XDGI.MI",
-        "name": "Xtrackers Digital Globalisation",
-        "entry_date": "2026-10-08",
-        "entry_ts": "2026-10-08 16:27 CET",
-        "entry_price": 31.05,
-        "current_price": 31.05,
-        "target_price": 33.224,
-        "stop_loss": 30.974,
-        "trailing_stop": 30.974,
-        "current_gain_pct": 0.0,
-        "days_held": 0,
-        "pre_alert": false,
-        "target_hit": false,
-        "score": 30.8,
-        "er": 1.0,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-10-08 16:27 CET",
-        "peak_score": 30.8,
-        "days_in_buy1": 1,
-        "trend": "GRIGIO",
-        "sar_bullish": true,
-        "vortex_bullish": false,
-        "rvi_bullish": false,
-        "perf7": 1.37,
-        "perf30": -2.2,
-        "stress_flags": [],
-        "stress_score": 0,
-        "events": [
-          {
-            "ts": "2026-10-08 16:27 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 1.00>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 30.8,
-            "er": 1.0
-          }
-        ],
-        "warning": null,
-        "kama": 31.0,
-        "k_pct": 0.16,
-        "weight_pct": 40.7
+        "weight_pct": 100.0
       }
     ],
     "history": [
@@ -26994,10 +27013,69 @@
         "final_gain_pct": -2.8,
         "exit_date": "2026-10-07",
         "exit_ts": "2026-10-07 16:19 CET"
+      },
+      {
+        "ticker": "XDGI.MI",
+        "name": "Xtrackers Digital Globalisation",
+        "entry_date": "2026-10-08",
+        "entry_ts": "2026-10-08 16:27 CET",
+        "entry_price": 31.05,
+        "current_price": 31.05,
+        "target_price": 33.224,
+        "stop_loss": 30.974,
+        "trailing_stop": 30.974,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 30.8,
+        "er": 1.0,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-10-08 16:27 CET",
+        "peak_score": 30.8,
+        "days_in_buy1": 1,
+        "trend": "GRIGIO",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": false,
+        "perf7": 1.37,
+        "perf30": -2.2,
+        "stress_flags": [],
+        "stress_score": 0,
+        "events": [
+          {
+            "ts": "2026-10-08 16:27 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 1.00>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 30.8,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-10-08 22:34 CET",
+            "level": "EXIT3",
+            "reason": "Score 13.7<18 soglia BUY1",
+            "size_pct": 100,
+            "score": 13.7,
+            "er": 0.47
+          }
+        ],
+        "warning": null,
+        "kama": 31.0,
+        "k_pct": 0.16,
+        "weight_pct": 40.7,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 13.7<18 soglia BUY1",
+        "exit_price": 30.86,
+        "final_gain_pct": -0.61,
+        "exit_date": "2026-10-08",
+        "exit_ts": "2026-10-08 22:34 CET"
       }
     ],
     "cooldowns": {
-      "EBIZ.MI": "2026-10-09"
+      "EBIZ.MI": "2026-10-09",
+      "XDGI.MI": "2026-10-10"
     }
   },
   "media": {
@@ -27008,16 +27086,16 @@
         "entry_date": "2026-09-10",
         "entry_ts": "2026-09-10 14:07 CET",
         "entry_price": 36.45,
-        "current_price": 40.23,
+        "current_price": 39.995,
         "target_price": 39.002,
         "stop_loss": 35.651,
         "trailing_stop": 39.826,
-        "current_gain_pct": 10.37,
+        "current_gain_pct": 9.73,
         "days_held": 28,
         "pre_alert": false,
         "target_hit": true,
-        "score": 34.1,
-        "er": 0.2364,
+        "score": 31.5,
+        "er": 0.1866,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-06 16:01 CET",
@@ -27027,11 +27105,11 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 3.77,
-        "perf30": 16.02,
+        "perf7": 3.16,
+        "perf30": 15.34,
         "stress_flags": [
           "ER<0.4",
-          "Score -17pt dal picco"
+          "Score -20pt dal picco"
         ],
         "stress_score": 2,
         "events": [
@@ -27133,9 +27211,9 @@
           }
         ],
         "warning": null,
-        "kama": 39.726,
-        "k_pct": 1.27,
-        "weight_pct": 30.9
+        "kama": 39.666,
+        "k_pct": 0.83,
+        "weight_pct": 26.4
       },
       {
         "ticker": "HNSC.MI",
@@ -27143,16 +27221,16 @@
         "entry_date": "2026-09-29",
         "entry_ts": "2026-09-29 15:52 CET",
         "entry_price": 38.615,
-        "current_price": 39.335,
+        "current_price": 39.22,
         "target_price": 41.318,
         "stop_loss": 37.164,
         "trailing_stop": 39.081,
-        "current_gain_pct": 1.86,
+        "current_gain_pct": 1.57,
         "days_held": 9,
         "pre_alert": false,
         "target_hit": false,
-        "score": 41.0,
-        "er": 0.1862,
+        "score": 40.3,
+        "er": 0.1664,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 16:19 CET",
@@ -27162,12 +27240,12 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 4.78,
-        "perf30": 14.38,
+        "perf7": 4.48,
+        "perf30": 14.04,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -15pt dal picco"
+          "Score -16pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -27213,71 +27291,53 @@
           }
         ],
         "warning": null,
-        "kama": 39.363,
-        "k_pct": -0.07,
-        "weight_pct": 37.2
+        "kama": 39.357,
+        "k_pct": -0.35,
+        "weight_pct": 33.8
       },
       {
-        "ticker": "XG12.MI",
-        "name": "Xtrackers MSCI World Value ETF",
-        "entry_date": "2026-10-01",
-        "entry_ts": "2026-10-01 22:12 CET",
-        "entry_price": 41.38,
-        "current_price": 42.12,
-        "target_price": 44.277,
-        "stop_loss": 41.116,
-        "trailing_stop": 41.929,
-        "current_gain_pct": 1.79,
-        "days_held": 7,
+        "ticker": "XS8R.MI",
+        "name": "Xtrackers S&P 500 Info Tech",
+        "entry_date": "2026-10-08",
+        "entry_ts": "2026-10-08 22:34 CET",
+        "entry_price": 96.95,
+        "current_price": 96.95,
+        "target_price": 103.737,
+        "stop_loss": 96.262,
+        "trailing_stop": 96.262,
+        "current_gain_pct": 0.0,
+        "days_held": 0,
         "pre_alert": false,
         "target_hit": false,
-        "score": 35.1,
+        "score": 47.6,
         "er": 1.0,
-        "current_level": "BUY1",
-        "buy_level": "BUY1",
-        "level_ts": "2026-10-07 16:19 CET",
-        "peak_score": 45.1,
-        "days_in_buy1": 3,
+        "current_level": "BUY2",
+        "buy_level": "BUY2",
+        "level_ts": "2026-10-08 22:34 CET",
+        "peak_score": 47.6,
+        "days_in_buy1": 0,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
         "rvi_bullish": true,
-        "perf7": 1.79,
-        "perf30": 4.79,
-        "stress_flags": [
-          "Score -10pt dal picco"
-        ],
-        "stress_score": 1,
+        "perf7": 5.21,
+        "perf30": 4.22,
+        "stress_flags": [],
+        "stress_score": 0,
         "events": [
           {
-            "ts": "2026-10-01 22:12 CET",
-            "level": "BUY1",
-            "reason": "KAMA cross\u22645 barre \u00b7 ER 1.00>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
-            "size_pct": 35,
-            "score": 41.8,
-            "er": 1.0
-          },
-          {
-            "ts": "2026-10-06 22:05 CET",
+            "ts": "2026-10-08 22:34 CET",
             "level": "BUY2",
-            "reason": "Score 45.1\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
+            "reason": "Score 47.6\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
             "size_pct": 70,
-            "score": 45.1,
-            "er": 1.0
-          },
-          {
-            "ts": "2026-10-07 16:19 CET",
-            "level": "DOWNGRADE_BUY1",
-            "reason": "BUY2\u2192BUY1: Score 39.7<45",
-            "size_pct": 75,
-            "score": 39.7,
+            "score": 47.6,
             "er": 1.0
           }
         ],
         "warning": null,
-        "kama": 41.662,
-        "k_pct": 1.1,
-        "weight_pct": 31.9
+        "kama": 96.479,
+        "k_pct": 0.49,
+        "weight_pct": 39.9
       }
     ],
     "history": [
@@ -30096,9 +30156,87 @@
         "final_gain_pct": 7.25,
         "exit_date": "2026-10-01",
         "exit_ts": "2026-10-01 22:12 CET"
+      },
+      {
+        "ticker": "XG12.MI",
+        "name": "Xtrackers MSCI World Value ETF",
+        "entry_date": "2026-10-01",
+        "entry_ts": "2026-10-01 22:12 CET",
+        "entry_price": 41.38,
+        "current_price": 42.12,
+        "target_price": 44.277,
+        "stop_loss": 41.116,
+        "trailing_stop": 41.929,
+        "current_gain_pct": 1.79,
+        "days_held": 7,
+        "pre_alert": false,
+        "target_hit": false,
+        "score": 35.1,
+        "er": 1.0,
+        "current_level": "BUY1",
+        "buy_level": "BUY1",
+        "level_ts": "2026-10-07 16:19 CET",
+        "peak_score": 45.1,
+        "days_in_buy1": 3,
+        "trend": "VERDE",
+        "sar_bullish": true,
+        "vortex_bullish": false,
+        "rvi_bullish": true,
+        "perf7": 1.79,
+        "perf30": 4.79,
+        "stress_flags": [
+          "Score -10pt dal picco"
+        ],
+        "stress_score": 1,
+        "events": [
+          {
+            "ts": "2026-10-01 22:12 CET",
+            "level": "BUY1",
+            "reason": "KAMA cross\u22645 barre \u00b7 ER 1.00>0.35 \u00b7 SAR bull \u00b7 AO migliorante",
+            "size_pct": 35,
+            "score": 41.8,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-10-06 22:05 CET",
+            "level": "BUY2",
+            "reason": "Score 45.1\u226545 \u00b7 AO>0 \u00b7 ER 1.00\u22650.5 \u00b7 SAR bull",
+            "size_pct": 70,
+            "score": 45.1,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-10-07 16:19 CET",
+            "level": "DOWNGRADE_BUY1",
+            "reason": "BUY2\u2192BUY1: Score 39.7<45",
+            "size_pct": 75,
+            "score": 39.7,
+            "er": 1.0
+          },
+          {
+            "ts": "2026-10-08 22:34 CET",
+            "level": "EXIT3",
+            "reason": "Score 15.9<18 soglia BUY1",
+            "size_pct": 100,
+            "score": 15.9,
+            "er": 0.03
+          }
+        ],
+        "warning": null,
+        "kama": 41.662,
+        "k_pct": 1.1,
+        "weight_pct": 31.9,
+        "exit_level": "EXIT3",
+        "exit_reason": "Score 15.9<18 soglia BUY1",
+        "exit_price": 41.425,
+        "final_gain_pct": 0.11,
+        "exit_date": "2026-10-08",
+        "exit_ts": "2026-10-08 22:34 CET"
       }
     ],
-    "cooldowns": {}
+    "cooldowns": {
+      "XG12.MI": "2026-10-10"
+    }
   },
   "acqua": {
     "positions": [
@@ -30108,16 +30246,16 @@
         "entry_date": "2026-09-30",
         "entry_ts": "2026-09-30 15:26 CET",
         "entry_price": 21.015,
-        "current_price": 21.23,
+        "current_price": 21.135,
         "target_price": 22.486,
         "stop_loss": 20.606,
         "trailing_stop": 21.407,
-        "current_gain_pct": 1.02,
+        "current_gain_pct": 0.57,
         "days_held": 8,
         "pre_alert": false,
         "target_hit": false,
-        "score": 37.0,
-        "er": 0.1852,
+        "score": 35.4,
+        "er": 0.1353,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 16:19 CET",
@@ -30127,12 +30265,12 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.66,
-        "perf30": 3.74,
+        "perf7": 2.2,
+        "perf30": 3.27,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -13pt dal picco"
+          "Score -14pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -30178,9 +30316,9 @@
           }
         ],
         "warning": null,
-        "kama": 21.544,
-        "k_pct": -1.46,
-        "weight_pct": 33.3
+        "kama": 21.546,
+        "k_pct": -1.91,
+        "weight_pct": 32.9
       },
       {
         "ticker": "ROBO.MI",
@@ -30188,33 +30326,34 @@
         "entry_date": "2026-09-30",
         "entry_ts": "2026-09-30 15:26 CET",
         "entry_price": 28.86,
-        "current_price": 29.115,
+        "current_price": 28.94,
         "target_price": 30.88,
         "stop_loss": 28.232,
         "trailing_stop": 29.515,
-        "current_gain_pct": 0.88,
+        "current_gain_pct": 0.28,
         "days_held": 8,
         "pre_alert": false,
         "target_hit": false,
-        "score": 36.6,
-        "er": 0.1557,
+        "score": 34.7,
+        "er": 0.1016,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 16:19 CET",
         "peak_score": 49.9,
         "days_in_buy1": 0,
         "trend": "VERDE",
-        "sar_bullish": true,
+        "sar_bullish": false,
         "vortex_bullish": true,
         "rvi_bullish": true,
-        "perf7": 2.66,
-        "perf30": 3.24,
+        "perf7": 2.05,
+        "perf30": 2.62,
         "stress_flags": [
           "KAMA rotta",
+          "SAR bear",
           "ER<0.4",
-          "Score -13pt dal picco"
+          "Score -15pt dal picco"
         ],
-        "stress_score": 3,
+        "stress_score": 4,
         "events": [
           {
             "ts": "2026-09-30 15:26 CET",
@@ -30242,9 +30381,9 @@
           }
         ],
         "warning": null,
-        "kama": 29.654,
-        "k_pct": -1.82,
-        "weight_pct": 32.9
+        "kama": 29.659,
+        "k_pct": -2.42,
+        "weight_pct": 32.2
       },
       {
         "ticker": "WGRO.MI",
@@ -30266,7 +30405,7 @@
         "buy_level": "BUY1",
         "level_ts": "2026-10-08 16:27 CET",
         "peak_score": 37.6,
-        "days_in_buy1": 1,
+        "days_in_buy1": 2,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": false,
@@ -30288,7 +30427,7 @@
         "warning": null,
         "kama": 28.812,
         "k_pct": 2.25,
-        "weight_pct": 33.8
+        "weight_pct": 34.9
       }
     ],
     "history": [
@@ -32671,30 +32810,30 @@
         "entry_date": "2026-09-28",
         "entry_ts": "2026-09-28 17:07 CET",
         "entry_price": 43.725,
-        "current_price": 46.55,
+        "current_price": 46.84,
         "target_price": 46.786,
         "stop_loss": 42.368,
         "trailing_stop": 46.595,
-        "current_gain_pct": 6.46,
+        "current_gain_pct": 7.12,
         "days_held": 10,
         "pre_alert": false,
-        "target_hit": false,
-        "score": 47.7,
-        "er": 0.4844,
+        "target_hit": true,
+        "score": 48.3,
+        "er": 0.5512,
         "current_level": "BUY1",
         "buy_level": "BUY1",
         "level_ts": "2026-10-07 22:30 CET",
         "peak_score": 56.4,
-        "days_in_buy1": 2,
+        "days_in_buy1": 3,
         "trend": "VERDE",
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 6.79,
-        "perf30": 13.77,
+        "perf7": 7.46,
+        "perf30": 14.48,
         "stress_flags": [
           "KAMA rotta",
-          "Score -9pt dal picco"
+          "Score -8pt dal picco"
         ],
         "stress_score": 2,
         "events": [
@@ -32732,9 +32871,9 @@
           }
         ],
         "warning": null,
-        "kama": 47.008,
-        "k_pct": -0.98,
-        "weight_pct": 38.5
+        "kama": 47.03,
+        "k_pct": -0.4,
+        "weight_pct": 38.6
       },
       {
         "ticker": "SMH.MI",
@@ -32742,16 +32881,16 @@
         "entry_date": "2026-09-29",
         "entry_ts": "2026-09-29 15:52 CET",
         "entry_price": 100.26,
-        "current_price": 103.12,
+        "current_price": 103.13,
         "target_price": 107.278,
         "stop_loss": 96.377,
         "trailing_stop": 101.565,
-        "current_gain_pct": 2.85,
+        "current_gain_pct": 2.86,
         "days_held": 9,
         "pre_alert": false,
         "target_hit": false,
-        "score": 39.4,
-        "er": 0.2559,
+        "score": 39.5,
+        "er": 0.2567,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 16:19 CET",
@@ -32761,8 +32900,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 4.89,
-        "perf30": 15.64,
+        "perf7": 4.9,
+        "perf30": 15.66,
         "stress_flags": [
           "ER<0.4",
           "Score -18pt dal picco"
@@ -32787,9 +32926,9 @@
           }
         ],
         "warning": null,
-        "kama": 103.085,
-        "k_pct": 0.03,
-        "weight_pct": 31.8
+        "kama": 103.086,
+        "k_pct": 0.04,
+        "weight_pct": 31.6
       },
       {
         "ticker": "CHIP.MI",
@@ -32797,16 +32936,16 @@
         "entry_date": "2026-09-30",
         "entry_ts": "2026-09-30 20:55 CET",
         "entry_price": 118.64,
-        "current_price": 121.79,
+        "current_price": 121.96,
         "target_price": 126.945,
         "stop_loss": 114.567,
         "trailing_stop": 120.55,
-        "current_gain_pct": 2.66,
+        "current_gain_pct": 2.8,
         "days_held": 8,
         "pre_alert": false,
         "target_hit": false,
-        "score": 36.7,
-        "er": 0.2932,
+        "score": 37.3,
+        "er": 0.307,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-07 16:19 CET",
@@ -32816,8 +32955,8 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 4.59,
-        "perf30": 14.67,
+        "perf7": 4.73,
+        "perf30": 14.83,
         "stress_flags": [
           "ER<0.4",
           "Score -14pt dal picco"
@@ -32858,9 +32997,9 @@
           }
         ],
         "warning": null,
-        "kama": 121.546,
-        "k_pct": 0.2,
-        "weight_pct": 29.6
+        "kama": 121.567,
+        "k_pct": 0.32,
+        "weight_pct": 29.8
       }
     ],
     "history": [
@@ -35017,7 +35156,7 @@
         "perf7": 4.86,
         "perf30": 3.8,
         "warning": "Dati non disponibili",
-        "weight_pct": 41.4
+        "weight_pct": 42.1
       },
       {
         "ticker": "IVAI.MI",
@@ -35025,16 +35164,16 @@
         "entry_date": "2026-09-21",
         "entry_ts": "2026-09-21 15:45 CET",
         "entry_price": 9.632,
-        "current_price": 10.042,
+        "current_price": 9.97,
         "target_price": 10.306,
         "stop_loss": 9.455,
         "trailing_stop": 9.998,
-        "current_gain_pct": 4.26,
+        "current_gain_pct": 3.51,
         "days_held": 17,
         "pre_alert": false,
         "target_hit": false,
-        "score": 37.7,
-        "er": 0.1068,
+        "score": 35.3,
+        "er": 0.0407,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-06 16:01 CET",
@@ -35044,12 +35183,12 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 3.94,
-        "perf30": 9.55,
+        "perf7": 3.2,
+        "perf30": 8.76,
         "stress_flags": [
           "KAMA rotta",
           "ER<0.4",
-          "Score -11pt dal picco"
+          "Score -13pt dal picco"
         ],
         "stress_score": 3,
         "events": [
@@ -35135,9 +35274,9 @@
           }
         ],
         "warning": null,
-        "kama": 10.056,
-        "k_pct": -0.14,
-        "weight_pct": 31.8
+        "kama": 10.052,
+        "k_pct": -0.82,
+        "weight_pct": 30.4
       },
       {
         "ticker": "ROE.MI",
@@ -35145,16 +35284,16 @@
         "entry_date": "2026-10-07",
         "entry_ts": "2026-10-07 16:19 CET",
         "entry_price": 10.51,
-        "current_price": 10.412,
+        "current_price": 10.414,
         "target_price": 11.246,
         "stop_loss": 10.462,
         "trailing_stop": 10.462,
-        "current_gain_pct": -0.93,
+        "current_gain_pct": -0.91,
         "days_held": 1,
         "pre_alert": false,
         "target_hit": false,
-        "score": 31.7,
-        "er": 0.3913,
+        "score": 32.0,
+        "er": 0.4066,
         "current_level": "EXIT2",
         "buy_level": "EXIT2",
         "level_ts": "2026-10-08 16:27 CET",
@@ -35164,14 +35303,13 @@
         "sar_bullish": true,
         "vortex_bullish": true,
         "rvi_bullish": false,
-        "perf7": 0.62,
-        "perf30": 0.68,
+        "perf7": 0.64,
+        "perf30": 0.7,
         "stress_flags": [
           "KAMA rotta",
-          "ER<0.4",
-          "Score -11pt dal picco"
+          "Score -10pt dal picco"
         ],
-        "stress_score": 3,
+        "stress_score": 2,
         "events": [
           {
             "ts": "2026-10-07 16:19 CET",
@@ -35192,8 +35330,8 @@
         ],
         "warning": null,
         "kama": 10.417,
-        "k_pct": -0.04,
-        "weight_pct": 26.8
+        "k_pct": -0.03,
+        "weight_pct": 27.5
       }
     ],
     "history": [
